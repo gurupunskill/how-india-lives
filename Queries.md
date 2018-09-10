@@ -372,7 +372,7 @@ mysql> select * from State;
 35 rows in set (0.00 sec)
 ```
 
-We then removed redundant columns from the other tables.  
+We then removed redundant columns from the other tables and added foreign key constraints.  
 
 ```sql
 mysql> ALTER TABLE hlpca_total DROP State_Name;
@@ -386,4 +386,12 @@ Records: 0  Duplicates: 0  Warnings: 0
 mysql> ALTER TABLE pca_total DROP Level;
 Query OK, 0 rows affected (2.34 sec)
 Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> ALTER TABLE hlpca_total DROP COLUMN State_Code;
+Query OK, 0 rows affected (3.91 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> ALTER TABLE pca_total ADD FOREIGN KEY (State) REFERENCES State(SID);
+Query OK, 640 rows affected (1.78 sec)
+
 ```
