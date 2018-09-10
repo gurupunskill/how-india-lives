@@ -4,11 +4,10 @@ This file holds all the queries used to make the mySQL database.
 ## Data
 The data is present in CSV files [here.](census-data)
 
-## Queries
+## Create the database
 
-### Create the database
-
-We have 91 columns for [pca_total](census-data/pca_total.csv) to be added to the table. They all hold integers with a maximum of 9 digits.
+### Primary Census Abstract
+We have 91 columns for the [Primary Census Abstract](census-data/pca_total.csv) to be added to the table. They all hold integers with a maximum of 9 digits.
 
 ```sql
 CREATE TABLE pca_total (
@@ -116,7 +115,7 @@ Enter password:
 HIL.pca_total: Records: 640  Deleted: 0  Skipped: 0  Warnings: 0
 ```
 
-Once, the data is successfully imported, standard mySQL commands can be used to display 
+Once the data is successfully imported, standard mySQL queries can be executed.
 
 ```sql
 
@@ -144,5 +143,247 @@ mysql> select STATE, DISTRICT, Name, TOT_P, TOT_M, TOT_F from pca_total where NA
 |    33 |      603 | Chennai | 4646732 | 2335844 | 2310888 |
 +-------+----------+---------+---------+---------+---------+
 1 row in set (0.00 sec)
+```
 
+The [Houselisting Primary Census Abstract](census-data/hlpca-total) has 156 Attributes.  
+We created the table using the following query.  
+
+```sql
+CREATE TABLE hlpca_total (
+    State_Code INT NOT NULL,
+    State_Name VARCHAR(100) NOT NULL,
+    District_Code INT NOT NULL,
+    District_Name VARCHAR(100) NOT NULL,
+    Tehsil_Code INT NOT NULL,
+    Tehsil_Name VARCHAR(100) NOT NULL,
+    Town_Code_or_Village_code VARCHAR(100) NOT NULL,
+    Ward_No INT NOT NULL,
+    Area_Name VARCHAR(100) NOT NULL,
+    Rural_or_Urban VARCHAR(100) NOT NULL,
+    Total_Number_of_households FLOAT,
+    Total_Number_of_Good FLOAT,
+    Total_Number_of_Livable FLOAT,
+    Total_Number_of_Dilapidated FLOAT,
+    Total_Number_of_Residence_households FLOAT,
+    Total_Number_of_Residence_Good FLOAT,
+    Total_Number_of_Residence_Livable FLOAT,
+    Total_Number_of_Residence_Dilapidated FLOAT,
+    Total_Number_of_Residence_cum_other FLOAT,
+    Number_of_Residence_cum_Good FLOAT,
+    Residence_cum_Livable FLOAT,
+    Residence_cum_Dilapidated FLOAT,
+    Material_Roof_GTBW FLOAT,
+    Material_Roof_PP FLOAT,
+    Material_Roof_HMT FLOAT,
+    Material_Roof_MMT FLOAT,
+    Material_Roof_BB FLOAT,
+    Material_Roof_SS FLOAT,
+    Material_Roof_GMAS FLOAT,
+    Material_Roof_Concrete FLOAT,
+    Material_Roof_AOM FLOAT,
+    Material_Roof_GTB FLOAT,
+    Material_Roof_PP1 FLOAT,
+    Material_Roof_MUB FLOAT,
+    Material_Roof_Wood FLOAT,
+    Material_Wall_SNPWM FLOAT,
+    Material_Wall_SPWM FLOAT,
+    Material_Wall_GIMAS FLOAT,
+    Material_Wall_Bb FLOAT,
+    Material_Wall_Concrete FLOAT,
+    Material_Wall_AOM FLOAT,
+    Material_Floor_Mud FLOAT,
+    Material_Floor_WB FLOAT,
+    Material_Floor_BB FLOAT,
+    Material_Floor_Stone FLOAT,
+    Material_Floor_Cement FLOAT,
+    Material_Floor_MF FLOAT,
+    Material_Floor_AOM FLOAT,
+    Dwelling_R_NER FLOAT,
+    Dwelling_R_OR FLOAT,
+    Dwelling_R_TR FLOAT,
+    Dwelling_R_TH_R FLOAT,
+    Dwelling_R_FR FLOAT,
+    Dwelling_R_FI_R FLOAT,
+    Dwelling_R_SRA FLOAT,
+    H_size_1 FLOAT,
+    H_size_2 FLOAT,
+    H_size_3 FLOAT,
+    H_size_4 FLOAT,
+    H_size_5 FLOAT,
+    H_size_6_8 FLOAT,
+    H_size_9 FLOAT,
+    O_status_O FLOAT,
+    O_status_R FLOAT,
+    O_status_AO FLOAT,
+    Married_C_N FLOAT,
+    Married_C_1 FLOAT,
+    Married_C_2 FLOAT,
+    Married_C_3 FLOAT,
+    Married_C_4 FLOAT,
+    Married_C_5 FLOAT,
+    DW_TFTS FLOAT,
+    DW_TFUS FLOAT,
+    DW_CW FLOAT,
+    DW_UW FLOAT,
+    DW_Handpump FLOAT,
+    DW_TB FLOAT,
+    DW_Spring FLOAT,
+    DW_RC FLOAT,
+    DW_TPL FLOAT,
+    DW_OS FLOAT,
+    Within_premises FLOAT,
+    Near_premises FLOAT,
+    Away FLOAT,
+    MSL_Electricty FLOAT,
+    MSL_Kerosene FLOAT,
+    MSL_SE FLOAT,
+    MSL_OO FLOAT,
+    MSL_AO FLOAT,
+    MSL_NL FLOAT,
+    Latrine_premise FLOAT,
+    Latrine_PSS FLOAT,
+    Latrine_ST FLOAT,
+    Latrine_OS FLOAT,
+    Pit_latrine_SVI FLOAT,
+    Pit_latrine_SOP FLOAT,
+    disposed_drain FLOAT,
+    Service_Latrine_NRH FLOAT,
+    Service_Latrine_NSA FLOAT,
+    H_latrine_premoses FLOAT,
+    Alternative_Source FLOAT,
+    Alternative_Source_Open FLOAT,
+    Households_Bathroom FLOAT,
+    Households_EWR FLOAT,
+    Households_No FLOAT,
+    Waste_water_CD FLOAT,
+    Waste_water_OD FLOAT,
+    Waste_water_ND FLOAT,
+    Cooking_FW FLOAT,
+    Cooking_CR FLOAT,
+    Cooking_CC FLOAT,
+    Cooking_CLC FLOAT,
+    Cooking_kerosene FLOAT,
+    Cooking_LPG_PNG FLOAT,
+    Cooking_Electricity FLOAT,
+    Cooking_Biogas FLOAT,
+    Cooking_AO FLOAT,
+    Cooking_NC FLOAT,
+    Total FLOAT,
+    Cooking_IH FLOAT,
+    Has_kitchen FLOAT,
+    DNHK FLOAT,
+    Cooking_OH FLOAT,
+    has_kitchen1 FLOAT,
+    DNH_Kitchen FLOAT,
+    No_Cooking FLOAT,
+    TNHAB FLOAT,
+    assets_RT FLOAT,
+    assets_Tel FLOAT,
+    assets_CL_WI FLOAT,
+    assets_CLWI FLOAT,
+    assets_TM_LO FLOAT,
+    assets_TM_MO FLOAT,
+    assets_TM_Both FLOAT,
+    assets_Bicycle FLOAT,
+    assets_SMM FLOAT,
+    assets_CJV FLOAT,
+    Household_TV_LP FLOAT,
+    None_AS FLOAT,
+    Permanents FLOAT,
+    Semi_Permanent FLOAT,
+    Total_Temporary FLOAT,
+    Serviceable FLOAT,
+    Non_Serviceable FLOAT,
+    Unclassifiable FLOAT,
+    TC_VC FLOAT,
+    Contition_T_Total FLOAT,
+    Contition_T_Good FLOAT,
+    Contition_T_Livable FLOAT,
+    Contition_T_Dilapidated FLOAT,
+    Contition_R_Total FLOAT,
+    Residence_Good FLOAT,
+    Residence_Livable FLOAT,
+    Residence_Dilapidated FLOAT,
+    Residence_cum_other FLOAT,
+    Residence_cum_Good FLOAT,
+    PRIMARY KEY (State_Code, District_Code)
+);
+```
+
+We then imported the csv using the same commands as before.  
+```bash
+> mysqlimport --ignore-lines=1 --fields-terminated-by=, --local -u gurupunskill -p HIL hlpca_total.csv
+```
+
+As per our, ER Diagram, we have a State table as well. Which maps all the `SID` to the `State Names`. We made the State table using the following queries.
+
+```sql
+mysql> CREATE TABLE State (
+    -> SID INT NOT NULL,
+    -> NAME VARCHAR(100) NOT NULL,
+    -> PRIMARY KEY (SID)
+    -> );
+Query OK, 0 rows affected (0.33 sec)
+
+mysql> INSERT INTO State (SID, Name) SELECT DISTINCT State_Code, State_Name FROM hlpca_total;
+Query OK, 35 rows affected (0.10 sec)
+Records: 35  Duplicates: 0  Warnings: 0
+
+mysql> select * from State;
++-----+---------------------------+
+| SID | NAME                      |
++-----+---------------------------+
+|   1 | JAMMU & KASHMIR           |
+|   2 | HIMACHAL PRADESH          |
+|   3 | PUNJAB                    |
+|   4 | CHANDIGARH                |
+|   5 | UTTARAKHAND               |
+|   6 | HARYANA                   |
+|   7 | NCT OF DELHI              |
+|   8 | RAJASTHAN                 |
+|   9 | UTTAR PRADESH             |
+|  10 | BIHAR                     |
+|  11 | SIKKIM                    |
+|  12 | ARUNACHAL PRADESH         |
+|  13 | NAGALAND                  |
+|  14 | MANIPUR                   |
+|  15 | MIZORAM                   |
+|  16 | TRIPURA                   |
+|  17 | MEGHALAYA                 |
+|  18 | ASSAM                     |
+|  19 | WEST BENGAL               |
+|  20 | JHARKHAND                 |
+|  21 | ODISHA                    |
+|  22 | CHHATTISGARH              |
+|  23 | MADHYA PRADESH            |
+|  24 | GUJARAT                   |
+|  25 | DAMAN & DIU               |
+|  26 | DADRA & NAGAR HAVELI      |
+|  27 | MAHARASHTRA               |
+|  28 | ANDHRA PRADESH            |
+|  29 | KARNATAKA                 |
+|  30 | GOA                       |
+|  31 | LAKSHADWEEP               |
+|  32 | KERALA                    |
+|  33 | TAMIL NADU                |
+|  34 | PUDUCHERRY                |
+|  35 | ANDAMAN & NICOBAR ISLANDS |
++-----+---------------------------+
+35 rows in set (0.00 sec)
+```
+
+We then removed redundant columns from the other tables.  
+
+```sql
+mysql> ALTER TABLE hlpca_total DROP State_Name;
+Query OK, 0 rows affected (3.64 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> ALTER TABLE hlpca_total DROP District_Name;
+Query OK, 0 rows affected (3.87 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> ALTER TABLE pca_total DROP Level;
+Query OK, 0 rows affected (2.34 sec)
+Records: 0  Duplicates: 0  Warnings: 0
 ```
