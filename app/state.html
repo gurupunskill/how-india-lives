@@ -14,29 +14,51 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 
     <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    
+    <!-- Link the CSS file-->
+    <link rel="stylesheet" href="styles/state_page.css">
+
+    <!-- Link the js file-->
+    <script type="text/javascript" src="javascripts/state_page.js"></script>
 
 </head>
 
 <body>
 
     <h1><center>State Wise Census</center></h1>
-    <br><br>
+    <br><br><br>
 
-    <center>
-        <div class="row">
-            <div class="col-md-6"><a href="search.html">Use Search Bar</a></div>
-            <div class="col-md-6"><a href="map.html">Use the Map of India</a></div>
-        </div>
-        <br>
+    <div class="row">
+        <div class ="col-md-8">
+            <center>
+                <div class="row">
+                    <div class="col-md-6"><a href="search.html">Use Search Bar</a></div>
+                    <div class="col-md-6"><a href="map.html">Use the Map of India</a></div>
+                </div>
+                <br>
 
-            <button>Add State/District</button>
-            <button>Done</button>
+                    <button>Add State/District</button>
+                    <button>Done</button>
 
-        <!-- Not sure if search and map should be sepearte pages or hether we can just make them as pop ups-->
-        <!-- When done is clicked we will go to the result page where details will be shown-->
+                <!-- Not sure if search and map should be sepearte pages or hether we can just make them as pop ups-->
+                <!-- When done is clicked we will go to the result page where details will be shown-->
     
-    </center>
+            </center>
+        </div>
+
+        <div class="col-md-4">
+            <center>
+                <h4><b>Chosen States and Districts</b></h2>
+            </center>
+
+            <div align="left">
+                <ol id="chosen_list">
+                    <!-- The js file will help display chosen states-->
+                    <p id="para_chosen_list"></p>
+                </ol>
+            </div>
+        </div>
 
 </body>
 
