@@ -1,4 +1,6 @@
 # How India Lives
+![Github Issues](https://img.shields.io/github/issues/gurupunskill/how-india-lives.svg) 
+
 The website is deployed at https://how-india-lives.herokuapp.com/
 
 ## Prerequisites
