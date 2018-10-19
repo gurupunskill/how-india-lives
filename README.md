@@ -3,7 +3,6 @@
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/gurupunskill/how-india-lives.svg)
 ![GitHub](https://img.shields.io/github/license/gurupunskill/how-india-lives.svg)
 
-
 The website is deployed at https://how-india-lives.herokuapp.com/
 
 ## Prerequisites
