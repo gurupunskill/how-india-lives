@@ -11,7 +11,7 @@
     "url": "github.com/gurupunskill/how-india-lives"
   },
   "author": "Gurupungav Narayanan",
-  "license": "ISC",
+  "license": "MIT",
   "engines": {
     "node": "8.12.0"
   },
