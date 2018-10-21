@@ -1,0 +1,24 @@
+{
+  "name": "how-india-lives",
+  "version": "0.1.0",
+  "description": "Visualising Indian Census data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/gurupunskill/how-india-lives"
+  },
+  "author": "Gurupungav Narayanan",
+  "license": "MIT",
+  "engines": {
+    "node": "8.12.0"
+  },
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "jquery": "^3.3.1",
+    "mysql": "^2.16.0"
+  }
+}
