@@ -21,7 +21,21 @@ if(n == 0){
 
     //No states chosen
     S("para_chosen_list").innerHTML = "No State/District chosen";
+    S("chosen_list").innerHTML = "";
 }
+else{
+
+    //states chosen
+    S("para_chosen_list").innerHTML = "The states chosen are: ";
+    S("chosen_list").innerHTML = "";
+
+    for(i=0;i<n;++i){
+
+        S("chosen_list").innerHTML += "<li>" + state_dis[i] + "</li>";
+    }
+}
+
+
 
 
 
