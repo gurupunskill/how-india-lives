@@ -29,14 +29,15 @@
     <div class="row">
         <div class ="col-md-8">
             <center>
-                <div class="row" id="links">
-                    <div class="col-md-6"><a href="search">Use Search Bar</a></div>
-                    <div class="col-md-6"><a href="map">Use the Map of India</a></div>
-                </div>
-                <br>
+                <input type="button" name="buttons" id="add" onclick="add_click()" value ="Add District/State">
+                <input type="button" name="buttons" id="done" onclick="done_click()" value="Done">
+                
+                <br><br><br>
 
-                <label><input type="button" name="buttons" id="add" onclick="add_click()"><span>Add District/State</span></label>
-                <label><input type="button" name="buttons" id="done" onclick="done_click()"><span>Done</span></label>
+                <div class="row" id="links">
+                    <div class="col-sm-6"><a href="search">Use Search Bar</a></div>
+                    <div class="col-sm-6"><a href="map">Use the Map of India</a></div>
+                </div>
 
                 <!-- Not sure if search and map should be sepearte pages or hether we can just make them as pop ups
                     When done is clicked we will go to the result page where details will be shown
