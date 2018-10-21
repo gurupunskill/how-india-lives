@@ -20,15 +20,14 @@ if(n==0)
 else
     S("done").disabled = false;
 
-//hide links in the beginning
+//hide the links
+S("links").style.display = "none";
 
- 
-for(i=0 ; i<n ; ++i){
-
-    //to obtain the state/district names stored in local storage
+//to obtain the state/district names stored in local storage
+for(i=0 ; i<n ; ++i)
     state_dis[i] = localStorage.getItem("local_state_dis"+i.toString());
-}
 
+//fill in the chosen states area
 if(n == 0){
 
     //No states chosen
@@ -47,14 +46,22 @@ else{
     }
 }
 
+//event handler for the add button
 function add_click(){
 
     //when the add button is clicked
     //the links will be shown
-
-
+    S("links").style.display = "block";
+    S("add").disabled = true;
 }
 
+//event handler for the done button
+function done_click(){
+
+    //when the done button is clicked
+    //navigate to the result page
+    location.href = "result_state";
+}
 
 
 
