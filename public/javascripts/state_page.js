@@ -11,6 +11,18 @@ var n = localStorage.getItem("n");          //variable to hold the number of sta
 var i;                                      //loop variable
 var state_dis = [];                         //variable to hold the states/districts chosen by user through the search bar or map
 
+//enable add button
+S("add").disabled = false;
+
+//if n is 0, disable done button
+if(n==0)
+    S("done").disabled = true;
+else
+    S("done").disabled = false;
+
+//hide links in the beginning
+
+ 
 for(i=0 ; i<n ; ++i){
 
     //to obtain the state/district names stored in local storage
@@ -33,6 +45,14 @@ else{
 
         S("chosen_list").innerHTML += "<li>" + state_dis[i] + "</li>";
     }
+}
+
+function add_click(){
+
+    //when the add button is clicked
+    //the links will be shown
+
+
 }
 
 
