@@ -24,6 +24,7 @@ app.get('/state', function(req, res){
     });
 });
 app.get('/statistics', (req, res) => res.render('pages/statistics'))
+app.get('/search', (req, res) => res.render('pages/search'))
 
 
 app.listen(PORT, () => console.log(`Listening on ${ PORT }`))
