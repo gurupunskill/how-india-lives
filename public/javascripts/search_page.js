@@ -7,6 +7,8 @@ function S(id){
 }
 
 //sql access, modules to be initiated
+const express = require('express')
+const path = require('path')
 const mysql = require('mysql')
 var pool = mysql.createPool({
     host     : 'us-cdbr-iron-east-01.cleardb.net',
@@ -23,10 +25,10 @@ var n = localStorage.getItem("n");      //variable to hold the number of states/
 function search_click(){
 
     //get the text
-    entered_text = S("search_box").value;
+    entered_text = S("search_bar").value;
 
     //check if the entered text is present in the database
-    pool.query('SELECT * FROM State', function(err,results,fields){
+    pool.query('SELECT * FROM State WHERE NAME = "' + entered_text + '"', function(err,results,fields){
         
         if(err) throw err;
 
@@ -34,9 +36,14 @@ function search_click(){
 
             //state has been found
 
-            //first increment n and store back
-           /* n = n + 1;
-            localStorage.setItem("n", );*/
+            //increment the number of states and store
+            localStorage.setItem("local_state_dis"+n.toString(),results[0]['NAME']);
+            n = n + 1;
+            localStorage.setItem("n",n.toString());
+            
+            //display message
+            S("search_status").innerHTML = "The chosen state is: ";
+            S("search_result").innerHTML = results[0]['NAME'];
 
         }
         
