@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Open+Sans');
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { 
+    font-size: 24px; 
+    padding: 3px 3px 3px 3px;
+}
+.material-icons.md-30 { font-size: 30px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+.custom-search {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+
+    top: 60px;
+    left: 1000px;
+
+    overflow: hidden;
+}
+
+.custom-close {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+
+    top: 90px;
+    left: 1000px;
+
+    overflow: hidden;
+}
+
+.search-box {
+    position: relative;
+    padding: 50px;
+    margin: auto;
+    border: 0;
+    width: 1024px;
+    height: 50px;
+
+    display: block;
+}
+
+.search-field {
+    width: 1000px;
+    height: 50px;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: rgba(75, 72, 72, 0.1) 0px 8px 15px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    padding: 10px 75px 10px 20px;
+    background: white;
+    border-radius: 3px;
+    transition: all 0.4s ease 0s;
+}
