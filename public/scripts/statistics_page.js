@@ -6,6 +6,14 @@ function S(id){
     return document.getElementById(id)
 }
 
+function show_results(text){
+
+    if(text == "Area"){
+
+        
+    }
+}
+
 var closeIcon =   document.querySelectorAll('svg.close'),
     $container = $('.container'),
     $list = $container.find('ul'),
@@ -26,14 +34,17 @@ $(closeIcon).hover(function() {
     $container.removeClass('hover');
   });
   
-  $links.on('click', function() {
+$links.on('click', function() {
+    
     $links.removeClass('active');
     
-      $(this).addClass('active');
+    $(this).addClass('active');
     $text.text($(this).text()).addClass('fade');
     setTimeout(function(){
       $text.removeClass('fade');
     }, 800);
     $list.toggle();
     $(closeIcon).toggleClass('active');
+
+    show_results(S("option1").innerHTML);
   });
