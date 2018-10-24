@@ -1,37 +1,36 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
 <head>
-    <!--
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> 
-    -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.js"></script>
+    <script src="scripts/typeahead.bundle.js"></script>
+    <script src="scripts/search.js"></script>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">    
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/search.css" />
+    
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>How India Lives</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="styles/search.css" />
-
-    <script src="scripts/search.js"></script>
 
 </head>
 <body>
 
-    <div class="search-box">
-        <input type="text" placeholder="Search Districts" class="search-field" />
-        <script>testing();</script>
-        <!--
+        <div id="search-box" class="search-box">
+            <input class="typeahead" type="text" placeholder="Search Districts">
+        </div>   
+    <!--
         <div class="custom-search" >
             <i class="material-icons md-24" id="s_icosn">search</i>
         </div>
         <div class="custom-close" >
             <i class="material-icons md-24" id="c_icon">close</i>
         </div>
-        -->
-        
-    </div>    
+    -->
 </body>
 </html>

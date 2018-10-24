@@ -1,3842 +1,3842 @@
 [
   {
-    "district": 1,
-    "name": "Kupwara",
-    "SID": 1,
-    "State": "JAMMU & KASHMIR"
+    "dname": "Kupwara",
+    "sname": "JAMMU & KASHMIR",
+    "did": 1,
+    "sid": 1
   },
   {
-    "district": 2,
-    "name": "Badgam",
-    "SID": 1,
-    "State": "JAMMU & KASHMIR"
+    "dname": "Badgam",
+    "sname": "JAMMU & KASHMIR",
+    "did": 2,
+    "sid": 1
   },
   {
-    "district": 3,
-    "name": "Leh(Ladakh)",
-    "SID": 1,
-    "State": "JAMMU & KASHMIR"
+    "dname": "Leh(Ladakh)",
+    "sname": "JAMMU & KASHMIR",
+    "did": 3,
+    "sid": 1
   },
   {
-    "district": 4,
-    "name": "Kargil",
-    "SID": 1,
-    "State": "JAMMU & KASHMIR"
+    "dname": "Kargil",
+    "sname": "JAMMU & KASHMIR",
+    "did": 4,
+    "sid": 1
   },
   {
-    "district": 5,
-    "name": "Punch",
-    "SID": 1,
-    "State": "JAMMU & KASHMIR"
+    "dname": "Punch",
+    "sname": "JAMMU & KASHMIR",
+    "did": 5,
+    "sid": 1
   },
   {
-    "district": 6,
-    "name": "Rajouri",
-    "SID": 1,
-    "State": "JAMMU & KASHMIR"
+    "dname": "Rajouri",
+    "sname": "JAMMU & KASHMIR",
+    "did": 6,
+    "sid": 1
   },
   {
-    "district": 7,
-    "name": "Kathua",
-    "SID": 1,
-    "State": "JAMMU & KASHMIR"
+    "dname": "Kathua",
+    "sname": "JAMMU & KASHMIR",
+    "did": 7,
+    "sid": 1
   },
   {
-    "district": 8,
-    "name": "Baramula",
-    "SID": 1,
-    "State": "JAMMU & KASHMIR"
+    "dname": "Baramula",
+    "sname": "JAMMU & KASHMIR",
+    "did": 8,
+    "sid": 1
   },
   {
-    "district": 9,
-    "name": "Bandipore",
-    "SID": 1,
-    "State": "JAMMU & KASHMIR"
+    "dname": "Bandipore",
+    "sname": "JAMMU & KASHMIR",
+    "did": 9,
+    "sid": 1
   },
   {
-    "district": 10,
-    "name": "Srinagar",
-    "SID": 1,
-    "State": "JAMMU & KASHMIR"
+    "dname": "Srinagar",
+    "sname": "JAMMU & KASHMIR",
+    "did": 10,
+    "sid": 1
   },
   {
-    "district": 11,
-    "name": "Ganderbal",
-    "SID": 1,
-    "State": "JAMMU & KASHMIR"
+    "dname": "Ganderbal",
+    "sname": "JAMMU & KASHMIR",
+    "did": 11,
+    "sid": 1
   },
   {
-    "district": 12,
-    "name": "Pulwama",
-    "SID": 1,
-    "State": "JAMMU & KASHMIR"
+    "dname": "Pulwama",
+    "sname": "JAMMU & KASHMIR",
+    "did": 12,
+    "sid": 1
   },
   {
-    "district": 13,
-    "name": "Shupiyan",
-    "SID": 1,
-    "State": "JAMMU & KASHMIR"
+    "dname": "Shupiyan",
+    "sname": "JAMMU & KASHMIR",
+    "did": 13,
+    "sid": 1
   },
   {
-    "district": 14,
-    "name": "Anantnag",
-    "SID": 1,
-    "State": "JAMMU & KASHMIR"
+    "dname": "Anantnag",
+    "sname": "JAMMU & KASHMIR",
+    "did": 14,
+    "sid": 1
   },
   {
-    "district": 15,
-    "name": "Kulgam",
-    "SID": 1,
-    "State": "JAMMU & KASHMIR"
+    "dname": "Kulgam",
+    "sname": "JAMMU & KASHMIR",
+    "did": 15,
+    "sid": 1
   },
   {
-    "district": 16,
-    "name": "Doda",
-    "SID": 1,
-    "State": "JAMMU & KASHMIR"
+    "dname": "Doda",
+    "sname": "JAMMU & KASHMIR",
+    "did": 16,
+    "sid": 1
   },
   {
-    "district": 17,
-    "name": "Ramban",
-    "SID": 1,
-    "State": "JAMMU & KASHMIR"
+    "dname": "Ramban",
+    "sname": "JAMMU & KASHMIR",
+    "did": 17,
+    "sid": 1
   },
   {
-    "district": 18,
-    "name": "Kishtwar",
-    "SID": 1,
-    "State": "JAMMU & KASHMIR"
+    "dname": "Kishtwar",
+    "sname": "JAMMU & KASHMIR",
+    "did": 18,
+    "sid": 1
   },
   {
-    "district": 19,
-    "name": "Udhampur",
-    "SID": 1,
-    "State": "JAMMU & KASHMIR"
+    "dname": "Udhampur",
+    "sname": "JAMMU & KASHMIR",
+    "did": 19,
+    "sid": 1
   },
   {
-    "district": 20,
-    "name": "Reasi",
-    "SID": 1,
-    "State": "JAMMU & KASHMIR"
+    "dname": "Reasi",
+    "sname": "JAMMU & KASHMIR",
+    "did": 20,
+    "sid": 1
   },
   {
-    "district": 21,
-    "name": "Jammu",
-    "SID": 1,
-    "State": "JAMMU & KASHMIR"
+    "dname": "Jammu",
+    "sname": "JAMMU & KASHMIR",
+    "did": 21,
+    "sid": 1
   },
   {
-    "district": 22,
-    "name": "Samba",
-    "SID": 1,
-    "State": "JAMMU & KASHMIR"
+    "dname": "Samba",
+    "sname": "JAMMU & KASHMIR",
+    "did": 22,
+    "sid": 1
   },
   {
-    "district": 23,
-    "name": "Chamba",
-    "SID": 2,
-    "State": "HIMACHAL PRADESH"
+    "dname": "Chamba",
+    "sname": "HIMACHAL PRADESH",
+    "did": 23,
+    "sid": 2
   },
   {
-    "district": 24,
-    "name": "Kangra",
-    "SID": 2,
-    "State": "HIMACHAL PRADESH"
+    "dname": "Kangra",
+    "sname": "HIMACHAL PRADESH",
+    "did": 24,
+    "sid": 2
   },
   {
-    "district": 25,
-    "name": "Lahul & Spiti",
-    "SID": 2,
-    "State": "HIMACHAL PRADESH"
+    "dname": "Lahul & Spiti",
+    "sname": "HIMACHAL PRADESH",
+    "did": 25,
+    "sid": 2
   },
   {
-    "district": 26,
-    "name": "Kullu",
-    "SID": 2,
-    "State": "HIMACHAL PRADESH"
+    "dname": "Kullu",
+    "sname": "HIMACHAL PRADESH",
+    "did": 26,
+    "sid": 2
   },
   {
-    "district": 27,
-    "name": "Mandi",
-    "SID": 2,
-    "State": "HIMACHAL PRADESH"
+    "dname": "Mandi",
+    "sname": "HIMACHAL PRADESH",
+    "did": 27,
+    "sid": 2
   },
   {
-    "district": 28,
-    "name": "Hamirpur",
-    "SID": 2,
-    "State": "HIMACHAL PRADESH"
+    "dname": "Hamirpur",
+    "sname": "HIMACHAL PRADESH",
+    "did": 28,
+    "sid": 2
   },
   {
-    "district": 29,
-    "name": "Una",
-    "SID": 2,
-    "State": "HIMACHAL PRADESH"
+    "dname": "Una",
+    "sname": "HIMACHAL PRADESH",
+    "did": 29,
+    "sid": 2
   },
   {
-    "district": 30,
-    "name": "Bilaspur",
-    "SID": 2,
-    "State": "HIMACHAL PRADESH"
+    "dname": "Bilaspur",
+    "sname": "HIMACHAL PRADESH",
+    "did": 30,
+    "sid": 2
   },
   {
-    "district": 31,
-    "name": "Solan",
-    "SID": 2,
-    "State": "HIMACHAL PRADESH"
+    "dname": "Solan",
+    "sname": "HIMACHAL PRADESH",
+    "did": 31,
+    "sid": 2
   },
   {
-    "district": 32,
-    "name": "Sirmaur",
-    "SID": 2,
-    "State": "HIMACHAL PRADESH"
+    "dname": "Sirmaur",
+    "sname": "HIMACHAL PRADESH",
+    "did": 32,
+    "sid": 2
   },
   {
-    "district": 33,
-    "name": "Shimla",
-    "SID": 2,
-    "State": "HIMACHAL PRADESH"
+    "dname": "Shimla",
+    "sname": "HIMACHAL PRADESH",
+    "did": 33,
+    "sid": 2
   },
   {
-    "district": 34,
-    "name": "Kinnaur",
-    "SID": 2,
-    "State": "HIMACHAL PRADESH"
+    "dname": "Kinnaur",
+    "sname": "HIMACHAL PRADESH",
+    "did": 34,
+    "sid": 2
   },
   {
-    "district": 35,
-    "name": "Gurdaspur",
-    "SID": 3,
-    "State": "PUNJAB"
+    "dname": "Gurdaspur",
+    "sname": "PUNJAB",
+    "did": 35,
+    "sid": 3
   },
   {
-    "district": 36,
-    "name": "Kapurthala",
-    "SID": 3,
-    "State": "PUNJAB"
+    "dname": "Kapurthala",
+    "sname": "PUNJAB",
+    "did": 36,
+    "sid": 3
   },
   {
-    "district": 37,
-    "name": "Jalandhar",
-    "SID": 3,
-    "State": "PUNJAB"
+    "dname": "Jalandhar",
+    "sname": "PUNJAB",
+    "did": 37,
+    "sid": 3
   },
   {
-    "district": 38,
-    "name": "Hoshiarpur",
-    "SID": 3,
-    "State": "PUNJAB"
+    "dname": "Hoshiarpur",
+    "sname": "PUNJAB",
+    "did": 38,
+    "sid": 3
   },
   {
-    "district": 39,
-    "name": "Shahid Bhagat Singh Nagar",
-    "SID": 3,
-    "State": "PUNJAB"
+    "dname": "Shahid Bhagat Singh Nagar",
+    "sname": "PUNJAB",
+    "did": 39,
+    "sid": 3
   },
   {
-    "district": 40,
-    "name": "Fatehgarh Sahib",
-    "SID": 3,
-    "State": "PUNJAB"
+    "dname": "Fatehgarh Sahib",
+    "sname": "PUNJAB",
+    "did": 40,
+    "sid": 3
   },
   {
-    "district": 41,
-    "name": "Ludhiana",
-    "SID": 3,
-    "State": "PUNJAB"
+    "dname": "Ludhiana",
+    "sname": "PUNJAB",
+    "did": 41,
+    "sid": 3
   },
   {
-    "district": 42,
-    "name": "Moga",
-    "SID": 3,
-    "State": "PUNJAB"
+    "dname": "Moga",
+    "sname": "PUNJAB",
+    "did": 42,
+    "sid": 3
   },
   {
-    "district": 43,
-    "name": "Firozpur",
-    "SID": 3,
-    "State": "PUNJAB"
+    "dname": "Firozpur",
+    "sname": "PUNJAB",
+    "did": 43,
+    "sid": 3
   },
   {
-    "district": 44,
-    "name": "Muktsar",
-    "SID": 3,
-    "State": "PUNJAB"
+    "dname": "Muktsar",
+    "sname": "PUNJAB",
+    "did": 44,
+    "sid": 3
   },
   {
-    "district": 45,
-    "name": "Faridkot",
-    "SID": 3,
-    "State": "PUNJAB"
+    "dname": "Faridkot",
+    "sname": "PUNJAB",
+    "did": 45,
+    "sid": 3
   },
   {
-    "district": 46,
-    "name": "Bathinda",
-    "SID": 3,
-    "State": "PUNJAB"
+    "dname": "Bathinda",
+    "sname": "PUNJAB",
+    "did": 46,
+    "sid": 3
   },
   {
-    "district": 47,
-    "name": "Mansa",
-    "SID": 3,
-    "State": "PUNJAB"
+    "dname": "Mansa",
+    "sname": "PUNJAB",
+    "did": 47,
+    "sid": 3
   },
   {
-    "district": 48,
-    "name": "Patiala",
-    "SID": 3,
-    "State": "PUNJAB"
+    "dname": "Patiala",
+    "sname": "PUNJAB",
+    "did": 48,
+    "sid": 3
   },
   {
-    "district": 49,
-    "name": "Amritsar",
-    "SID": 3,
-    "State": "PUNJAB"
+    "dname": "Amritsar",
+    "sname": "PUNJAB",
+    "did": 49,
+    "sid": 3
   },
   {
-    "district": 50,
-    "name": "Tarn Taran",
-    "SID": 3,
-    "State": "PUNJAB"
+    "dname": "Tarn Taran",
+    "sname": "PUNJAB",
+    "did": 50,
+    "sid": 3
   },
   {
-    "district": 51,
-    "name": "Rupnagar",
-    "SID": 3,
-    "State": "PUNJAB"
+    "dname": "Rupnagar",
+    "sname": "PUNJAB",
+    "did": 51,
+    "sid": 3
   },
   {
-    "district": 52,
-    "name": "Sahibzada Ajit Singh Nagar",
-    "SID": 3,
-    "State": "PUNJAB"
+    "dname": "Sahibzada Ajit Singh Nagar",
+    "sname": "PUNJAB",
+    "did": 52,
+    "sid": 3
   },
   {
-    "district": 53,
-    "name": "Sangrur",
-    "SID": 3,
-    "State": "PUNJAB"
+    "dname": "Sangrur",
+    "sname": "PUNJAB",
+    "did": 53,
+    "sid": 3
   },
   {
-    "district": 54,
-    "name": "Barnala",
-    "SID": 3,
-    "State": "PUNJAB"
+    "dname": "Barnala",
+    "sname": "PUNJAB",
+    "did": 54,
+    "sid": 3
   },
   {
-    "district": 55,
-    "name": "Chandigarh",
-    "SID": 4,
-    "State": "CHANDIGARH"
+    "dname": "Chandigarh",
+    "sname": "CHANDIGARH",
+    "did": 55,
+    "sid": 4
   },
   {
-    "district": 56,
-    "name": "Uttarkashi",
-    "SID": 5,
-    "State": "UTTARAKHAND"
+    "dname": "Uttarkashi",
+    "sname": "UTTARAKHAND",
+    "did": 56,
+    "sid": 5
   },
   {
-    "district": 57,
-    "name": "Chamoli",
-    "SID": 5,
-    "State": "UTTARAKHAND"
+    "dname": "Chamoli",
+    "sname": "UTTARAKHAND",
+    "did": 57,
+    "sid": 5
   },
   {
-    "district": 58,
-    "name": "Rudraprayag",
-    "SID": 5,
-    "State": "UTTARAKHAND"
+    "dname": "Rudraprayag",
+    "sname": "UTTARAKHAND",
+    "did": 58,
+    "sid": 5
   },
   {
-    "district": 59,
-    "name": "Tehri Garhwal",
-    "SID": 5,
-    "State": "UTTARAKHAND"
+    "dname": "Tehri Garhwal",
+    "sname": "UTTARAKHAND",
+    "did": 59,
+    "sid": 5
   },
   {
-    "district": 60,
-    "name": "Dehradun",
-    "SID": 5,
-    "State": "UTTARAKHAND"
+    "dname": "Dehradun",
+    "sname": "UTTARAKHAND",
+    "did": 60,
+    "sid": 5
   },
   {
-    "district": 61,
-    "name": "Garhwal",
-    "SID": 5,
-    "State": "UTTARAKHAND"
+    "dname": "Garhwal",
+    "sname": "UTTARAKHAND",
+    "did": 61,
+    "sid": 5
   },
   {
-    "district": 62,
-    "name": "Pithoragarh",
-    "SID": 5,
-    "State": "UTTARAKHAND"
+    "dname": "Pithoragarh",
+    "sname": "UTTARAKHAND",
+    "did": 62,
+    "sid": 5
   },
   {
-    "district": 63,
-    "name": "Bageshwar",
-    "SID": 5,
-    "State": "UTTARAKHAND"
+    "dname": "Bageshwar",
+    "sname": "UTTARAKHAND",
+    "did": 63,
+    "sid": 5
   },
   {
-    "district": 64,
-    "name": "Almora",
-    "SID": 5,
-    "State": "UTTARAKHAND"
+    "dname": "Almora",
+    "sname": "UTTARAKHAND",
+    "did": 64,
+    "sid": 5
   },
   {
-    "district": 65,
-    "name": "Champawat",
-    "SID": 5,
-    "State": "UTTARAKHAND"
+    "dname": "Champawat",
+    "sname": "UTTARAKHAND",
+    "did": 65,
+    "sid": 5
   },
   {
-    "district": 66,
-    "name": "Nainital",
-    "SID": 5,
-    "State": "UTTARAKHAND"
+    "dname": "Nainital",
+    "sname": "UTTARAKHAND",
+    "did": 66,
+    "sid": 5
   },
   {
-    "district": 67,
-    "name": "Udham Singh Nagar",
-    "SID": 5,
-    "State": "UTTARAKHAND"
+    "dname": "Udham Singh Nagar",
+    "sname": "UTTARAKHAND",
+    "did": 67,
+    "sid": 5
   },
   {
-    "district": 68,
-    "name": "Hardwar",
-    "SID": 5,
-    "State": "UTTARAKHAND"
+    "dname": "Hardwar",
+    "sname": "UTTARAKHAND",
+    "did": 68,
+    "sid": 5
   },
   {
-    "district": 69,
-    "name": "Panchkula",
-    "SID": 6,
-    "State": "HARYANA"
+    "dname": "Panchkula",
+    "sname": "HARYANA",
+    "did": 69,
+    "sid": 6
   },
   {
-    "district": 70,
-    "name": "Ambala",
-    "SID": 6,
-    "State": "HARYANA"
+    "dname": "Ambala",
+    "sname": "HARYANA",
+    "did": 70,
+    "sid": 6
   },
   {
-    "district": 71,
-    "name": "Yamunanagar",
-    "SID": 6,
-    "State": "HARYANA"
+    "dname": "Yamunanagar",
+    "sname": "HARYANA",
+    "did": 71,
+    "sid": 6
   },
   {
-    "district": 72,
-    "name": "Kurukshetra",
-    "SID": 6,
-    "State": "HARYANA"
+    "dname": "Kurukshetra",
+    "sname": "HARYANA",
+    "did": 72,
+    "sid": 6
   },
   {
-    "district": 73,
-    "name": "Kaithal",
-    "SID": 6,
-    "State": "HARYANA"
+    "dname": "Kaithal",
+    "sname": "HARYANA",
+    "did": 73,
+    "sid": 6
   },
   {
-    "district": 74,
-    "name": "Karnal",
-    "SID": 6,
-    "State": "HARYANA"
+    "dname": "Karnal",
+    "sname": "HARYANA",
+    "did": 74,
+    "sid": 6
   },
   {
-    "district": 75,
-    "name": "Panipat",
-    "SID": 6,
-    "State": "HARYANA"
+    "dname": "Panipat",
+    "sname": "HARYANA",
+    "did": 75,
+    "sid": 6
   },
   {
-    "district": 76,
-    "name": "Sonipat",
-    "SID": 6,
-    "State": "HARYANA"
+    "dname": "Sonipat",
+    "sname": "HARYANA",
+    "did": 76,
+    "sid": 6
   },
   {
-    "district": 77,
-    "name": "Jind",
-    "SID": 6,
-    "State": "HARYANA"
+    "dname": "Jind",
+    "sname": "HARYANA",
+    "did": 77,
+    "sid": 6
   },
   {
-    "district": 78,
-    "name": "Fatehabad",
-    "SID": 6,
-    "State": "HARYANA"
+    "dname": "Fatehabad",
+    "sname": "HARYANA",
+    "did": 78,
+    "sid": 6
   },
   {
-    "district": 79,
-    "name": "Sirsa",
-    "SID": 6,
-    "State": "HARYANA"
+    "dname": "Sirsa",
+    "sname": "HARYANA",
+    "did": 79,
+    "sid": 6
   },
   {
-    "district": 80,
-    "name": "Hisar",
-    "SID": 6,
-    "State": "HARYANA"
+    "dname": "Hisar",
+    "sname": "HARYANA",
+    "did": 80,
+    "sid": 6
   },
   {
-    "district": 81,
-    "name": "Bhiwani",
-    "SID": 6,
-    "State": "HARYANA"
+    "dname": "Bhiwani",
+    "sname": "HARYANA",
+    "did": 81,
+    "sid": 6
   },
   {
-    "district": 82,
-    "name": "Rohtak",
-    "SID": 6,
-    "State": "HARYANA"
+    "dname": "Rohtak",
+    "sname": "HARYANA",
+    "did": 82,
+    "sid": 6
   },
   {
-    "district": 83,
-    "name": "Jhajjar",
-    "SID": 6,
-    "State": "HARYANA"
+    "dname": "Jhajjar",
+    "sname": "HARYANA",
+    "did": 83,
+    "sid": 6
   },
   {
-    "district": 84,
-    "name": "Mahendragarh",
-    "SID": 6,
-    "State": "HARYANA"
+    "dname": "Mahendragarh",
+    "sname": "HARYANA",
+    "did": 84,
+    "sid": 6
   },
   {
-    "district": 85,
-    "name": "Rewari",
-    "SID": 6,
-    "State": "HARYANA"
+    "dname": "Rewari",
+    "sname": "HARYANA",
+    "did": 85,
+    "sid": 6
   },
   {
-    "district": 86,
-    "name": "Gurgaon",
-    "SID": 6,
-    "State": "HARYANA"
+    "dname": "Gurgaon",
+    "sname": "HARYANA",
+    "did": 86,
+    "sid": 6
   },
   {
-    "district": 87,
-    "name": "Mewat",
-    "SID": 6,
-    "State": "HARYANA"
+    "dname": "Mewat",
+    "sname": "HARYANA",
+    "did": 87,
+    "sid": 6
   },
   {
-    "district": 88,
-    "name": "Faridabad",
-    "SID": 6,
-    "State": "HARYANA"
+    "dname": "Faridabad",
+    "sname": "HARYANA",
+    "did": 88,
+    "sid": 6
   },
   {
-    "district": 89,
-    "name": "Palwal",
-    "SID": 6,
-    "State": "HARYANA"
+    "dname": "Palwal",
+    "sname": "HARYANA",
+    "did": 89,
+    "sid": 6
   },
   {
-    "district": 90,
-    "name": "North West",
-    "SID": 7,
-    "State": "NCT OF DELHI"
+    "dname": "North West",
+    "sname": "NCT OF DELHI",
+    "did": 90,
+    "sid": 7
   },
   {
-    "district": 91,
-    "name": "North",
-    "SID": 7,
-    "State": "NCT OF DELHI"
+    "dname": "North",
+    "sname": "NCT OF DELHI",
+    "did": 91,
+    "sid": 7
   },
   {
-    "district": 92,
-    "name": "North East",
-    "SID": 7,
-    "State": "NCT OF DELHI"
+    "dname": "North East",
+    "sname": "NCT OF DELHI",
+    "did": 92,
+    "sid": 7
   },
   {
-    "district": 93,
-    "name": "East",
-    "SID": 7,
-    "State": "NCT OF DELHI"
+    "dname": "East",
+    "sname": "NCT OF DELHI",
+    "did": 93,
+    "sid": 7
   },
   {
-    "district": 94,
-    "name": "New Delhi",
-    "SID": 7,
-    "State": "NCT OF DELHI"
+    "dname": "New Delhi",
+    "sname": "NCT OF DELHI",
+    "did": 94,
+    "sid": 7
   },
   {
-    "district": 95,
-    "name": "Central",
-    "SID": 7,
-    "State": "NCT OF DELHI"
+    "dname": "Central",
+    "sname": "NCT OF DELHI",
+    "did": 95,
+    "sid": 7
   },
   {
-    "district": 96,
-    "name": "West",
-    "SID": 7,
-    "State": "NCT OF DELHI"
+    "dname": "West",
+    "sname": "NCT OF DELHI",
+    "did": 96,
+    "sid": 7
   },
   {
-    "district": 97,
-    "name": "South West",
-    "SID": 7,
-    "State": "NCT OF DELHI"
+    "dname": "South West",
+    "sname": "NCT OF DELHI",
+    "did": 97,
+    "sid": 7
   },
   {
-    "district": 98,
-    "name": "South",
-    "SID": 7,
-    "State": "NCT OF DELHI"
+    "dname": "South",
+    "sname": "NCT OF DELHI",
+    "did": 98,
+    "sid": 7
   },
   {
-    "district": 99,
-    "name": "Ganganagar",
-    "SID": 8,
-    "State": "RAJASTHAN"
+    "dname": "Ganganagar",
+    "sname": "RAJASTHAN",
+    "did": 99,
+    "sid": 8
   },
   {
-    "district": 100,
-    "name": "Hanumangarh",
-    "SID": 8,
-    "State": "RAJASTHAN"
+    "dname": "Hanumangarh",
+    "sname": "RAJASTHAN",
+    "did": 100,
+    "sid": 8
   },
   {
-    "district": 101,
-    "name": "Bikaner",
-    "SID": 8,
-    "State": "RAJASTHAN"
+    "dname": "Bikaner",
+    "sname": "RAJASTHAN",
+    "did": 101,
+    "sid": 8
   },
   {
-    "district": 102,
-    "name": "Churu",
-    "SID": 8,
-    "State": "RAJASTHAN"
+    "dname": "Churu",
+    "sname": "RAJASTHAN",
+    "did": 102,
+    "sid": 8
   },
   {
-    "district": 103,
-    "name": "Jhunjhunun",
-    "SID": 8,
-    "State": "RAJASTHAN"
+    "dname": "Jhunjhunun",
+    "sname": "RAJASTHAN",
+    "did": 103,
+    "sid": 8
   },
   {
-    "district": 104,
-    "name": "Alwar",
-    "SID": 8,
-    "State": "RAJASTHAN"
+    "dname": "Alwar",
+    "sname": "RAJASTHAN",
+    "did": 104,
+    "sid": 8
   },
   {
-    "district": 105,
-    "name": "Bharatpur",
-    "SID": 8,
-    "State": "RAJASTHAN"
+    "dname": "Bharatpur",
+    "sname": "RAJASTHAN",
+    "did": 105,
+    "sid": 8
   },
   {
-    "district": 106,
-    "name": "Dhaulpur",
-    "SID": 8,
-    "State": "RAJASTHAN"
+    "dname": "Dhaulpur",
+    "sname": "RAJASTHAN",
+    "did": 106,
+    "sid": 8
   },
   {
-    "district": 107,
-    "name": "Karauli",
-    "SID": 8,
-    "State": "RAJASTHAN"
+    "dname": "Karauli",
+    "sname": "RAJASTHAN",
+    "did": 107,
+    "sid": 8
   },
   {
-    "district": 108,
-    "name": "Sawai Madhopur",
-    "SID": 8,
-    "State": "RAJASTHAN"
+    "dname": "Sawai Madhopur",
+    "sname": "RAJASTHAN",
+    "did": 108,
+    "sid": 8
   },
   {
-    "district": 109,
-    "name": "Dausa",
-    "SID": 8,
-    "State": "RAJASTHAN"
+    "dname": "Dausa",
+    "sname": "RAJASTHAN",
+    "did": 109,
+    "sid": 8
   },
   {
-    "district": 110,
-    "name": "Jaipur",
-    "SID": 8,
-    "State": "RAJASTHAN"
+    "dname": "Jaipur",
+    "sname": "RAJASTHAN",
+    "did": 110,
+    "sid": 8
   },
   {
-    "district": 111,
-    "name": "Sikar",
-    "SID": 8,
-    "State": "RAJASTHAN"
+    "dname": "Sikar",
+    "sname": "RAJASTHAN",
+    "did": 111,
+    "sid": 8
   },
   {
-    "district": 112,
-    "name": "Nagaur",
-    "SID": 8,
-    "State": "RAJASTHAN"
+    "dname": "Nagaur",
+    "sname": "RAJASTHAN",
+    "did": 112,
+    "sid": 8
   },
   {
-    "district": 113,
-    "name": "Jodhpur",
-    "SID": 8,
-    "State": "RAJASTHAN"
+    "dname": "Jodhpur",
+    "sname": "RAJASTHAN",
+    "did": 113,
+    "sid": 8
   },
   {
-    "district": 114,
-    "name": "Jaisalmer",
-    "SID": 8,
-    "State": "RAJASTHAN"
+    "dname": "Jaisalmer",
+    "sname": "RAJASTHAN",
+    "did": 114,
+    "sid": 8
   },
   {
-    "district": 115,
-    "name": "Barmer",
-    "SID": 8,
-    "State": "RAJASTHAN"
+    "dname": "Barmer",
+    "sname": "RAJASTHAN",
+    "did": 115,
+    "sid": 8
   },
   {
-    "district": 116,
-    "name": "Jalor",
-    "SID": 8,
-    "State": "RAJASTHAN"
+    "dname": "Jalor",
+    "sname": "RAJASTHAN",
+    "did": 116,
+    "sid": 8
   },
   {
-    "district": 117,
-    "name": "Sirohi",
-    "SID": 8,
-    "State": "RAJASTHAN"
+    "dname": "Sirohi",
+    "sname": "RAJASTHAN",
+    "did": 117,
+    "sid": 8
   },
   {
-    "district": 118,
-    "name": "Pali",
-    "SID": 8,
-    "State": "RAJASTHAN"
+    "dname": "Pali",
+    "sname": "RAJASTHAN",
+    "did": 118,
+    "sid": 8
   },
   {
-    "district": 119,
-    "name": "Ajmer",
-    "SID": 8,
-    "State": "RAJASTHAN"
+    "dname": "Ajmer",
+    "sname": "RAJASTHAN",
+    "did": 119,
+    "sid": 8
   },
   {
-    "district": 120,
-    "name": "Tonk",
-    "SID": 8,
-    "State": "RAJASTHAN"
+    "dname": "Tonk",
+    "sname": "RAJASTHAN",
+    "did": 120,
+    "sid": 8
   },
   {
-    "district": 121,
-    "name": "Bundi",
-    "SID": 8,
-    "State": "RAJASTHAN"
+    "dname": "Bundi",
+    "sname": "RAJASTHAN",
+    "did": 121,
+    "sid": 8
   },
   {
-    "district": 122,
-    "name": "Bhilwara",
-    "SID": 8,
-    "State": "RAJASTHAN"
+    "dname": "Bhilwara",
+    "sname": "RAJASTHAN",
+    "did": 122,
+    "sid": 8
   },
   {
-    "district": 123,
-    "name": "Rajsamand",
-    "SID": 8,
-    "State": "RAJASTHAN"
+    "dname": "Rajsamand",
+    "sname": "RAJASTHAN",
+    "did": 123,
+    "sid": 8
   },
   {
-    "district": 124,
-    "name": "Dungarpur",
-    "SID": 8,
-    "State": "RAJASTHAN"
+    "dname": "Dungarpur",
+    "sname": "RAJASTHAN",
+    "did": 124,
+    "sid": 8
   },
   {
-    "district": 125,
-    "name": "Banswara",
-    "SID": 8,
-    "State": "RAJASTHAN"
+    "dname": "Banswara",
+    "sname": "RAJASTHAN",
+    "did": 125,
+    "sid": 8
   },
   {
-    "district": 126,
-    "name": "Chittaurgarh",
-    "SID": 8,
-    "State": "RAJASTHAN"
+    "dname": "Chittaurgarh",
+    "sname": "RAJASTHAN",
+    "did": 126,
+    "sid": 8
   },
   {
-    "district": 127,
-    "name": "Kota",
-    "SID": 8,
-    "State": "RAJASTHAN"
+    "dname": "Kota",
+    "sname": "RAJASTHAN",
+    "did": 127,
+    "sid": 8
   },
   {
-    "district": 128,
-    "name": "Baran",
-    "SID": 8,
-    "State": "RAJASTHAN"
+    "dname": "Baran",
+    "sname": "RAJASTHAN",
+    "did": 128,
+    "sid": 8
   },
   {
-    "district": 129,
-    "name": "Jhalawar",
-    "SID": 8,
-    "State": "RAJASTHAN"
+    "dname": "Jhalawar",
+    "sname": "RAJASTHAN",
+    "did": 129,
+    "sid": 8
   },
   {
-    "district": 130,
-    "name": "Udaipur",
-    "SID": 8,
-    "State": "RAJASTHAN"
+    "dname": "Udaipur",
+    "sname": "RAJASTHAN",
+    "did": 130,
+    "sid": 8
   },
   {
-    "district": 131,
-    "name": "Pratapgarh",
-    "SID": 8,
-    "State": "RAJASTHAN"
+    "dname": "Pratapgarh",
+    "sname": "RAJASTHAN",
+    "did": 131,
+    "sid": 8
   },
   {
-    "district": 132,
-    "name": "Saharanpur",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Saharanpur",
+    "sname": "UTTAR PRADESH",
+    "did": 132,
+    "sid": 9
   },
   {
-    "district": 133,
-    "name": "Muzaffarnagar",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Muzaffarnagar",
+    "sname": "UTTAR PRADESH",
+    "did": 133,
+    "sid": 9
   },
   {
-    "district": 134,
-    "name": "Bijnor",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Bijnor",
+    "sname": "UTTAR PRADESH",
+    "did": 134,
+    "sid": 9
   },
   {
-    "district": 135,
-    "name": "Moradabad",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Moradabad",
+    "sname": "UTTAR PRADESH",
+    "did": 135,
+    "sid": 9
   },
   {
-    "district": 136,
-    "name": "Rampur",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Rampur",
+    "sname": "UTTAR PRADESH",
+    "did": 136,
+    "sid": 9
   },
   {
-    "district": 137,
-    "name": "Jyotiba Phule Nagar",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Jyotiba Phule Nagar",
+    "sname": "UTTAR PRADESH",
+    "did": 137,
+    "sid": 9
   },
   {
-    "district": 138,
-    "name": "Meerut",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Meerut",
+    "sname": "UTTAR PRADESH",
+    "did": 138,
+    "sid": 9
   },
   {
-    "district": 139,
-    "name": "Baghpat",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Baghpat",
+    "sname": "UTTAR PRADESH",
+    "did": 139,
+    "sid": 9
   },
   {
-    "district": 140,
-    "name": "Ghaziabad",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Ghaziabad",
+    "sname": "UTTAR PRADESH",
+    "did": 140,
+    "sid": 9
   },
   {
-    "district": 141,
-    "name": "Gautam Buddha Nagar",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Gautam Buddha Nagar",
+    "sname": "UTTAR PRADESH",
+    "did": 141,
+    "sid": 9
   },
   {
-    "district": 142,
-    "name": "Bulandshahr",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Bulandshahr",
+    "sname": "UTTAR PRADESH",
+    "did": 142,
+    "sid": 9
   },
   {
-    "district": 143,
-    "name": "Aligarh",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Aligarh",
+    "sname": "UTTAR PRADESH",
+    "did": 143,
+    "sid": 9
   },
   {
-    "district": 144,
-    "name": "Mahamaya Nagar",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Mahamaya Nagar",
+    "sname": "UTTAR PRADESH",
+    "did": 144,
+    "sid": 9
   },
   {
-    "district": 145,
-    "name": "Mathura",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Mathura",
+    "sname": "UTTAR PRADESH",
+    "did": 145,
+    "sid": 9
   },
   {
-    "district": 146,
-    "name": "Agra",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Agra",
+    "sname": "UTTAR PRADESH",
+    "did": 146,
+    "sid": 9
   },
   {
-    "district": 147,
-    "name": "Firozabad",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Firozabad",
+    "sname": "UTTAR PRADESH",
+    "did": 147,
+    "sid": 9
   },
   {
-    "district": 148,
-    "name": "Mainpuri",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Mainpuri",
+    "sname": "UTTAR PRADESH",
+    "did": 148,
+    "sid": 9
   },
   {
-    "district": 149,
-    "name": "Budaun",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Budaun",
+    "sname": "UTTAR PRADESH",
+    "did": 149,
+    "sid": 9
   },
   {
-    "district": 150,
-    "name": "Bareilly",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Bareilly",
+    "sname": "UTTAR PRADESH",
+    "did": 150,
+    "sid": 9
   },
   {
-    "district": 151,
-    "name": "Pilibhit",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Pilibhit",
+    "sname": "UTTAR PRADESH",
+    "did": 151,
+    "sid": 9
   },
   {
-    "district": 152,
-    "name": "Shahjahanpur",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Shahjahanpur",
+    "sname": "UTTAR PRADESH",
+    "did": 152,
+    "sid": 9
   },
   {
-    "district": 153,
-    "name": "Kheri",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Kheri",
+    "sname": "UTTAR PRADESH",
+    "did": 153,
+    "sid": 9
   },
   {
-    "district": 154,
-    "name": "Sitapur",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Sitapur",
+    "sname": "UTTAR PRADESH",
+    "did": 154,
+    "sid": 9
   },
   {
-    "district": 155,
-    "name": "Hardoi",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Hardoi",
+    "sname": "UTTAR PRADESH",
+    "did": 155,
+    "sid": 9
   },
   {
-    "district": 156,
-    "name": "Unnao",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Unnao",
+    "sname": "UTTAR PRADESH",
+    "did": 156,
+    "sid": 9
   },
   {
-    "district": 157,
-    "name": "Lucknow",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Lucknow",
+    "sname": "UTTAR PRADESH",
+    "did": 157,
+    "sid": 9
   },
   {
-    "district": 158,
-    "name": "Rae Bareli",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Rae Bareli",
+    "sname": "UTTAR PRADESH",
+    "did": 158,
+    "sid": 9
   },
   {
-    "district": 159,
-    "name": "Farrukhabad",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Farrukhabad",
+    "sname": "UTTAR PRADESH",
+    "did": 159,
+    "sid": 9
   },
   {
-    "district": 160,
-    "name": "Kannauj",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Kannauj",
+    "sname": "UTTAR PRADESH",
+    "did": 160,
+    "sid": 9
   },
   {
-    "district": 161,
-    "name": "Etawah",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Etawah",
+    "sname": "UTTAR PRADESH",
+    "did": 161,
+    "sid": 9
   },
   {
-    "district": 162,
-    "name": "Auraiya",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Auraiya",
+    "sname": "UTTAR PRADESH",
+    "did": 162,
+    "sid": 9
   },
   {
-    "district": 163,
-    "name": "Kanpur Dehat",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Kanpur Dehat",
+    "sname": "UTTAR PRADESH",
+    "did": 163,
+    "sid": 9
   },
   {
-    "district": 164,
-    "name": "Kanpur Nagar",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Kanpur Nagar",
+    "sname": "UTTAR PRADESH",
+    "did": 164,
+    "sid": 9
   },
   {
-    "district": 165,
-    "name": "Jalaun",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Jalaun",
+    "sname": "UTTAR PRADESH",
+    "did": 165,
+    "sid": 9
   },
   {
-    "district": 166,
-    "name": "Jhansi",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Jhansi",
+    "sname": "UTTAR PRADESH",
+    "did": 166,
+    "sid": 9
   },
   {
-    "district": 167,
-    "name": "Lalitpur",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Lalitpur",
+    "sname": "UTTAR PRADESH",
+    "did": 167,
+    "sid": 9
   },
   {
-    "district": 168,
-    "name": "Hamirpur",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Hamirpur",
+    "sname": "UTTAR PRADESH",
+    "did": 168,
+    "sid": 9
   },
   {
-    "district": 169,
-    "name": "Mahoba",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Mahoba",
+    "sname": "UTTAR PRADESH",
+    "did": 169,
+    "sid": 9
   },
   {
-    "district": 170,
-    "name": "Banda",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Banda",
+    "sname": "UTTAR PRADESH",
+    "did": 170,
+    "sid": 9
   },
   {
-    "district": 171,
-    "name": "Chitrakoot",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Chitrakoot",
+    "sname": "UTTAR PRADESH",
+    "did": 171,
+    "sid": 9
   },
   {
-    "district": 172,
-    "name": "Fatehpur",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Fatehpur",
+    "sname": "UTTAR PRADESH",
+    "did": 172,
+    "sid": 9
   },
   {
-    "district": 173,
-    "name": "Pratapgarh",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Pratapgarh",
+    "sname": "UTTAR PRADESH",
+    "did": 173,
+    "sid": 9
   },
   {
-    "district": 174,
-    "name": "Kaushambi",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Kaushambi",
+    "sname": "UTTAR PRADESH",
+    "did": 174,
+    "sid": 9
   },
   {
-    "district": 175,
-    "name": "Allahabad",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Allahabad",
+    "sname": "UTTAR PRADESH",
+    "did": 175,
+    "sid": 9
   },
   {
-    "district": 176,
-    "name": "Bara Banki",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Bara Banki",
+    "sname": "UTTAR PRADESH",
+    "did": 176,
+    "sid": 9
   },
   {
-    "district": 177,
-    "name": "Faizabad",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Faizabad",
+    "sname": "UTTAR PRADESH",
+    "did": 177,
+    "sid": 9
   },
   {
-    "district": 178,
-    "name": "Ambedkar Nagar",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Ambedkar Nagar",
+    "sname": "UTTAR PRADESH",
+    "did": 178,
+    "sid": 9
   },
   {
-    "district": 179,
-    "name": "Sultanpur",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Sultanpur",
+    "sname": "UTTAR PRADESH",
+    "did": 179,
+    "sid": 9
   },
   {
-    "district": 180,
-    "name": "Bahraich",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Bahraich",
+    "sname": "UTTAR PRADESH",
+    "did": 180,
+    "sid": 9
   },
   {
-    "district": 181,
-    "name": "Shrawasti",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Shrawasti",
+    "sname": "UTTAR PRADESH",
+    "did": 181,
+    "sid": 9
   },
   {
-    "district": 182,
-    "name": "Balrampur",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Balrampur",
+    "sname": "UTTAR PRADESH",
+    "did": 182,
+    "sid": 9
   },
   {
-    "district": 183,
-    "name": "Gonda",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Gonda",
+    "sname": "UTTAR PRADESH",
+    "did": 183,
+    "sid": 9
   },
   {
-    "district": 184,
-    "name": "Siddharthnagar",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Siddharthnagar",
+    "sname": "UTTAR PRADESH",
+    "did": 184,
+    "sid": 9
   },
   {
-    "district": 185,
-    "name": "Basti",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Basti",
+    "sname": "UTTAR PRADESH",
+    "did": 185,
+    "sid": 9
   },
   {
-    "district": 186,
-    "name": "Sant Kabir Nagar",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Sant Kabir Nagar",
+    "sname": "UTTAR PRADESH",
+    "did": 186,
+    "sid": 9
   },
   {
-    "district": 187,
-    "name": "Mahrajganj",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Mahrajganj",
+    "sname": "UTTAR PRADESH",
+    "did": 187,
+    "sid": 9
   },
   {
-    "district": 188,
-    "name": "Gorakhpur",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Gorakhpur",
+    "sname": "UTTAR PRADESH",
+    "did": 188,
+    "sid": 9
   },
   {
-    "district": 189,
-    "name": "Kushinagar",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Kushinagar",
+    "sname": "UTTAR PRADESH",
+    "did": 189,
+    "sid": 9
   },
   {
-    "district": 190,
-    "name": "Deoria",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Deoria",
+    "sname": "UTTAR PRADESH",
+    "did": 190,
+    "sid": 9
   },
   {
-    "district": 191,
-    "name": "Azamgarh",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Azamgarh",
+    "sname": "UTTAR PRADESH",
+    "did": 191,
+    "sid": 9
   },
   {
-    "district": 192,
-    "name": "Mau",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Mau",
+    "sname": "UTTAR PRADESH",
+    "did": 192,
+    "sid": 9
   },
   {
-    "district": 193,
-    "name": "Ballia",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Ballia",
+    "sname": "UTTAR PRADESH",
+    "did": 193,
+    "sid": 9
   },
   {
-    "district": 194,
-    "name": "Jaunpur",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Jaunpur",
+    "sname": "UTTAR PRADESH",
+    "did": 194,
+    "sid": 9
   },
   {
-    "district": 195,
-    "name": "Ghazipur",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Ghazipur",
+    "sname": "UTTAR PRADESH",
+    "did": 195,
+    "sid": 9
   },
   {
-    "district": 196,
-    "name": "Chandauli",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Chandauli",
+    "sname": "UTTAR PRADESH",
+    "did": 196,
+    "sid": 9
   },
   {
-    "district": 197,
-    "name": "Varanasi",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Varanasi",
+    "sname": "UTTAR PRADESH",
+    "did": 197,
+    "sid": 9
   },
   {
-    "district": 198,
-    "name": "Sant Ravidas Nagar (Bhadohi)",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Sant Ravidas Nagar (Bhadohi)",
+    "sname": "UTTAR PRADESH",
+    "did": 198,
+    "sid": 9
   },
   {
-    "district": 199,
-    "name": "Mirzapur",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Mirzapur",
+    "sname": "UTTAR PRADESH",
+    "did": 199,
+    "sid": 9
   },
   {
-    "district": 200,
-    "name": "Sonbhadra",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Sonbhadra",
+    "sname": "UTTAR PRADESH",
+    "did": 200,
+    "sid": 9
   },
   {
-    "district": 201,
-    "name": "Etah",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Etah",
+    "sname": "UTTAR PRADESH",
+    "did": 201,
+    "sid": 9
   },
   {
-    "district": 202,
-    "name": "Kanshiram Nagar",
-    "SID": 9,
-    "State": "UTTAR PRADESH"
+    "dname": "Kanshiram Nagar",
+    "sname": "UTTAR PRADESH",
+    "did": 202,
+    "sid": 9
   },
   {
-    "district": 203,
-    "name": "Pashchim Champaran",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Pashchim Champaran",
+    "sname": "BIHAR",
+    "did": 203,
+    "sid": 10
   },
   {
-    "district": 204,
-    "name": "Purba Champaran",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Purba Champaran",
+    "sname": "BIHAR",
+    "did": 204,
+    "sid": 10
   },
   {
-    "district": 205,
-    "name": "Sheohar",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Sheohar",
+    "sname": "BIHAR",
+    "did": 205,
+    "sid": 10
   },
   {
-    "district": 206,
-    "name": "Sitamarhi",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Sitamarhi",
+    "sname": "BIHAR",
+    "did": 206,
+    "sid": 10
   },
   {
-    "district": 207,
-    "name": "Madhubani",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Madhubani",
+    "sname": "BIHAR",
+    "did": 207,
+    "sid": 10
   },
   {
-    "district": 208,
-    "name": "Supaul",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Supaul",
+    "sname": "BIHAR",
+    "did": 208,
+    "sid": 10
   },
   {
-    "district": 209,
-    "name": "Araria",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Araria",
+    "sname": "BIHAR",
+    "did": 209,
+    "sid": 10
   },
   {
-    "district": 210,
-    "name": "Kishanganj",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Kishanganj",
+    "sname": "BIHAR",
+    "did": 210,
+    "sid": 10
   },
   {
-    "district": 211,
-    "name": "Purnia",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Purnia",
+    "sname": "BIHAR",
+    "did": 211,
+    "sid": 10
   },
   {
-    "district": 212,
-    "name": "Katihar",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Katihar",
+    "sname": "BIHAR",
+    "did": 212,
+    "sid": 10
   },
   {
-    "district": 213,
-    "name": "Madhepura",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Madhepura",
+    "sname": "BIHAR",
+    "did": 213,
+    "sid": 10
   },
   {
-    "district": 214,
-    "name": "Saharsa",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Saharsa",
+    "sname": "BIHAR",
+    "did": 214,
+    "sid": 10
   },
   {
-    "district": 215,
-    "name": "Darbhanga",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Darbhanga",
+    "sname": "BIHAR",
+    "did": 215,
+    "sid": 10
   },
   {
-    "district": 216,
-    "name": "Muzaffarpur",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Muzaffarpur",
+    "sname": "BIHAR",
+    "did": 216,
+    "sid": 10
   },
   {
-    "district": 217,
-    "name": "Gopalganj",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Gopalganj",
+    "sname": "BIHAR",
+    "did": 217,
+    "sid": 10
   },
   {
-    "district": 218,
-    "name": "Siwan",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Siwan",
+    "sname": "BIHAR",
+    "did": 218,
+    "sid": 10
   },
   {
-    "district": 219,
-    "name": "Saran",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Saran",
+    "sname": "BIHAR",
+    "did": 219,
+    "sid": 10
   },
   {
-    "district": 220,
-    "name": "Vaishali",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Vaishali",
+    "sname": "BIHAR",
+    "did": 220,
+    "sid": 10
   },
   {
-    "district": 221,
-    "name": "Samastipur",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Samastipur",
+    "sname": "BIHAR",
+    "did": 221,
+    "sid": 10
   },
   {
-    "district": 222,
-    "name": "Begusarai",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Begusarai",
+    "sname": "BIHAR",
+    "did": 222,
+    "sid": 10
   },
   {
-    "district": 223,
-    "name": "Khagaria",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Khagaria",
+    "sname": "BIHAR",
+    "did": 223,
+    "sid": 10
   },
   {
-    "district": 224,
-    "name": "Bhagalpur",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Bhagalpur",
+    "sname": "BIHAR",
+    "did": 224,
+    "sid": 10
   },
   {
-    "district": 225,
-    "name": "Banka",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Banka",
+    "sname": "BIHAR",
+    "did": 225,
+    "sid": 10
   },
   {
-    "district": 226,
-    "name": "Munger",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Munger",
+    "sname": "BIHAR",
+    "did": 226,
+    "sid": 10
   },
   {
-    "district": 227,
-    "name": "Lakhisarai",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Lakhisarai",
+    "sname": "BIHAR",
+    "did": 227,
+    "sid": 10
   },
   {
-    "district": 228,
-    "name": "Sheikhpura",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Sheikhpura",
+    "sname": "BIHAR",
+    "did": 228,
+    "sid": 10
   },
   {
-    "district": 229,
-    "name": "Nalanda",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Nalanda",
+    "sname": "BIHAR",
+    "did": 229,
+    "sid": 10
   },
   {
-    "district": 230,
-    "name": "Patna",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Patna",
+    "sname": "BIHAR",
+    "did": 230,
+    "sid": 10
   },
   {
-    "district": 231,
-    "name": "Bhojpur",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Bhojpur",
+    "sname": "BIHAR",
+    "did": 231,
+    "sid": 10
   },
   {
-    "district": 232,
-    "name": "Buxar",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Buxar",
+    "sname": "BIHAR",
+    "did": 232,
+    "sid": 10
   },
   {
-    "district": 233,
-    "name": "Kaimur (Bhabua)",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Kaimur (Bhabua)",
+    "sname": "BIHAR",
+    "did": 233,
+    "sid": 10
   },
   {
-    "district": 234,
-    "name": "Rohtas",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Rohtas",
+    "sname": "BIHAR",
+    "did": 234,
+    "sid": 10
   },
   {
-    "district": 235,
-    "name": "Aurangabad",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Aurangabad",
+    "sname": "BIHAR",
+    "did": 235,
+    "sid": 10
   },
   {
-    "district": 236,
-    "name": "Gaya",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Gaya",
+    "sname": "BIHAR",
+    "did": 236,
+    "sid": 10
   },
   {
-    "district": 237,
-    "name": "Nawada",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Nawada",
+    "sname": "BIHAR",
+    "did": 237,
+    "sid": 10
   },
   {
-    "district": 238,
-    "name": "Jamui",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Jamui",
+    "sname": "BIHAR",
+    "did": 238,
+    "sid": 10
   },
   {
-    "district": 239,
-    "name": "Jehanabad",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Jehanabad",
+    "sname": "BIHAR",
+    "did": 239,
+    "sid": 10
   },
   {
-    "district": 240,
-    "name": "Arwal",
-    "SID": 10,
-    "State": "BIHAR"
+    "dname": "Arwal",
+    "sname": "BIHAR",
+    "did": 240,
+    "sid": 10
   },
   {
-    "district": 241,
-    "name": "North  District",
-    "SID": 11,
-    "State": "SIKKIM"
+    "dname": "North  District",
+    "sname": "SIKKIM",
+    "did": 241,
+    "sid": 11
   },
   {
-    "district": 242,
-    "name": "West District",
-    "SID": 11,
-    "State": "SIKKIM"
+    "dname": "West District",
+    "sname": "SIKKIM",
+    "did": 242,
+    "sid": 11
   },
   {
-    "district": 243,
-    "name": "South District",
-    "SID": 11,
-    "State": "SIKKIM"
+    "dname": "South District",
+    "sname": "SIKKIM",
+    "did": 243,
+    "sid": 11
   },
   {
-    "district": 244,
-    "name": "East District",
-    "SID": 11,
-    "State": "SIKKIM"
+    "dname": "East District",
+    "sname": "SIKKIM",
+    "did": 244,
+    "sid": 11
   },
   {
-    "district": 245,
-    "name": "Tawang",
-    "SID": 12,
-    "State": "ARUNACHAL PRADESH"
+    "dname": "Tawang",
+    "sname": "ARUNACHAL PRADESH",
+    "did": 245,
+    "sid": 12
   },
   {
-    "district": 246,
-    "name": "West Kameng",
-    "SID": 12,
-    "State": "ARUNACHAL PRADESH"
+    "dname": "West Kameng",
+    "sname": "ARUNACHAL PRADESH",
+    "did": 246,
+    "sid": 12
   },
   {
-    "district": 247,
-    "name": "East Kameng",
-    "SID": 12,
-    "State": "ARUNACHAL PRADESH"
+    "dname": "East Kameng",
+    "sname": "ARUNACHAL PRADESH",
+    "did": 247,
+    "sid": 12
   },
   {
-    "district": 248,
-    "name": "Papum Pare",
-    "SID": 12,
-    "State": "ARUNACHAL PRADESH"
+    "dname": "Papum Pare",
+    "sname": "ARUNACHAL PRADESH",
+    "did": 248,
+    "sid": 12
   },
   {
-    "district": 249,
-    "name": "Upper Subansiri",
-    "SID": 12,
-    "State": "ARUNACHAL PRADESH"
+    "dname": "Upper Subansiri",
+    "sname": "ARUNACHAL PRADESH",
+    "did": 249,
+    "sid": 12
   },
   {
-    "district": 250,
-    "name": "West Siang",
-    "SID": 12,
-    "State": "ARUNACHAL PRADESH"
+    "dname": "West Siang",
+    "sname": "ARUNACHAL PRADESH",
+    "did": 250,
+    "sid": 12
   },
   {
-    "district": 251,
-    "name": "East Siang",
-    "SID": 12,
-    "State": "ARUNACHAL PRADESH"
+    "dname": "East Siang",
+    "sname": "ARUNACHAL PRADESH",
+    "did": 251,
+    "sid": 12
   },
   {
-    "district": 252,
-    "name": "Upper Siang",
-    "SID": 12,
-    "State": "ARUNACHAL PRADESH"
+    "dname": "Upper Siang",
+    "sname": "ARUNACHAL PRADESH",
+    "did": 252,
+    "sid": 12
   },
   {
-    "district": 253,
-    "name": "Changlang",
-    "SID": 12,
-    "State": "ARUNACHAL PRADESH"
+    "dname": "Changlang",
+    "sname": "ARUNACHAL PRADESH",
+    "did": 253,
+    "sid": 12
   },
   {
-    "district": 254,
-    "name": "Tirap",
-    "SID": 12,
-    "State": "ARUNACHAL PRADESH"
+    "dname": "Tirap",
+    "sname": "ARUNACHAL PRADESH",
+    "did": 254,
+    "sid": 12
   },
   {
-    "district": 255,
-    "name": "Lower Subansiri",
-    "SID": 12,
-    "State": "ARUNACHAL PRADESH"
+    "dname": "Lower Subansiri",
+    "sname": "ARUNACHAL PRADESH",
+    "did": 255,
+    "sid": 12
   },
   {
-    "district": 256,
-    "name": "Kurung Kumey",
-    "SID": 12,
-    "State": "ARUNACHAL PRADESH"
+    "dname": "Kurung Kumey",
+    "sname": "ARUNACHAL PRADESH",
+    "did": 256,
+    "sid": 12
   },
   {
-    "district": 257,
-    "name": "Dibang Valley",
-    "SID": 12,
-    "State": "ARUNACHAL PRADESH"
+    "dname": "Dibang Valley",
+    "sname": "ARUNACHAL PRADESH",
+    "did": 257,
+    "sid": 12
   },
   {
-    "district": 258,
-    "name": "Lower Dibang Valley",
-    "SID": 12,
-    "State": "ARUNACHAL PRADESH"
+    "dname": "Lower Dibang Valley",
+    "sname": "ARUNACHAL PRADESH",
+    "did": 258,
+    "sid": 12
   },
   {
-    "district": 259,
-    "name": "Lohit",
-    "SID": 12,
-    "State": "ARUNACHAL PRADESH"
+    "dname": "Lohit",
+    "sname": "ARUNACHAL PRADESH",
+    "did": 259,
+    "sid": 12
   },
   {
-    "district": 260,
-    "name": "Anjaw",
-    "SID": 12,
-    "State": "ARUNACHAL PRADESH"
+    "dname": "Anjaw",
+    "sname": "ARUNACHAL PRADESH",
+    "did": 260,
+    "sid": 12
   },
   {
-    "district": 261,
-    "name": "Mon",
-    "SID": 13,
-    "State": "NAGALAND"
+    "dname": "Mon",
+    "sname": "NAGALAND",
+    "did": 261,
+    "sid": 13
   },
   {
-    "district": 262,
-    "name": "Mokokchung",
-    "SID": 13,
-    "State": "NAGALAND"
+    "dname": "Mokokchung",
+    "sname": "NAGALAND",
+    "did": 262,
+    "sid": 13
   },
   {
-    "district": 263,
-    "name": "Zunheboto",
-    "SID": 13,
-    "State": "NAGALAND"
+    "dname": "Zunheboto",
+    "sname": "NAGALAND",
+    "did": 263,
+    "sid": 13
   },
   {
-    "district": 264,
-    "name": "Wokha",
-    "SID": 13,
-    "State": "NAGALAND"
+    "dname": "Wokha",
+    "sname": "NAGALAND",
+    "did": 264,
+    "sid": 13
   },
   {
-    "district": 265,
-    "name": "Dimapur",
-    "SID": 13,
-    "State": "NAGALAND"
+    "dname": "Dimapur",
+    "sname": "NAGALAND",
+    "did": 265,
+    "sid": 13
   },
   {
-    "district": 266,
-    "name": "Phek",
-    "SID": 13,
-    "State": "NAGALAND"
+    "dname": "Phek",
+    "sname": "NAGALAND",
+    "did": 266,
+    "sid": 13
   },
   {
-    "district": 267,
-    "name": "Tuensang",
-    "SID": 13,
-    "State": "NAGALAND"
+    "dname": "Tuensang",
+    "sname": "NAGALAND",
+    "did": 267,
+    "sid": 13
   },
   {
-    "district": 268,
-    "name": "Longleng",
-    "SID": 13,
-    "State": "NAGALAND"
+    "dname": "Longleng",
+    "sname": "NAGALAND",
+    "did": 268,
+    "sid": 13
   },
   {
-    "district": 269,
-    "name": "Kiphire",
-    "SID": 13,
-    "State": "NAGALAND"
+    "dname": "Kiphire",
+    "sname": "NAGALAND",
+    "did": 269,
+    "sid": 13
   },
   {
-    "district": 270,
-    "name": "Kohima",
-    "SID": 13,
-    "State": "NAGALAND"
+    "dname": "Kohima",
+    "sname": "NAGALAND",
+    "did": 270,
+    "sid": 13
   },
   {
-    "district": 271,
-    "name": "Peren",
-    "SID": 13,
-    "State": "NAGALAND"
+    "dname": "Peren",
+    "sname": "NAGALAND",
+    "did": 271,
+    "sid": 13
   },
   {
-    "district": 272,
-    "name": "Senapati",
-    "SID": 14,
-    "State": "MANIPUR"
+    "dname": "Senapati",
+    "sname": "MANIPUR",
+    "did": 272,
+    "sid": 14
   },
   {
-    "district": 273,
-    "name": "Tamenglong",
-    "SID": 14,
-    "State": "MANIPUR"
+    "dname": "Tamenglong",
+    "sname": "MANIPUR",
+    "did": 273,
+    "sid": 14
   },
   {
-    "district": 274,
-    "name": "Churachandpur",
-    "SID": 14,
-    "State": "MANIPUR"
+    "dname": "Churachandpur",
+    "sname": "MANIPUR",
+    "did": 274,
+    "sid": 14
   },
   {
-    "district": 275,
-    "name": "Bishnupur",
-    "SID": 14,
-    "State": "MANIPUR"
+    "dname": "Bishnupur",
+    "sname": "MANIPUR",
+    "did": 275,
+    "sid": 14
   },
   {
-    "district": 276,
-    "name": "Thoubal",
-    "SID": 14,
-    "State": "MANIPUR"
+    "dname": "Thoubal",
+    "sname": "MANIPUR",
+    "did": 276,
+    "sid": 14
   },
   {
-    "district": 277,
-    "name": "Imphal West",
-    "SID": 14,
-    "State": "MANIPUR"
+    "dname": "Imphal West",
+    "sname": "MANIPUR",
+    "did": 277,
+    "sid": 14
   },
   {
-    "district": 278,
-    "name": "Imphal East",
-    "SID": 14,
-    "State": "MANIPUR"
+    "dname": "Imphal East",
+    "sname": "MANIPUR",
+    "did": 278,
+    "sid": 14
   },
   {
-    "district": 279,
-    "name": "Ukhrul",
-    "SID": 14,
-    "State": "MANIPUR"
+    "dname": "Ukhrul",
+    "sname": "MANIPUR",
+    "did": 279,
+    "sid": 14
   },
   {
-    "district": 280,
-    "name": "Chandel",
-    "SID": 14,
-    "State": "MANIPUR"
+    "dname": "Chandel",
+    "sname": "MANIPUR",
+    "did": 280,
+    "sid": 14
   },
   {
-    "district": 281,
-    "name": "Mamit",
-    "SID": 15,
-    "State": "MIZORAM"
+    "dname": "Mamit",
+    "sname": "MIZORAM",
+    "did": 281,
+    "sid": 15
   },
   {
-    "district": 282,
-    "name": "Kolasib",
-    "SID": 15,
-    "State": "MIZORAM"
+    "dname": "Kolasib",
+    "sname": "MIZORAM",
+    "did": 282,
+    "sid": 15
   },
   {
-    "district": 283,
-    "name": "Aizawl",
-    "SID": 15,
-    "State": "MIZORAM"
+    "dname": "Aizawl",
+    "sname": "MIZORAM",
+    "did": 283,
+    "sid": 15
   },
   {
-    "district": 284,
-    "name": "Champhai",
-    "SID": 15,
-    "State": "MIZORAM"
+    "dname": "Champhai",
+    "sname": "MIZORAM",
+    "did": 284,
+    "sid": 15
   },
   {
-    "district": 285,
-    "name": "Serchhip",
-    "SID": 15,
-    "State": "MIZORAM"
+    "dname": "Serchhip",
+    "sname": "MIZORAM",
+    "did": 285,
+    "sid": 15
   },
   {
-    "district": 286,
-    "name": "Lunglei",
-    "SID": 15,
-    "State": "MIZORAM"
+    "dname": "Lunglei",
+    "sname": "MIZORAM",
+    "did": 286,
+    "sid": 15
   },
   {
-    "district": 287,
-    "name": "Lawngtlai",
-    "SID": 15,
-    "State": "MIZORAM"
+    "dname": "Lawngtlai",
+    "sname": "MIZORAM",
+    "did": 287,
+    "sid": 15
   },
   {
-    "district": 288,
-    "name": "Saiha",
-    "SID": 15,
-    "State": "MIZORAM"
+    "dname": "Saiha",
+    "sname": "MIZORAM",
+    "did": 288,
+    "sid": 15
   },
   {
-    "district": 289,
-    "name": "West Tripura",
-    "SID": 16,
-    "State": "TRIPURA"
+    "dname": "West Tripura",
+    "sname": "TRIPURA",
+    "did": 289,
+    "sid": 16
   },
   {
-    "district": 290,
-    "name": "South Tripura",
-    "SID": 16,
-    "State": "TRIPURA"
+    "dname": "South Tripura",
+    "sname": "TRIPURA",
+    "did": 290,
+    "sid": 16
   },
   {
-    "district": 291,
-    "name": "Dhalai",
-    "SID": 16,
-    "State": "TRIPURA"
+    "dname": "Dhalai",
+    "sname": "TRIPURA",
+    "did": 291,
+    "sid": 16
   },
   {
-    "district": 292,
-    "name": "North Tripura",
-    "SID": 16,
-    "State": "TRIPURA"
+    "dname": "North Tripura",
+    "sname": "TRIPURA",
+    "did": 292,
+    "sid": 16
   },
   {
-    "district": 293,
-    "name": "West Garo Hills",
-    "SID": 17,
-    "State": "MEGHALAYA"
+    "dname": "West Garo Hills",
+    "sname": "MEGHALAYA",
+    "did": 293,
+    "sid": 17
   },
   {
-    "district": 294,
-    "name": "East Garo Hills",
-    "SID": 17,
-    "State": "MEGHALAYA"
+    "dname": "East Garo Hills",
+    "sname": "MEGHALAYA",
+    "did": 294,
+    "sid": 17
   },
   {
-    "district": 295,
-    "name": "South Garo Hills",
-    "SID": 17,
-    "State": "MEGHALAYA"
+    "dname": "South Garo Hills",
+    "sname": "MEGHALAYA",
+    "did": 295,
+    "sid": 17
   },
   {
-    "district": 296,
-    "name": "West Khasi Hills",
-    "SID": 17,
-    "State": "MEGHALAYA"
+    "dname": "West Khasi Hills",
+    "sname": "MEGHALAYA",
+    "did": 296,
+    "sid": 17
   },
   {
-    "district": 297,
-    "name": "Ribhoi",
-    "SID": 17,
-    "State": "MEGHALAYA"
+    "dname": "Ribhoi",
+    "sname": "MEGHALAYA",
+    "did": 297,
+    "sid": 17
   },
   {
-    "district": 298,
-    "name": "East Khasi Hills",
-    "SID": 17,
-    "State": "MEGHALAYA"
+    "dname": "East Khasi Hills",
+    "sname": "MEGHALAYA",
+    "did": 298,
+    "sid": 17
   },
   {
-    "district": 299,
-    "name": "Jaintia Hills",
-    "SID": 17,
-    "State": "MEGHALAYA"
+    "dname": "Jaintia Hills",
+    "sname": "MEGHALAYA",
+    "did": 299,
+    "sid": 17
   },
   {
-    "district": 300,
-    "name": "Kokrajhar",
-    "SID": 18,
-    "State": "ASSAM"
+    "dname": "Kokrajhar",
+    "sname": "ASSAM",
+    "did": 300,
+    "sid": 18
   },
   {
-    "district": 301,
-    "name": "Dhubri",
-    "SID": 18,
-    "State": "ASSAM"
+    "dname": "Dhubri",
+    "sname": "ASSAM",
+    "did": 301,
+    "sid": 18
   },
   {
-    "district": 302,
-    "name": "Goalpara",
-    "SID": 18,
-    "State": "ASSAM"
+    "dname": "Goalpara",
+    "sname": "ASSAM",
+    "did": 302,
+    "sid": 18
   },
   {
-    "district": 303,
-    "name": "Barpeta",
-    "SID": 18,
-    "State": "ASSAM"
+    "dname": "Barpeta",
+    "sname": "ASSAM",
+    "did": 303,
+    "sid": 18
   },
   {
-    "district": 304,
-    "name": "Morigaon",
-    "SID": 18,
-    "State": "ASSAM"
+    "dname": "Morigaon",
+    "sname": "ASSAM",
+    "did": 304,
+    "sid": 18
   },
   {
-    "district": 305,
-    "name": "Nagaon",
-    "SID": 18,
-    "State": "ASSAM"
+    "dname": "Nagaon",
+    "sname": "ASSAM",
+    "did": 305,
+    "sid": 18
   },
   {
-    "district": 306,
-    "name": "Sonitpur",
-    "SID": 18,
-    "State": "ASSAM"
+    "dname": "Sonitpur",
+    "sname": "ASSAM",
+    "did": 306,
+    "sid": 18
   },
   {
-    "district": 307,
-    "name": "Lakhimpur",
-    "SID": 18,
-    "State": "ASSAM"
+    "dname": "Lakhimpur",
+    "sname": "ASSAM",
+    "did": 307,
+    "sid": 18
   },
   {
-    "district": 308,
-    "name": "Dhemaji",
-    "SID": 18,
-    "State": "ASSAM"
+    "dname": "Dhemaji",
+    "sname": "ASSAM",
+    "did": 308,
+    "sid": 18
   },
   {
-    "district": 309,
-    "name": "Tinsukia",
-    "SID": 18,
-    "State": "ASSAM"
+    "dname": "Tinsukia",
+    "sname": "ASSAM",
+    "did": 309,
+    "sid": 18
   },
   {
-    "district": 310,
-    "name": "Dibrugarh",
-    "SID": 18,
-    "State": "ASSAM"
+    "dname": "Dibrugarh",
+    "sname": "ASSAM",
+    "did": 310,
+    "sid": 18
   },
   {
-    "district": 311,
-    "name": "Sivasagar",
-    "SID": 18,
-    "State": "ASSAM"
+    "dname": "Sivasagar",
+    "sname": "ASSAM",
+    "did": 311,
+    "sid": 18
   },
   {
-    "district": 312,
-    "name": "Jorhat",
-    "SID": 18,
-    "State": "ASSAM"
+    "dname": "Jorhat",
+    "sname": "ASSAM",
+    "did": 312,
+    "sid": 18
   },
   {
-    "district": 313,
-    "name": "Golaghat",
-    "SID": 18,
-    "State": "ASSAM"
+    "dname": "Golaghat",
+    "sname": "ASSAM",
+    "did": 313,
+    "sid": 18
   },
   {
-    "district": 314,
-    "name": "Karbi Anglong",
-    "SID": 18,
-    "State": "ASSAM"
+    "dname": "Karbi Anglong",
+    "sname": "ASSAM",
+    "did": 314,
+    "sid": 18
   },
   {
-    "district": 315,
-    "name": "Dima Hasao",
-    "SID": 18,
-    "State": "ASSAM"
+    "dname": "Dima Hasao",
+    "sname": "ASSAM",
+    "did": 315,
+    "sid": 18
   },
   {
-    "district": 316,
-    "name": "Cachar",
-    "SID": 18,
-    "State": "ASSAM"
+    "dname": "Cachar",
+    "sname": "ASSAM",
+    "did": 316,
+    "sid": 18
   },
   {
-    "district": 317,
-    "name": "Karimganj",
-    "SID": 18,
-    "State": "ASSAM"
+    "dname": "Karimganj",
+    "sname": "ASSAM",
+    "did": 317,
+    "sid": 18
   },
   {
-    "district": 318,
-    "name": "Hailakandi",
-    "SID": 18,
-    "State": "ASSAM"
+    "dname": "Hailakandi",
+    "sname": "ASSAM",
+    "did": 318,
+    "sid": 18
   },
   {
-    "district": 319,
-    "name": "Bongaigaon",
-    "SID": 18,
-    "State": "ASSAM"
+    "dname": "Bongaigaon",
+    "sname": "ASSAM",
+    "did": 319,
+    "sid": 18
   },
   {
-    "district": 320,
-    "name": "Chirang",
-    "SID": 18,
-    "State": "ASSAM"
+    "dname": "Chirang",
+    "sname": "ASSAM",
+    "did": 320,
+    "sid": 18
   },
   {
-    "district": 321,
-    "name": "Kamrup",
-    "SID": 18,
-    "State": "ASSAM"
+    "dname": "Kamrup",
+    "sname": "ASSAM",
+    "did": 321,
+    "sid": 18
   },
   {
-    "district": 322,
-    "name": "Kamrup Metropolitan",
-    "SID": 18,
-    "State": "ASSAM"
+    "dname": "Kamrup Metropolitan",
+    "sname": "ASSAM",
+    "did": 322,
+    "sid": 18
   },
   {
-    "district": 323,
-    "name": "Nalbari",
-    "SID": 18,
-    "State": "ASSAM"
+    "dname": "Nalbari",
+    "sname": "ASSAM",
+    "did": 323,
+    "sid": 18
   },
   {
-    "district": 324,
-    "name": "Baksa",
-    "SID": 18,
-    "State": "ASSAM"
+    "dname": "Baksa",
+    "sname": "ASSAM",
+    "did": 324,
+    "sid": 18
   },
   {
-    "district": 325,
-    "name": "Darrang",
-    "SID": 18,
-    "State": "ASSAM"
+    "dname": "Darrang",
+    "sname": "ASSAM",
+    "did": 325,
+    "sid": 18
   },
   {
-    "district": 326,
-    "name": "Udalguri",
-    "SID": 18,
-    "State": "ASSAM"
+    "dname": "Udalguri",
+    "sname": "ASSAM",
+    "did": 326,
+    "sid": 18
   },
   {
-    "district": 327,
-    "name": "Darjiling",
-    "SID": 19,
-    "State": "WEST BENGAL"
+    "dname": "Darjiling",
+    "sname": "WEST BENGAL",
+    "did": 327,
+    "sid": 19
   },
   {
-    "district": 328,
-    "name": "Jalpaiguri",
-    "SID": 19,
-    "State": "WEST BENGAL"
+    "dname": "Jalpaiguri",
+    "sname": "WEST BENGAL",
+    "did": 328,
+    "sid": 19
   },
   {
-    "district": 329,
-    "name": "Koch Bihar",
-    "SID": 19,
-    "State": "WEST BENGAL"
+    "dname": "Koch Bihar",
+    "sname": "WEST BENGAL",
+    "did": 329,
+    "sid": 19
   },
   {
-    "district": 330,
-    "name": "Uttar Dinajpur",
-    "SID": 19,
-    "State": "WEST BENGAL"
+    "dname": "Uttar Dinajpur",
+    "sname": "WEST BENGAL",
+    "did": 330,
+    "sid": 19
   },
   {
-    "district": 331,
-    "name": "Dakshin Dinajpur",
-    "SID": 19,
-    "State": "WEST BENGAL"
+    "dname": "Dakshin Dinajpur",
+    "sname": "WEST BENGAL",
+    "did": 331,
+    "sid": 19
   },
   {
-    "district": 332,
-    "name": "Maldah",
-    "SID": 19,
-    "State": "WEST BENGAL"
+    "dname": "Maldah",
+    "sname": "WEST BENGAL",
+    "did": 332,
+    "sid": 19
   },
   {
-    "district": 333,
-    "name": "Murshidabad",
-    "SID": 19,
-    "State": "WEST BENGAL"
+    "dname": "Murshidabad",
+    "sname": "WEST BENGAL",
+    "did": 333,
+    "sid": 19
   },
   {
-    "district": 334,
-    "name": "Birbhum",
-    "SID": 19,
-    "State": "WEST BENGAL"
+    "dname": "Birbhum",
+    "sname": "WEST BENGAL",
+    "did": 334,
+    "sid": 19
   },
   {
-    "district": 335,
-    "name": "Barddhaman",
-    "SID": 19,
-    "State": "WEST BENGAL"
+    "dname": "Barddhaman",
+    "sname": "WEST BENGAL",
+    "did": 335,
+    "sid": 19
   },
   {
-    "district": 336,
-    "name": "Nadia",
-    "SID": 19,
-    "State": "WEST BENGAL"
+    "dname": "Nadia",
+    "sname": "WEST BENGAL",
+    "did": 336,
+    "sid": 19
   },
   {
-    "district": 337,
-    "name": "North Twenty Four Parganas",
-    "SID": 19,
-    "State": "WEST BENGAL"
+    "dname": "North Twenty Four Parganas",
+    "sname": "WEST BENGAL",
+    "did": 337,
+    "sid": 19
   },
   {
-    "district": 338,
-    "name": "Hugli",
-    "SID": 19,
-    "State": "WEST BENGAL"
+    "dname": "Hugli",
+    "sname": "WEST BENGAL",
+    "did": 338,
+    "sid": 19
   },
   {
-    "district": 339,
-    "name": "Bankura",
-    "SID": 19,
-    "State": "WEST BENGAL"
+    "dname": "Bankura",
+    "sname": "WEST BENGAL",
+    "did": 339,
+    "sid": 19
   },
   {
-    "district": 340,
-    "name": "Puruliya",
-    "SID": 19,
-    "State": "WEST BENGAL"
+    "dname": "Puruliya",
+    "sname": "WEST BENGAL",
+    "did": 340,
+    "sid": 19
   },
   {
-    "district": 341,
-    "name": "Haora",
-    "SID": 19,
-    "State": "WEST BENGAL"
+    "dname": "Haora",
+    "sname": "WEST BENGAL",
+    "did": 341,
+    "sid": 19
   },
   {
-    "district": 342,
-    "name": "Kolkata",
-    "SID": 19,
-    "State": "WEST BENGAL"
+    "dname": "Kolkata",
+    "sname": "WEST BENGAL",
+    "did": 342,
+    "sid": 19
   },
   {
-    "district": 343,
-    "name": "South Twenty Four Parganas",
-    "SID": 19,
-    "State": "WEST BENGAL"
+    "dname": "South Twenty Four Parganas",
+    "sname": "WEST BENGAL",
+    "did": 343,
+    "sid": 19
   },
   {
-    "district": 344,
-    "name": "Paschim Medinipur",
-    "SID": 19,
-    "State": "WEST BENGAL"
+    "dname": "Paschim Medinipur",
+    "sname": "WEST BENGAL",
+    "did": 344,
+    "sid": 19
   },
   {
-    "district": 345,
-    "name": "Purba Medinipur",
-    "SID": 19,
-    "State": "WEST BENGAL"
+    "dname": "Purba Medinipur",
+    "sname": "WEST BENGAL",
+    "did": 345,
+    "sid": 19
   },
   {
-    "district": 346,
-    "name": "Garhwa",
-    "SID": 20,
-    "State": "JHARKHAND"
+    "dname": "Garhwa",
+    "sname": "JHARKHAND",
+    "did": 346,
+    "sid": 20
   },
   {
-    "district": 347,
-    "name": "Chatra",
-    "SID": 20,
-    "State": "JHARKHAND"
+    "dname": "Chatra",
+    "sname": "JHARKHAND",
+    "did": 347,
+    "sid": 20
   },
   {
-    "district": 348,
-    "name": "Kodarma",
-    "SID": 20,
-    "State": "JHARKHAND"
+    "dname": "Kodarma",
+    "sname": "JHARKHAND",
+    "did": 348,
+    "sid": 20
   },
   {
-    "district": 349,
-    "name": "Giridih",
-    "SID": 20,
-    "State": "JHARKHAND"
+    "dname": "Giridih",
+    "sname": "JHARKHAND",
+    "did": 349,
+    "sid": 20
   },
   {
-    "district": 350,
-    "name": "Deoghar",
-    "SID": 20,
-    "State": "JHARKHAND"
+    "dname": "Deoghar",
+    "sname": "JHARKHAND",
+    "did": 350,
+    "sid": 20
   },
   {
-    "district": 351,
-    "name": "Godda",
-    "SID": 20,
-    "State": "JHARKHAND"
+    "dname": "Godda",
+    "sname": "JHARKHAND",
+    "did": 351,
+    "sid": 20
   },
   {
-    "district": 352,
-    "name": "Sahibganj",
-    "SID": 20,
-    "State": "JHARKHAND"
+    "dname": "Sahibganj",
+    "sname": "JHARKHAND",
+    "did": 352,
+    "sid": 20
   },
   {
-    "district": 353,
-    "name": "Pakur",
-    "SID": 20,
-    "State": "JHARKHAND"
+    "dname": "Pakur",
+    "sname": "JHARKHAND",
+    "did": 353,
+    "sid": 20
   },
   {
-    "district": 354,
-    "name": "Dhanbad",
-    "SID": 20,
-    "State": "JHARKHAND"
+    "dname": "Dhanbad",
+    "sname": "JHARKHAND",
+    "did": 354,
+    "sid": 20
   },
   {
-    "district": 355,
-    "name": "Bokaro",
-    "SID": 20,
-    "State": "JHARKHAND"
+    "dname": "Bokaro",
+    "sname": "JHARKHAND",
+    "did": 355,
+    "sid": 20
   },
   {
-    "district": 356,
-    "name": "Lohardaga",
-    "SID": 20,
-    "State": "JHARKHAND"
+    "dname": "Lohardaga",
+    "sname": "JHARKHAND",
+    "did": 356,
+    "sid": 20
   },
   {
-    "district": 357,
-    "name": "Purbi Singhbhum",
-    "SID": 20,
-    "State": "JHARKHAND"
+    "dname": "Purbi Singhbhum",
+    "sname": "JHARKHAND",
+    "did": 357,
+    "sid": 20
   },
   {
-    "district": 358,
-    "name": "Palamu",
-    "SID": 20,
-    "State": "JHARKHAND"
+    "dname": "Palamu",
+    "sname": "JHARKHAND",
+    "did": 358,
+    "sid": 20
   },
   {
-    "district": 359,
-    "name": "Latehar",
-    "SID": 20,
-    "State": "JHARKHAND"
+    "dname": "Latehar",
+    "sname": "JHARKHAND",
+    "did": 359,
+    "sid": 20
   },
   {
-    "district": 360,
-    "name": "Hazaribagh",
-    "SID": 20,
-    "State": "JHARKHAND"
+    "dname": "Hazaribagh",
+    "sname": "JHARKHAND",
+    "did": 360,
+    "sid": 20
   },
   {
-    "district": 361,
-    "name": "Ramgarh",
-    "SID": 20,
-    "State": "JHARKHAND"
+    "dname": "Ramgarh",
+    "sname": "JHARKHAND",
+    "did": 361,
+    "sid": 20
   },
   {
-    "district": 362,
-    "name": "Dumka",
-    "SID": 20,
-    "State": "JHARKHAND"
+    "dname": "Dumka",
+    "sname": "JHARKHAND",
+    "did": 362,
+    "sid": 20
   },
   {
-    "district": 363,
-    "name": "Jamtara",
-    "SID": 20,
-    "State": "JHARKHAND"
+    "dname": "Jamtara",
+    "sname": "JHARKHAND",
+    "did": 363,
+    "sid": 20
   },
   {
-    "district": 364,
-    "name": "Ranchi",
-    "SID": 20,
-    "State": "JHARKHAND"
+    "dname": "Ranchi",
+    "sname": "JHARKHAND",
+    "did": 364,
+    "sid": 20
   },
   {
-    "district": 365,
-    "name": "Khunti",
-    "SID": 20,
-    "State": "JHARKHAND"
+    "dname": "Khunti",
+    "sname": "JHARKHAND",
+    "did": 365,
+    "sid": 20
   },
   {
-    "district": 366,
-    "name": "Gumla",
-    "SID": 20,
-    "State": "JHARKHAND"
+    "dname": "Gumla",
+    "sname": "JHARKHAND",
+    "did": 366,
+    "sid": 20
   },
   {
-    "district": 367,
-    "name": "Simdega",
-    "SID": 20,
-    "State": "JHARKHAND"
+    "dname": "Simdega",
+    "sname": "JHARKHAND",
+    "did": 367,
+    "sid": 20
   },
   {
-    "district": 368,
-    "name": "Pashchimi Singhbhum",
-    "SID": 20,
-    "State": "JHARKHAND"
+    "dname": "Pashchimi Singhbhum",
+    "sname": "JHARKHAND",
+    "did": 368,
+    "sid": 20
   },
   {
-    "district": 369,
-    "name": "Saraikela-Kharsawan",
-    "SID": 20,
-    "State": "JHARKHAND"
+    "dname": "Saraikela-Kharsawan",
+    "sname": "JHARKHAND",
+    "did": 369,
+    "sid": 20
   },
   {
-    "district": 370,
-    "name": "Bargarh",
-    "SID": 21,
-    "State": "ODISHA"
+    "dname": "Bargarh",
+    "sname": "ODISHA",
+    "did": 370,
+    "sid": 21
   },
   {
-    "district": 371,
-    "name": "Jharsuguda",
-    "SID": 21,
-    "State": "ODISHA"
+    "dname": "Jharsuguda",
+    "sname": "ODISHA",
+    "did": 371,
+    "sid": 21
   },
   {
-    "district": 372,
-    "name": "Sambalpur",
-    "SID": 21,
-    "State": "ODISHA"
+    "dname": "Sambalpur",
+    "sname": "ODISHA",
+    "did": 372,
+    "sid": 21
   },
   {
-    "district": 373,
-    "name": "Debagarh",
-    "SID": 21,
-    "State": "ODISHA"
+    "dname": "Debagarh",
+    "sname": "ODISHA",
+    "did": 373,
+    "sid": 21
   },
   {
-    "district": 374,
-    "name": "Sundargarh",
-    "SID": 21,
-    "State": "ODISHA"
+    "dname": "Sundargarh",
+    "sname": "ODISHA",
+    "did": 374,
+    "sid": 21
   },
   {
-    "district": 375,
-    "name": "Kendujhar",
-    "SID": 21,
-    "State": "ODISHA"
+    "dname": "Kendujhar",
+    "sname": "ODISHA",
+    "did": 375,
+    "sid": 21
   },
   {
-    "district": 376,
-    "name": "Mayurbhanj",
-    "SID": 21,
-    "State": "ODISHA"
+    "dname": "Mayurbhanj",
+    "sname": "ODISHA",
+    "did": 376,
+    "sid": 21
   },
   {
-    "district": 377,
-    "name": "Baleshwar",
-    "SID": 21,
-    "State": "ODISHA"
+    "dname": "Baleshwar",
+    "sname": "ODISHA",
+    "did": 377,
+    "sid": 21
   },
   {
-    "district": 378,
-    "name": "Bhadrak",
-    "SID": 21,
-    "State": "ODISHA"
+    "dname": "Bhadrak",
+    "sname": "ODISHA",
+    "did": 378,
+    "sid": 21
   },
   {
-    "district": 379,
-    "name": "Kendrapara",
-    "SID": 21,
-    "State": "ODISHA"
+    "dname": "Kendrapara",
+    "sname": "ODISHA",
+    "did": 379,
+    "sid": 21
   },
   {
-    "district": 380,
-    "name": "Jagatsinghapur",
-    "SID": 21,
-    "State": "ODISHA"
+    "dname": "Jagatsinghapur",
+    "sname": "ODISHA",
+    "did": 380,
+    "sid": 21
   },
   {
-    "district": 381,
-    "name": "Cuttack",
-    "SID": 21,
-    "State": "ODISHA"
+    "dname": "Cuttack",
+    "sname": "ODISHA",
+    "did": 381,
+    "sid": 21
   },
   {
-    "district": 382,
-    "name": "Jajapur",
-    "SID": 21,
-    "State": "ODISHA"
+    "dname": "Jajapur",
+    "sname": "ODISHA",
+    "did": 382,
+    "sid": 21
   },
   {
-    "district": 383,
-    "name": "Dhenkanal",
-    "SID": 21,
-    "State": "ODISHA"
+    "dname": "Dhenkanal",
+    "sname": "ODISHA",
+    "did": 383,
+    "sid": 21
   },
   {
-    "district": 384,
-    "name": "Anugul",
-    "SID": 21,
-    "State": "ODISHA"
+    "dname": "Anugul",
+    "sname": "ODISHA",
+    "did": 384,
+    "sid": 21
   },
   {
-    "district": 385,
-    "name": "Nayagarh",
-    "SID": 21,
-    "State": "ODISHA"
+    "dname": "Nayagarh",
+    "sname": "ODISHA",
+    "did": 385,
+    "sid": 21
   },
   {
-    "district": 386,
-    "name": "Khordha",
-    "SID": 21,
-    "State": "ODISHA"
+    "dname": "Khordha",
+    "sname": "ODISHA",
+    "did": 386,
+    "sid": 21
   },
   {
-    "district": 387,
-    "name": "Puri",
-    "SID": 21,
-    "State": "ODISHA"
+    "dname": "Puri",
+    "sname": "ODISHA",
+    "did": 387,
+    "sid": 21
   },
   {
-    "district": 388,
-    "name": "Ganjam",
-    "SID": 21,
-    "State": "ODISHA"
+    "dname": "Ganjam",
+    "sname": "ODISHA",
+    "did": 388,
+    "sid": 21
   },
   {
-    "district": 389,
-    "name": "Gajapati",
-    "SID": 21,
-    "State": "ODISHA"
+    "dname": "Gajapati",
+    "sname": "ODISHA",
+    "did": 389,
+    "sid": 21
   },
   {
-    "district": 390,
-    "name": "Kandhamal",
-    "SID": 21,
-    "State": "ODISHA"
+    "dname": "Kandhamal",
+    "sname": "ODISHA",
+    "did": 390,
+    "sid": 21
   },
   {
-    "district": 391,
-    "name": "Baudh",
-    "SID": 21,
-    "State": "ODISHA"
+    "dname": "Baudh",
+    "sname": "ODISHA",
+    "did": 391,
+    "sid": 21
   },
   {
-    "district": 392,
-    "name": "Subarnapur",
-    "SID": 21,
-    "State": "ODISHA"
+    "dname": "Subarnapur",
+    "sname": "ODISHA",
+    "did": 392,
+    "sid": 21
   },
   {
-    "district": 393,
-    "name": "Balangir",
-    "SID": 21,
-    "State": "ODISHA"
+    "dname": "Balangir",
+    "sname": "ODISHA",
+    "did": 393,
+    "sid": 21
   },
   {
-    "district": 394,
-    "name": "Nuapada",
-    "SID": 21,
-    "State": "ODISHA"
+    "dname": "Nuapada",
+    "sname": "ODISHA",
+    "did": 394,
+    "sid": 21
   },
   {
-    "district": 395,
-    "name": "Kalahandi",
-    "SID": 21,
-    "State": "ODISHA"
+    "dname": "Kalahandi",
+    "sname": "ODISHA",
+    "did": 395,
+    "sid": 21
   },
   {
-    "district": 396,
-    "name": "Rayagada",
-    "SID": 21,
-    "State": "ODISHA"
+    "dname": "Rayagada",
+    "sname": "ODISHA",
+    "did": 396,
+    "sid": 21
   },
   {
-    "district": 397,
-    "name": "Nabarangapur",
-    "SID": 21,
-    "State": "ODISHA"
+    "dname": "Nabarangapur",
+    "sname": "ODISHA",
+    "did": 397,
+    "sid": 21
   },
   {
-    "district": 398,
-    "name": "Koraput",
-    "SID": 21,
-    "State": "ODISHA"
+    "dname": "Koraput",
+    "sname": "ODISHA",
+    "did": 398,
+    "sid": 21
   },
   {
-    "district": 399,
-    "name": "Malkangiri",
-    "SID": 21,
-    "State": "ODISHA"
+    "dname": "Malkangiri",
+    "sname": "ODISHA",
+    "did": 399,
+    "sid": 21
   },
   {
-    "district": 400,
-    "name": "Koriya",
-    "SID": 22,
-    "State": "CHHATTISGARH"
+    "dname": "Koriya",
+    "sname": "CHHATTISGARH",
+    "did": 400,
+    "sid": 22
   },
   {
-    "district": 401,
-    "name": "Surguja",
-    "SID": 22,
-    "State": "CHHATTISGARH"
+    "dname": "Surguja",
+    "sname": "CHHATTISGARH",
+    "did": 401,
+    "sid": 22
   },
   {
-    "district": 402,
-    "name": "Jashpur",
-    "SID": 22,
-    "State": "CHHATTISGARH"
+    "dname": "Jashpur",
+    "sname": "CHHATTISGARH",
+    "did": 402,
+    "sid": 22
   },
   {
-    "district": 403,
-    "name": "Raigarh",
-    "SID": 22,
-    "State": "CHHATTISGARH"
+    "dname": "Raigarh",
+    "sname": "CHHATTISGARH",
+    "did": 403,
+    "sid": 22
   },
   {
-    "district": 404,
-    "name": "Korba",
-    "SID": 22,
-    "State": "CHHATTISGARH"
+    "dname": "Korba",
+    "sname": "CHHATTISGARH",
+    "did": 404,
+    "sid": 22
   },
   {
-    "district": 405,
-    "name": "Janjgir - Champa",
-    "SID": 22,
-    "State": "CHHATTISGARH"
+    "dname": "Janjgir - Champa",
+    "sname": "CHHATTISGARH",
+    "did": 405,
+    "sid": 22
   },
   {
-    "district": 406,
-    "name": "Bilaspur",
-    "SID": 22,
-    "State": "CHHATTISGARH"
+    "dname": "Bilaspur",
+    "sname": "CHHATTISGARH",
+    "did": 406,
+    "sid": 22
   },
   {
-    "district": 407,
-    "name": "Kabeerdham",
-    "SID": 22,
-    "State": "CHHATTISGARH"
+    "dname": "Kabeerdham",
+    "sname": "CHHATTISGARH",
+    "did": 407,
+    "sid": 22
   },
   {
-    "district": 408,
-    "name": "Rajnandgaon",
-    "SID": 22,
-    "State": "CHHATTISGARH"
+    "dname": "Rajnandgaon",
+    "sname": "CHHATTISGARH",
+    "did": 408,
+    "sid": 22
   },
   {
-    "district": 409,
-    "name": "Durg",
-    "SID": 22,
-    "State": "CHHATTISGARH"
+    "dname": "Durg",
+    "sname": "CHHATTISGARH",
+    "did": 409,
+    "sid": 22
   },
   {
-    "district": 410,
-    "name": "Raipur",
-    "SID": 22,
-    "State": "CHHATTISGARH"
+    "dname": "Raipur",
+    "sname": "CHHATTISGARH",
+    "did": 410,
+    "sid": 22
   },
   {
-    "district": 411,
-    "name": "Mahasamund",
-    "SID": 22,
-    "State": "CHHATTISGARH"
+    "dname": "Mahasamund",
+    "sname": "CHHATTISGARH",
+    "did": 411,
+    "sid": 22
   },
   {
-    "district": 412,
-    "name": "Dhamtari",
-    "SID": 22,
-    "State": "CHHATTISGARH"
+    "dname": "Dhamtari",
+    "sname": "CHHATTISGARH",
+    "did": 412,
+    "sid": 22
   },
   {
-    "district": 413,
-    "name": "Uttar Bastar Kanker",
-    "SID": 22,
-    "State": "CHHATTISGARH"
+    "dname": "Uttar Bastar Kanker",
+    "sname": "CHHATTISGARH",
+    "did": 413,
+    "sid": 22
   },
   {
-    "district": 414,
-    "name": "Bastar",
-    "SID": 22,
-    "State": "CHHATTISGARH"
+    "dname": "Bastar",
+    "sname": "CHHATTISGARH",
+    "did": 414,
+    "sid": 22
   },
   {
-    "district": 415,
-    "name": "Narayanpur",
-    "SID": 22,
-    "State": "CHHATTISGARH"
+    "dname": "Narayanpur",
+    "sname": "CHHATTISGARH",
+    "did": 415,
+    "sid": 22
   },
   {
-    "district": 416,
-    "name": "Dakshin Bastar Dantewada",
-    "SID": 22,
-    "State": "CHHATTISGARH"
+    "dname": "Dakshin Bastar Dantewada",
+    "sname": "CHHATTISGARH",
+    "did": 416,
+    "sid": 22
   },
   {
-    "district": 417,
-    "name": "Bijapur",
-    "SID": 22,
-    "State": "CHHATTISGARH"
+    "dname": "Bijapur",
+    "sname": "CHHATTISGARH",
+    "did": 417,
+    "sid": 22
   },
   {
-    "district": 418,
-    "name": "Sheopur",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Sheopur",
+    "sname": "MADHYA PRADESH",
+    "did": 418,
+    "sid": 23
   },
   {
-    "district": 419,
-    "name": "Morena",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Morena",
+    "sname": "MADHYA PRADESH",
+    "did": 419,
+    "sid": 23
   },
   {
-    "district": 420,
-    "name": "Bhind",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Bhind",
+    "sname": "MADHYA PRADESH",
+    "did": 420,
+    "sid": 23
   },
   {
-    "district": 421,
-    "name": "Gwalior",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Gwalior",
+    "sname": "MADHYA PRADESH",
+    "did": 421,
+    "sid": 23
   },
   {
-    "district": 422,
-    "name": "Datia",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Datia",
+    "sname": "MADHYA PRADESH",
+    "did": 422,
+    "sid": 23
   },
   {
-    "district": 423,
-    "name": "Shivpuri",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Shivpuri",
+    "sname": "MADHYA PRADESH",
+    "did": 423,
+    "sid": 23
   },
   {
-    "district": 424,
-    "name": "Tikamgarh",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Tikamgarh",
+    "sname": "MADHYA PRADESH",
+    "did": 424,
+    "sid": 23
   },
   {
-    "district": 425,
-    "name": "Chhatarpur",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Chhatarpur",
+    "sname": "MADHYA PRADESH",
+    "did": 425,
+    "sid": 23
   },
   {
-    "district": 426,
-    "name": "Panna",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Panna",
+    "sname": "MADHYA PRADESH",
+    "did": 426,
+    "sid": 23
   },
   {
-    "district": 427,
-    "name": "Sagar",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Sagar",
+    "sname": "MADHYA PRADESH",
+    "did": 427,
+    "sid": 23
   },
   {
-    "district": 428,
-    "name": "Damoh",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Damoh",
+    "sname": "MADHYA PRADESH",
+    "did": 428,
+    "sid": 23
   },
   {
-    "district": 429,
-    "name": "Satna",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Satna",
+    "sname": "MADHYA PRADESH",
+    "did": 429,
+    "sid": 23
   },
   {
-    "district": 430,
-    "name": "Rewa",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Rewa",
+    "sname": "MADHYA PRADESH",
+    "did": 430,
+    "sid": 23
   },
   {
-    "district": 431,
-    "name": "Umaria",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Umaria",
+    "sname": "MADHYA PRADESH",
+    "did": 431,
+    "sid": 23
   },
   {
-    "district": 432,
-    "name": "Neemuch",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Neemuch",
+    "sname": "MADHYA PRADESH",
+    "did": 432,
+    "sid": 23
   },
   {
-    "district": 433,
-    "name": "Mandsaur",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Mandsaur",
+    "sname": "MADHYA PRADESH",
+    "did": 433,
+    "sid": 23
   },
   {
-    "district": 434,
-    "name": "Ratlam",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Ratlam",
+    "sname": "MADHYA PRADESH",
+    "did": 434,
+    "sid": 23
   },
   {
-    "district": 435,
-    "name": "Ujjain",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Ujjain",
+    "sname": "MADHYA PRADESH",
+    "did": 435,
+    "sid": 23
   },
   {
-    "district": 436,
-    "name": "Shajapur",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Shajapur",
+    "sname": "MADHYA PRADESH",
+    "did": 436,
+    "sid": 23
   },
   {
-    "district": 437,
-    "name": "Dewas",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Dewas",
+    "sname": "MADHYA PRADESH",
+    "did": 437,
+    "sid": 23
   },
   {
-    "district": 438,
-    "name": "Dhar",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Dhar",
+    "sname": "MADHYA PRADESH",
+    "did": 438,
+    "sid": 23
   },
   {
-    "district": 439,
-    "name": "Indore",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Indore",
+    "sname": "MADHYA PRADESH",
+    "did": 439,
+    "sid": 23
   },
   {
-    "district": 440,
-    "name": "Khargone (West Nimar)",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Khargone (West Nimar)",
+    "sname": "MADHYA PRADESH",
+    "did": 440,
+    "sid": 23
   },
   {
-    "district": 441,
-    "name": "Barwani",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Barwani",
+    "sname": "MADHYA PRADESH",
+    "did": 441,
+    "sid": 23
   },
   {
-    "district": 442,
-    "name": "Rajgarh",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Rajgarh",
+    "sname": "MADHYA PRADESH",
+    "did": 442,
+    "sid": 23
   },
   {
-    "district": 443,
-    "name": "Vidisha",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Vidisha",
+    "sname": "MADHYA PRADESH",
+    "did": 443,
+    "sid": 23
   },
   {
-    "district": 444,
-    "name": "Bhopal",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Bhopal",
+    "sname": "MADHYA PRADESH",
+    "did": 444,
+    "sid": 23
   },
   {
-    "district": 445,
-    "name": "Sehore",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Sehore",
+    "sname": "MADHYA PRADESH",
+    "did": 445,
+    "sid": 23
   },
   {
-    "district": 446,
-    "name": "Raisen",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Raisen",
+    "sname": "MADHYA PRADESH",
+    "did": 446,
+    "sid": 23
   },
   {
-    "district": 447,
-    "name": "Betul",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Betul",
+    "sname": "MADHYA PRADESH",
+    "did": 447,
+    "sid": 23
   },
   {
-    "district": 448,
-    "name": "Harda",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Harda",
+    "sname": "MADHYA PRADESH",
+    "did": 448,
+    "sid": 23
   },
   {
-    "district": 449,
-    "name": "Hoshangabad",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Hoshangabad",
+    "sname": "MADHYA PRADESH",
+    "did": 449,
+    "sid": 23
   },
   {
-    "district": 450,
-    "name": "Katni",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Katni",
+    "sname": "MADHYA PRADESH",
+    "did": 450,
+    "sid": 23
   },
   {
-    "district": 451,
-    "name": "Jabalpur",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Jabalpur",
+    "sname": "MADHYA PRADESH",
+    "did": 451,
+    "sid": 23
   },
   {
-    "district": 452,
-    "name": "Narsimhapur",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Narsimhapur",
+    "sname": "MADHYA PRADESH",
+    "did": 452,
+    "sid": 23
   },
   {
-    "district": 453,
-    "name": "Dindori",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Dindori",
+    "sname": "MADHYA PRADESH",
+    "did": 453,
+    "sid": 23
   },
   {
-    "district": 454,
-    "name": "Mandla",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Mandla",
+    "sname": "MADHYA PRADESH",
+    "did": 454,
+    "sid": 23
   },
   {
-    "district": 455,
-    "name": "Chhindwara",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Chhindwara",
+    "sname": "MADHYA PRADESH",
+    "did": 455,
+    "sid": 23
   },
   {
-    "district": 456,
-    "name": "Seoni",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Seoni",
+    "sname": "MADHYA PRADESH",
+    "did": 456,
+    "sid": 23
   },
   {
-    "district": 457,
-    "name": "Balaghat",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Balaghat",
+    "sname": "MADHYA PRADESH",
+    "did": 457,
+    "sid": 23
   },
   {
-    "district": 458,
-    "name": "Guna",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Guna",
+    "sname": "MADHYA PRADESH",
+    "did": 458,
+    "sid": 23
   },
   {
-    "district": 459,
-    "name": "Ashoknagar",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Ashoknagar",
+    "sname": "MADHYA PRADESH",
+    "did": 459,
+    "sid": 23
   },
   {
-    "district": 460,
-    "name": "Shahdol",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Shahdol",
+    "sname": "MADHYA PRADESH",
+    "did": 460,
+    "sid": 23
   },
   {
-    "district": 461,
-    "name": "Anuppur",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Anuppur",
+    "sname": "MADHYA PRADESH",
+    "did": 461,
+    "sid": 23
   },
   {
-    "district": 462,
-    "name": "Sidhi",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Sidhi",
+    "sname": "MADHYA PRADESH",
+    "did": 462,
+    "sid": 23
   },
   {
-    "district": 463,
-    "name": "Singrauli",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Singrauli",
+    "sname": "MADHYA PRADESH",
+    "did": 463,
+    "sid": 23
   },
   {
-    "district": 464,
-    "name": "Jhabua",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Jhabua",
+    "sname": "MADHYA PRADESH",
+    "did": 464,
+    "sid": 23
   },
   {
-    "district": 465,
-    "name": "Alirajpur",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Alirajpur",
+    "sname": "MADHYA PRADESH",
+    "did": 465,
+    "sid": 23
   },
   {
-    "district": 466,
-    "name": "Khandwa (East Nimar)",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Khandwa (East Nimar)",
+    "sname": "MADHYA PRADESH",
+    "did": 466,
+    "sid": 23
   },
   {
-    "district": 467,
-    "name": "Burhanpur",
-    "SID": 23,
-    "State": "MADHYA PRADESH"
+    "dname": "Burhanpur",
+    "sname": "MADHYA PRADESH",
+    "did": 467,
+    "sid": 23
   },
   {
-    "district": 468,
-    "name": "Kachchh",
-    "SID": 24,
-    "State": "GUJARAT"
+    "dname": "Kachchh",
+    "sname": "GUJARAT",
+    "did": 468,
+    "sid": 24
   },
   {
-    "district": 469,
-    "name": "Banas Kantha",
-    "SID": 24,
-    "State": "GUJARAT"
+    "dname": "Banas Kantha",
+    "sname": "GUJARAT",
+    "did": 469,
+    "sid": 24
   },
   {
-    "district": 470,
-    "name": "Patan",
-    "SID": 24,
-    "State": "GUJARAT"
+    "dname": "Patan",
+    "sname": "GUJARAT",
+    "did": 470,
+    "sid": 24
   },
   {
-    "district": 471,
-    "name": "Mahesana",
-    "SID": 24,
-    "State": "GUJARAT"
+    "dname": "Mahesana",
+    "sname": "GUJARAT",
+    "did": 471,
+    "sid": 24
   },
   {
-    "district": 472,
-    "name": "Sabar Kantha",
-    "SID": 24,
-    "State": "GUJARAT"
+    "dname": "Sabar Kantha",
+    "sname": "GUJARAT",
+    "did": 472,
+    "sid": 24
   },
   {
-    "district": 473,
-    "name": "Gandhinagar",
-    "SID": 24,
-    "State": "GUJARAT"
+    "dname": "Gandhinagar",
+    "sname": "GUJARAT",
+    "did": 473,
+    "sid": 24
   },
   {
-    "district": 474,
-    "name": "Ahmadabad",
-    "SID": 24,
-    "State": "GUJARAT"
+    "dname": "Ahmadabad",
+    "sname": "GUJARAT",
+    "did": 474,
+    "sid": 24
   },
   {
-    "district": 475,
-    "name": "Surendranagar",
-    "SID": 24,
-    "State": "GUJARAT"
+    "dname": "Surendranagar",
+    "sname": "GUJARAT",
+    "did": 475,
+    "sid": 24
   },
   {
-    "district": 476,
-    "name": "Rajkot",
-    "SID": 24,
-    "State": "GUJARAT"
+    "dname": "Rajkot",
+    "sname": "GUJARAT",
+    "did": 476,
+    "sid": 24
   },
   {
-    "district": 477,
-    "name": "Jamnagar",
-    "SID": 24,
-    "State": "GUJARAT"
+    "dname": "Jamnagar",
+    "sname": "GUJARAT",
+    "did": 477,
+    "sid": 24
   },
   {
-    "district": 478,
-    "name": "Porbandar",
-    "SID": 24,
-    "State": "GUJARAT"
+    "dname": "Porbandar",
+    "sname": "GUJARAT",
+    "did": 478,
+    "sid": 24
   },
   {
-    "district": 479,
-    "name": "Junagadh",
-    "SID": 24,
-    "State": "GUJARAT"
+    "dname": "Junagadh",
+    "sname": "GUJARAT",
+    "did": 479,
+    "sid": 24
   },
   {
-    "district": 480,
-    "name": "Amreli",
-    "SID": 24,
-    "State": "GUJARAT"
+    "dname": "Amreli",
+    "sname": "GUJARAT",
+    "did": 480,
+    "sid": 24
   },
   {
-    "district": 481,
-    "name": "Bhavnagar",
-    "SID": 24,
-    "State": "GUJARAT"
+    "dname": "Bhavnagar",
+    "sname": "GUJARAT",
+    "did": 481,
+    "sid": 24
   },
   {
-    "district": 482,
-    "name": "Anand",
-    "SID": 24,
-    "State": "GUJARAT"
+    "dname": "Anand",
+    "sname": "GUJARAT",
+    "did": 482,
+    "sid": 24
   },
   {
-    "district": 483,
-    "name": "Kheda",
-    "SID": 24,
-    "State": "GUJARAT"
+    "dname": "Kheda",
+    "sname": "GUJARAT",
+    "did": 483,
+    "sid": 24
   },
   {
-    "district": 484,
-    "name": "Panch Mahals",
-    "SID": 24,
-    "State": "GUJARAT"
+    "dname": "Panch Mahals",
+    "sname": "GUJARAT",
+    "did": 484,
+    "sid": 24
   },
   {
-    "district": 485,
-    "name": "Dohad",
-    "SID": 24,
-    "State": "GUJARAT"
+    "dname": "Dohad",
+    "sname": "GUJARAT",
+    "did": 485,
+    "sid": 24
   },
   {
-    "district": 486,
-    "name": "Vadodara",
-    "SID": 24,
-    "State": "GUJARAT"
+    "dname": "Vadodara",
+    "sname": "GUJARAT",
+    "did": 486,
+    "sid": 24
   },
   {
-    "district": 487,
-    "name": "Narmada",
-    "SID": 24,
-    "State": "GUJARAT"
+    "dname": "Narmada",
+    "sname": "GUJARAT",
+    "did": 487,
+    "sid": 24
   },
   {
-    "district": 488,
-    "name": "Bharuch",
-    "SID": 24,
-    "State": "GUJARAT"
+    "dname": "Bharuch",
+    "sname": "GUJARAT",
+    "did": 488,
+    "sid": 24
   },
   {
-    "district": 489,
-    "name": "The Dangs",
-    "SID": 24,
-    "State": "GUJARAT"
+    "dname": "The Dangs",
+    "sname": "GUJARAT",
+    "did": 489,
+    "sid": 24
   },
   {
-    "district": 490,
-    "name": "Navsari",
-    "SID": 24,
-    "State": "GUJARAT"
+    "dname": "Navsari",
+    "sname": "GUJARAT",
+    "did": 490,
+    "sid": 24
   },
   {
-    "district": 491,
-    "name": "Valsad",
-    "SID": 24,
-    "State": "GUJARAT"
+    "dname": "Valsad",
+    "sname": "GUJARAT",
+    "did": 491,
+    "sid": 24
   },
   {
-    "district": 492,
-    "name": "Surat",
-    "SID": 24,
-    "State": "GUJARAT"
+    "dname": "Surat",
+    "sname": "GUJARAT",
+    "did": 492,
+    "sid": 24
   },
   {
-    "district": 493,
-    "name": "Tapi",
-    "SID": 24,
-    "State": "GUJARAT"
+    "dname": "Tapi",
+    "sname": "GUJARAT",
+    "did": 493,
+    "sid": 24
   },
   {
-    "district": 494,
-    "name": "Diu",
-    "SID": 25,
-    "State": "DAMAN & DIU"
+    "dname": "Diu",
+    "sname": "DAMAN & DIU",
+    "did": 494,
+    "sid": 25
   },
   {
-    "district": 495,
-    "name": "Daman",
-    "SID": 25,
-    "State": "DAMAN & DIU"
+    "dname": "Daman",
+    "sname": "DAMAN & DIU",
+    "did": 495,
+    "sid": 25
   },
   {
-    "district": 496,
-    "name": "Dadra & Nagar Haveli",
-    "SID": 26,
-    "State": "DADRA & NAGAR HAVELI"
+    "dname": "Dadra & Nagar Haveli",
+    "sname": "DADRA & NAGAR HAVELI",
+    "did": 496,
+    "sid": 26
   },
   {
-    "district": 497,
-    "name": "Nandurbar",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Nandurbar",
+    "sname": "MAHARASHTRA",
+    "did": 497,
+    "sid": 27
   },
   {
-    "district": 498,
-    "name": "Dhule",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Dhule",
+    "sname": "MAHARASHTRA",
+    "did": 498,
+    "sid": 27
   },
   {
-    "district": 499,
-    "name": "Jalgaon",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Jalgaon",
+    "sname": "MAHARASHTRA",
+    "did": 499,
+    "sid": 27
   },
   {
-    "district": 500,
-    "name": "Buldana",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Buldana",
+    "sname": "MAHARASHTRA",
+    "did": 500,
+    "sid": 27
   },
   {
-    "district": 501,
-    "name": "Akola",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Akola",
+    "sname": "MAHARASHTRA",
+    "did": 501,
+    "sid": 27
   },
   {
-    "district": 502,
-    "name": "Washim",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Washim",
+    "sname": "MAHARASHTRA",
+    "did": 502,
+    "sid": 27
   },
   {
-    "district": 503,
-    "name": "Amravati",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Amravati",
+    "sname": "MAHARASHTRA",
+    "did": 503,
+    "sid": 27
   },
   {
-    "district": 504,
-    "name": "Wardha",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Wardha",
+    "sname": "MAHARASHTRA",
+    "did": 504,
+    "sid": 27
   },
   {
-    "district": 505,
-    "name": "Nagpur",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Nagpur",
+    "sname": "MAHARASHTRA",
+    "did": 505,
+    "sid": 27
   },
   {
-    "district": 506,
-    "name": "Bhandara",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Bhandara",
+    "sname": "MAHARASHTRA",
+    "did": 506,
+    "sid": 27
   },
   {
-    "district": 507,
-    "name": "Gondiya",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Gondiya",
+    "sname": "MAHARASHTRA",
+    "did": 507,
+    "sid": 27
   },
   {
-    "district": 508,
-    "name": "Gadchiroli",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Gadchiroli",
+    "sname": "MAHARASHTRA",
+    "did": 508,
+    "sid": 27
   },
   {
-    "district": 509,
-    "name": "Chandrapur",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Chandrapur",
+    "sname": "MAHARASHTRA",
+    "did": 509,
+    "sid": 27
   },
   {
-    "district": 510,
-    "name": "Yavatmal",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Yavatmal",
+    "sname": "MAHARASHTRA",
+    "did": 510,
+    "sid": 27
   },
   {
-    "district": 511,
-    "name": "Nanded",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Nanded",
+    "sname": "MAHARASHTRA",
+    "did": 511,
+    "sid": 27
   },
   {
-    "district": 512,
-    "name": "Hingoli",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Hingoli",
+    "sname": "MAHARASHTRA",
+    "did": 512,
+    "sid": 27
   },
   {
-    "district": 513,
-    "name": "Parbhani",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Parbhani",
+    "sname": "MAHARASHTRA",
+    "did": 513,
+    "sid": 27
   },
   {
-    "district": 514,
-    "name": "Jalna",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Jalna",
+    "sname": "MAHARASHTRA",
+    "did": 514,
+    "sid": 27
   },
   {
-    "district": 515,
-    "name": "Aurangabad",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Aurangabad",
+    "sname": "MAHARASHTRA",
+    "did": 515,
+    "sid": 27
   },
   {
-    "district": 516,
-    "name": "Nashik",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Nashik",
+    "sname": "MAHARASHTRA",
+    "did": 516,
+    "sid": 27
   },
   {
-    "district": 517,
-    "name": "Thane",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Thane",
+    "sname": "MAHARASHTRA",
+    "did": 517,
+    "sid": 27
   },
   {
-    "district": 518,
-    "name": "Mumbai Suburban",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Mumbai Suburban",
+    "sname": "MAHARASHTRA",
+    "did": 518,
+    "sid": 27
   },
   {
-    "district": 519,
-    "name": "Mumbai",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Mumbai",
+    "sname": "MAHARASHTRA",
+    "did": 519,
+    "sid": 27
   },
   {
-    "district": 520,
-    "name": "Raigarh",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Raigarh",
+    "sname": "MAHARASHTRA",
+    "did": 520,
+    "sid": 27
   },
   {
-    "district": 521,
-    "name": "Pune",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Pune",
+    "sname": "MAHARASHTRA",
+    "did": 521,
+    "sid": 27
   },
   {
-    "district": 522,
-    "name": "Ahmadnagar",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Ahmadnagar",
+    "sname": "MAHARASHTRA",
+    "did": 522,
+    "sid": 27
   },
   {
-    "district": 523,
-    "name": "Bid",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Bid",
+    "sname": "MAHARASHTRA",
+    "did": 523,
+    "sid": 27
   },
   {
-    "district": 524,
-    "name": "Latur",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Latur",
+    "sname": "MAHARASHTRA",
+    "did": 524,
+    "sid": 27
   },
   {
-    "district": 525,
-    "name": "Osmanabad",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Osmanabad",
+    "sname": "MAHARASHTRA",
+    "did": 525,
+    "sid": 27
   },
   {
-    "district": 526,
-    "name": "Solapur",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Solapur",
+    "sname": "MAHARASHTRA",
+    "did": 526,
+    "sid": 27
   },
   {
-    "district": 527,
-    "name": "Satara",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Satara",
+    "sname": "MAHARASHTRA",
+    "did": 527,
+    "sid": 27
   },
   {
-    "district": 528,
-    "name": "Ratnagiri",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Ratnagiri",
+    "sname": "MAHARASHTRA",
+    "did": 528,
+    "sid": 27
   },
   {
-    "district": 529,
-    "name": "Sindhudurg",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Sindhudurg",
+    "sname": "MAHARASHTRA",
+    "did": 529,
+    "sid": 27
   },
   {
-    "district": 530,
-    "name": "Kolhapur",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Kolhapur",
+    "sname": "MAHARASHTRA",
+    "did": 530,
+    "sid": 27
   },
   {
-    "district": 531,
-    "name": "Sangli",
-    "SID": 27,
-    "State": "MAHARASHTRA"
+    "dname": "Sangli",
+    "sname": "MAHARASHTRA",
+    "did": 531,
+    "sid": 27
   },
   {
-    "district": 532,
-    "name": "Adilabad",
-    "SID": 28,
-    "State": "ANDHRA PRADESH"
+    "dname": "Adilabad",
+    "sname": "ANDHRA PRADESH",
+    "did": 532,
+    "sid": 28
   },
   {
-    "district": 533,
-    "name": "Nizamabad",
-    "SID": 28,
-    "State": "ANDHRA PRADESH"
+    "dname": "Nizamabad",
+    "sname": "ANDHRA PRADESH",
+    "did": 533,
+    "sid": 28
   },
   {
-    "district": 534,
-    "name": "Karimnagar",
-    "SID": 28,
-    "State": "ANDHRA PRADESH"
+    "dname": "Karimnagar",
+    "sname": "ANDHRA PRADESH",
+    "did": 534,
+    "sid": 28
   },
   {
-    "district": 535,
-    "name": "Medak",
-    "SID": 28,
-    "State": "ANDHRA PRADESH"
+    "dname": "Medak",
+    "sname": "ANDHRA PRADESH",
+    "did": 535,
+    "sid": 28
   },
   {
-    "district": 536,
-    "name": "Hyderabad",
-    "SID": 28,
-    "State": "ANDHRA PRADESH"
+    "dname": "Hyderabad",
+    "sname": "ANDHRA PRADESH",
+    "did": 536,
+    "sid": 28
   },
   {
-    "district": 537,
-    "name": "Rangareddy",
-    "SID": 28,
-    "State": "ANDHRA PRADESH"
+    "dname": "Rangareddy",
+    "sname": "ANDHRA PRADESH",
+    "did": 537,
+    "sid": 28
   },
   {
-    "district": 538,
-    "name": "Mahbubnagar",
-    "SID": 28,
-    "State": "ANDHRA PRADESH"
+    "dname": "Mahbubnagar",
+    "sname": "ANDHRA PRADESH",
+    "did": 538,
+    "sid": 28
   },
   {
-    "district": 539,
-    "name": "Nalgonda",
-    "SID": 28,
-    "State": "ANDHRA PRADESH"
+    "dname": "Nalgonda",
+    "sname": "ANDHRA PRADESH",
+    "did": 539,
+    "sid": 28
   },
   {
-    "district": 540,
-    "name": "Warangal",
-    "SID": 28,
-    "State": "ANDHRA PRADESH"
+    "dname": "Warangal",
+    "sname": "ANDHRA PRADESH",
+    "did": 540,
+    "sid": 28
   },
   {
-    "district": 541,
-    "name": "Khammam",
-    "SID": 28,
-    "State": "ANDHRA PRADESH"
+    "dname": "Khammam",
+    "sname": "ANDHRA PRADESH",
+    "did": 541,
+    "sid": 28
   },
   {
-    "district": 542,
-    "name": "Srikakulam",
-    "SID": 28,
-    "State": "ANDHRA PRADESH"
+    "dname": "Srikakulam",
+    "sname": "ANDHRA PRADESH",
+    "did": 542,
+    "sid": 28
   },
   {
-    "district": 543,
-    "name": "Vizianagaram",
-    "SID": 28,
-    "State": "ANDHRA PRADESH"
+    "dname": "Vizianagaram",
+    "sname": "ANDHRA PRADESH",
+    "did": 543,
+    "sid": 28
   },
   {
-    "district": 544,
-    "name": "Visakhapatnam",
-    "SID": 28,
-    "State": "ANDHRA PRADESH"
+    "dname": "Visakhapatnam",
+    "sname": "ANDHRA PRADESH",
+    "did": 544,
+    "sid": 28
   },
   {
-    "district": 545,
-    "name": "East Godavari",
-    "SID": 28,
-    "State": "ANDHRA PRADESH"
+    "dname": "East Godavari",
+    "sname": "ANDHRA PRADESH",
+    "did": 545,
+    "sid": 28
   },
   {
-    "district": 546,
-    "name": "West Godavari",
-    "SID": 28,
-    "State": "ANDHRA PRADESH"
+    "dname": "West Godavari",
+    "sname": "ANDHRA PRADESH",
+    "did": 546,
+    "sid": 28
   },
   {
-    "district": 547,
-    "name": "Krishna",
-    "SID": 28,
-    "State": "ANDHRA PRADESH"
+    "dname": "Krishna",
+    "sname": "ANDHRA PRADESH",
+    "did": 547,
+    "sid": 28
   },
   {
-    "district": 548,
-    "name": "Guntur",
-    "SID": 28,
-    "State": "ANDHRA PRADESH"
+    "dname": "Guntur",
+    "sname": "ANDHRA PRADESH",
+    "did": 548,
+    "sid": 28
   },
   {
-    "district": 549,
-    "name": "Prakasam",
-    "SID": 28,
-    "State": "ANDHRA PRADESH"
+    "dname": "Prakasam",
+    "sname": "ANDHRA PRADESH",
+    "did": 549,
+    "sid": 28
   },
   {
-    "district": 550,
-    "name": "Sri Potti Sriramulu Nellore",
-    "SID": 28,
-    "State": "ANDHRA PRADESH"
+    "dname": "Sri Potti Sriramulu Nellore",
+    "sname": "ANDHRA PRADESH",
+    "did": 550,
+    "sid": 28
   },
   {
-    "district": 551,
-    "name": "Y.S.R.",
-    "SID": 28,
-    "State": "ANDHRA PRADESH"
+    "dname": "Y.S.R.",
+    "sname": "ANDHRA PRADESH",
+    "did": 551,
+    "sid": 28
   },
   {
-    "district": 552,
-    "name": "Kurnool",
-    "SID": 28,
-    "State": "ANDHRA PRADESH"
+    "dname": "Kurnool",
+    "sname": "ANDHRA PRADESH",
+    "did": 552,
+    "sid": 28
   },
   {
-    "district": 553,
-    "name": "Anantapur",
-    "SID": 28,
-    "State": "ANDHRA PRADESH"
+    "dname": "Anantapur",
+    "sname": "ANDHRA PRADESH",
+    "did": 553,
+    "sid": 28
   },
   {
-    "district": 554,
-    "name": "Chittoor",
-    "SID": 28,
-    "State": "ANDHRA PRADESH"
+    "dname": "Chittoor",
+    "sname": "ANDHRA PRADESH",
+    "did": 554,
+    "sid": 28
   },
   {
-    "district": 555,
-    "name": "Belgaum",
-    "SID": 29,
-    "State": "KARNATAKA"
+    "dname": "Belgaum",
+    "sname": "KARNATAKA",
+    "did": 555,
+    "sid": 29
   },
   {
-    "district": 556,
-    "name": "Bagalkot",
-    "SID": 29,
-    "State": "KARNATAKA"
+    "dname": "Bagalkot",
+    "sname": "KARNATAKA",
+    "did": 556,
+    "sid": 29
   },
   {
-    "district": 557,
-    "name": "Bijapur",
-    "SID": 29,
-    "State": "KARNATAKA"
+    "dname": "Bijapur",
+    "sname": "KARNATAKA",
+    "did": 557,
+    "sid": 29
   },
   {
-    "district": 558,
-    "name": "Bidar",
-    "SID": 29,
-    "State": "KARNATAKA"
+    "dname": "Bidar",
+    "sname": "KARNATAKA",
+    "did": 558,
+    "sid": 29
   },
   {
-    "district": 559,
-    "name": "Raichur",
-    "SID": 29,
-    "State": "KARNATAKA"
+    "dname": "Raichur",
+    "sname": "KARNATAKA",
+    "did": 559,
+    "sid": 29
   },
   {
-    "district": 560,
-    "name": "Koppal",
-    "SID": 29,
-    "State": "KARNATAKA"
+    "dname": "Koppal",
+    "sname": "KARNATAKA",
+    "did": 560,
+    "sid": 29
   },
   {
-    "district": 561,
-    "name": "Gadag",
-    "SID": 29,
-    "State": "KARNATAKA"
+    "dname": "Gadag",
+    "sname": "KARNATAKA",
+    "did": 561,
+    "sid": 29
   },
   {
-    "district": 562,
-    "name": "Dharwad",
-    "SID": 29,
-    "State": "KARNATAKA"
+    "dname": "Dharwad",
+    "sname": "KARNATAKA",
+    "did": 562,
+    "sid": 29
   },
   {
-    "district": 563,
-    "name": "Uttara Kannada",
-    "SID": 29,
-    "State": "KARNATAKA"
+    "dname": "Uttara Kannada",
+    "sname": "KARNATAKA",
+    "did": 563,
+    "sid": 29
   },
   {
-    "district": 564,
-    "name": "Haveri",
-    "SID": 29,
-    "State": "KARNATAKA"
+    "dname": "Haveri",
+    "sname": "KARNATAKA",
+    "did": 564,
+    "sid": 29
   },
   {
-    "district": 565,
-    "name": "Bellary",
-    "SID": 29,
-    "State": "KARNATAKA"
+    "dname": "Bellary",
+    "sname": "KARNATAKA",
+    "did": 565,
+    "sid": 29
   },
   {
-    "district": 566,
-    "name": "Chitradurga",
-    "SID": 29,
-    "State": "KARNATAKA"
+    "dname": "Chitradurga",
+    "sname": "KARNATAKA",
+    "did": 566,
+    "sid": 29
   },
   {
-    "district": 567,
-    "name": "Davanagere",
-    "SID": 29,
-    "State": "KARNATAKA"
+    "dname": "Davanagere",
+    "sname": "KARNATAKA",
+    "did": 567,
+    "sid": 29
   },
   {
-    "district": 568,
-    "name": "Shimoga",
-    "SID": 29,
-    "State": "KARNATAKA"
+    "dname": "Shimoga",
+    "sname": "KARNATAKA",
+    "did": 568,
+    "sid": 29
   },
   {
-    "district": 569,
-    "name": "Udupi",
-    "SID": 29,
-    "State": "KARNATAKA"
+    "dname": "Udupi",
+    "sname": "KARNATAKA",
+    "did": 569,
+    "sid": 29
   },
   {
-    "district": 570,
-    "name": "Chikmagalur",
-    "SID": 29,
-    "State": "KARNATAKA"
+    "dname": "Chikmagalur",
+    "sname": "KARNATAKA",
+    "did": 570,
+    "sid": 29
   },
   {
-    "district": 571,
-    "name": "Tumkur",
-    "SID": 29,
-    "State": "KARNATAKA"
+    "dname": "Tumkur",
+    "sname": "KARNATAKA",
+    "did": 571,
+    "sid": 29
   },
   {
-    "district": 572,
-    "name": "Bangalore",
-    "SID": 29,
-    "State": "KARNATAKA"
+    "dname": "Bangalore",
+    "sname": "KARNATAKA",
+    "did": 572,
+    "sid": 29
   },
   {
-    "district": 573,
-    "name": "Mandya",
-    "SID": 29,
-    "State": "KARNATAKA"
+    "dname": "Mandya",
+    "sname": "KARNATAKA",
+    "did": 573,
+    "sid": 29
   },
   {
-    "district": 574,
-    "name": "Hassan",
-    "SID": 29,
-    "State": "KARNATAKA"
+    "dname": "Hassan",
+    "sname": "KARNATAKA",
+    "did": 574,
+    "sid": 29
   },
   {
-    "district": 575,
-    "name": "Dakshina Kannada",
-    "SID": 29,
-    "State": "KARNATAKA"
+    "dname": "Dakshina Kannada",
+    "sname": "KARNATAKA",
+    "did": 575,
+    "sid": 29
   },
   {
-    "district": 576,
-    "name": "Kodagu",
-    "SID": 29,
-    "State": "KARNATAKA"
+    "dname": "Kodagu",
+    "sname": "KARNATAKA",
+    "did": 576,
+    "sid": 29
   },
   {
-    "district": 577,
-    "name": "Mysore",
-    "SID": 29,
-    "State": "KARNATAKA"
+    "dname": "Mysore",
+    "sname": "KARNATAKA",
+    "did": 577,
+    "sid": 29
   },
   {
-    "district": 578,
-    "name": "Chamarajanagar",
-    "SID": 29,
-    "State": "KARNATAKA"
+    "dname": "Chamarajanagar",
+    "sname": "KARNATAKA",
+    "did": 578,
+    "sid": 29
   },
   {
-    "district": 579,
-    "name": "Gulbarga",
-    "SID": 29,
-    "State": "KARNATAKA"
+    "dname": "Gulbarga",
+    "sname": "KARNATAKA",
+    "did": 579,
+    "sid": 29
   },
   {
-    "district": 580,
-    "name": "Yadgir",
-    "SID": 29,
-    "State": "KARNATAKA"
+    "dname": "Yadgir",
+    "sname": "KARNATAKA",
+    "did": 580,
+    "sid": 29
   },
   {
-    "district": 581,
-    "name": "Kolar",
-    "SID": 29,
-    "State": "KARNATAKA"
+    "dname": "Kolar",
+    "sname": "KARNATAKA",
+    "did": 581,
+    "sid": 29
   },
   {
-    "district": 582,
-    "name": "Chikkaballapura",
-    "SID": 29,
-    "State": "KARNATAKA"
+    "dname": "Chikkaballapura",
+    "sname": "KARNATAKA",
+    "did": 582,
+    "sid": 29
   },
   {
-    "district": 583,
-    "name": "Bangalore Rural",
-    "SID": 29,
-    "State": "KARNATAKA"
+    "dname": "Bangalore Rural",
+    "sname": "KARNATAKA",
+    "did": 583,
+    "sid": 29
   },
   {
-    "district": 584,
-    "name": "Ramanagara",
-    "SID": 29,
-    "State": "KARNATAKA"
+    "dname": "Ramanagara",
+    "sname": "KARNATAKA",
+    "did": 584,
+    "sid": 29
   },
   {
-    "district": 585,
-    "name": "North Goa",
-    "SID": 30,
-    "State": "GOA"
+    "dname": "North Goa",
+    "sname": "GOA",
+    "did": 585,
+    "sid": 30
   },
   {
-    "district": 586,
-    "name": "South Goa",
-    "SID": 30,
-    "State": "GOA"
+    "dname": "South Goa",
+    "sname": "GOA",
+    "did": 586,
+    "sid": 30
   },
   {
-    "district": 587,
-    "name": "Lakshadweep",
-    "SID": 31,
-    "State": "LAKSHADWEEP"
+    "dname": "Lakshadweep",
+    "sname": "LAKSHADWEEP",
+    "did": 587,
+    "sid": 31
   },
   {
-    "district": 588,
-    "name": "Kasaragod",
-    "SID": 32,
-    "State": "KERALA"
+    "dname": "Kasaragod",
+    "sname": "KERALA",
+    "did": 588,
+    "sid": 32
   },
   {
-    "district": 589,
-    "name": "Kannur",
-    "SID": 32,
-    "State": "KERALA"
+    "dname": "Kannur",
+    "sname": "KERALA",
+    "did": 589,
+    "sid": 32
   },
   {
-    "district": 590,
-    "name": "Wayanad",
-    "SID": 32,
-    "State": "KERALA"
+    "dname": "Wayanad",
+    "sname": "KERALA",
+    "did": 590,
+    "sid": 32
   },
   {
-    "district": 591,
-    "name": "Kozhikode",
-    "SID": 32,
-    "State": "KERALA"
+    "dname": "Kozhikode",
+    "sname": "KERALA",
+    "did": 591,
+    "sid": 32
   },
   {
-    "district": 592,
-    "name": "Malappuram",
-    "SID": 32,
-    "State": "KERALA"
+    "dname": "Malappuram",
+    "sname": "KERALA",
+    "did": 592,
+    "sid": 32
   },
   {
-    "district": 593,
-    "name": "Palakkad",
-    "SID": 32,
-    "State": "KERALA"
+    "dname": "Palakkad",
+    "sname": "KERALA",
+    "did": 593,
+    "sid": 32
   },
   {
-    "district": 594,
-    "name": "Thrissur",
-    "SID": 32,
-    "State": "KERALA"
+    "dname": "Thrissur",
+    "sname": "KERALA",
+    "did": 594,
+    "sid": 32
   },
   {
-    "district": 595,
-    "name": "Ernakulam",
-    "SID": 32,
-    "State": "KERALA"
+    "dname": "Ernakulam",
+    "sname": "KERALA",
+    "did": 595,
+    "sid": 32
   },
   {
-    "district": 596,
-    "name": "Idukki",
-    "SID": 32,
-    "State": "KERALA"
+    "dname": "Idukki",
+    "sname": "KERALA",
+    "did": 596,
+    "sid": 32
   },
   {
-    "district": 597,
-    "name": "Kottayam",
-    "SID": 32,
-    "State": "KERALA"
+    "dname": "Kottayam",
+    "sname": "KERALA",
+    "did": 597,
+    "sid": 32
   },
   {
-    "district": 598,
-    "name": "Alappuzha",
-    "SID": 32,
-    "State": "KERALA"
+    "dname": "Alappuzha",
+    "sname": "KERALA",
+    "did": 598,
+    "sid": 32
   },
   {
-    "district": 599,
-    "name": "Pathanamthitta",
-    "SID": 32,
-    "State": "KERALA"
+    "dname": "Pathanamthitta",
+    "sname": "KERALA",
+    "did": 599,
+    "sid": 32
   },
   {
-    "district": 600,
-    "name": "Kollam",
-    "SID": 32,
-    "State": "KERALA"
+    "dname": "Kollam",
+    "sname": "KERALA",
+    "did": 600,
+    "sid": 32
   },
   {
-    "district": 601,
-    "name": "Thiruvananthapuram",
-    "SID": 32,
-    "State": "KERALA"
+    "dname": "Thiruvananthapuram",
+    "sname": "KERALA",
+    "did": 601,
+    "sid": 32
   },
   {
-    "district": 602,
-    "name": "Thiruvallur",
-    "SID": 33,
-    "State": "TAMIL NADU"
+    "dname": "Thiruvallur",
+    "sname": "TAMIL NADU",
+    "did": 602,
+    "sid": 33
   },
   {
-    "district": 603,
-    "name": "Chennai",
-    "SID": 33,
-    "State": "TAMIL NADU"
+    "dname": "Chennai",
+    "sname": "TAMIL NADU",
+    "did": 603,
+    "sid": 33
   },
   {
-    "district": 604,
-    "name": "Kancheepuram",
-    "SID": 33,
-    "State": "TAMIL NADU"
+    "dname": "Kancheepuram",
+    "sname": "TAMIL NADU",
+    "did": 604,
+    "sid": 33
   },
   {
-    "district": 605,
-    "name": "Vellore",
-    "SID": 33,
-    "State": "TAMIL NADU"
+    "dname": "Vellore",
+    "sname": "TAMIL NADU",
+    "did": 605,
+    "sid": 33
   },
   {
-    "district": 606,
-    "name": "Tiruvannamalai",
-    "SID": 33,
-    "State": "TAMIL NADU"
+    "dname": "Tiruvannamalai",
+    "sname": "TAMIL NADU",
+    "did": 606,
+    "sid": 33
   },
   {
-    "district": 607,
-    "name": "Viluppuram",
-    "SID": 33,
-    "State": "TAMIL NADU"
+    "dname": "Viluppuram",
+    "sname": "TAMIL NADU",
+    "did": 607,
+    "sid": 33
   },
   {
-    "district": 608,
-    "name": "Salem",
-    "SID": 33,
-    "State": "TAMIL NADU"
+    "dname": "Salem",
+    "sname": "TAMIL NADU",
+    "did": 608,
+    "sid": 33
   },
   {
-    "district": 609,
-    "name": "Namakkal",
-    "SID": 33,
-    "State": "TAMIL NADU"
+    "dname": "Namakkal",
+    "sname": "TAMIL NADU",
+    "did": 609,
+    "sid": 33
   },
   {
-    "district": 610,
-    "name": "Erode",
-    "SID": 33,
-    "State": "TAMIL NADU"
+    "dname": "Erode",
+    "sname": "TAMIL NADU",
+    "did": 610,
+    "sid": 33
   },
   {
-    "district": 611,
-    "name": "The Nilgiris",
-    "SID": 33,
-    "State": "TAMIL NADU"
+    "dname": "The Nilgiris",
+    "sname": "TAMIL NADU",
+    "did": 611,
+    "sid": 33
   },
   {
-    "district": 612,
-    "name": "Dindigul",
-    "SID": 33,
-    "State": "TAMIL NADU"
+    "dname": "Dindigul",
+    "sname": "TAMIL NADU",
+    "did": 612,
+    "sid": 33
   },
   {
-    "district": 613,
-    "name": "Karur",
-    "SID": 33,
-    "State": "TAMIL NADU"
+    "dname": "Karur",
+    "sname": "TAMIL NADU",
+    "did": 613,
+    "sid": 33
   },
   {
-    "district": 614,
-    "name": "Tiruchirappalli",
-    "SID": 33,
-    "State": "TAMIL NADU"
+    "dname": "Tiruchirappalli",
+    "sname": "TAMIL NADU",
+    "did": 614,
+    "sid": 33
   },
   {
-    "district": 615,
-    "name": "Perambalur",
-    "SID": 33,
-    "State": "TAMIL NADU"
+    "dname": "Perambalur",
+    "sname": "TAMIL NADU",
+    "did": 615,
+    "sid": 33
   },
   {
-    "district": 616,
-    "name": "Ariyalur",
-    "SID": 33,
-    "State": "TAMIL NADU"
+    "dname": "Ariyalur",
+    "sname": "TAMIL NADU",
+    "did": 616,
+    "sid": 33
   },
   {
-    "district": 617,
-    "name": "Cuddalore",
-    "SID": 33,
-    "State": "TAMIL NADU"
+    "dname": "Cuddalore",
+    "sname": "TAMIL NADU",
+    "did": 617,
+    "sid": 33
   },
   {
-    "district": 618,
-    "name": "Nagapattinam",
-    "SID": 33,
-    "State": "TAMIL NADU"
+    "dname": "Nagapattinam",
+    "sname": "TAMIL NADU",
+    "did": 618,
+    "sid": 33
   },
   {
-    "district": 619,
-    "name": "Thiruvarur",
-    "SID": 33,
-    "State": "TAMIL NADU"
+    "dname": "Thiruvarur",
+    "sname": "TAMIL NADU",
+    "did": 619,
+    "sid": 33
   },
   {
-    "district": 620,
-    "name": "Thanjavur",
-    "SID": 33,
-    "State": "TAMIL NADU"
+    "dname": "Thanjavur",
+    "sname": "TAMIL NADU",
+    "did": 620,
+    "sid": 33
   },
   {
-    "district": 621,
-    "name": "Pudukkottai",
-    "SID": 33,
-    "State": "TAMIL NADU"
+    "dname": "Pudukkottai",
+    "sname": "TAMIL NADU",
+    "did": 621,
+    "sid": 33
   },
   {
-    "district": 622,
-    "name": "Sivaganga",
-    "SID": 33,
-    "State": "TAMIL NADU"
+    "dname": "Sivaganga",
+    "sname": "TAMIL NADU",
+    "did": 622,
+    "sid": 33
   },
   {
-    "district": 623,
-    "name": "Madurai",
-    "SID": 33,
-    "State": "TAMIL NADU"
+    "dname": "Madurai",
+    "sname": "TAMIL NADU",
+    "did": 623,
+    "sid": 33
   },
   {
-    "district": 624,
-    "name": "Theni",
-    "SID": 33,
-    "State": "TAMIL NADU"
+    "dname": "Theni",
+    "sname": "TAMIL NADU",
+    "did": 624,
+    "sid": 33
   },
   {
-    "district": 625,
-    "name": "Virudhunagar",
-    "SID": 33,
-    "State": "TAMIL NADU"
+    "dname": "Virudhunagar",
+    "sname": "TAMIL NADU",
+    "did": 625,
+    "sid": 33
   },
   {
-    "district": 626,
-    "name": "Ramanathapuram",
-    "SID": 33,
-    "State": "TAMIL NADU"
+    "dname": "Ramanathapuram",
+    "sname": "TAMIL NADU",
+    "did": 626,
+    "sid": 33
   },
   {
-    "district": 627,
-    "name": "Thoothukkudi",
-    "SID": 33,
-    "State": "TAMIL NADU"
+    "dname": "Thoothukkudi",
+    "sname": "TAMIL NADU",
+    "did": 627,
+    "sid": 33
   },
   {
-    "district": 628,
-    "name": "Tirunelveli",
-    "SID": 33,
-    "State": "TAMIL NADU"
+    "dname": "Tirunelveli",
+    "sname": "TAMIL NADU",
+    "did": 628,
+    "sid": 33
   },
   {
-    "district": 629,
-    "name": "Kanniyakumari",
-    "SID": 33,
-    "State": "TAMIL NADU"
+    "dname": "Kanniyakumari",
+    "sname": "TAMIL NADU",
+    "did": 629,
+    "sid": 33
   },
   {
-    "district": 630,
-    "name": "Dharmapuri",
-    "SID": 33,
-    "State": "TAMIL NADU"
+    "dname": "Dharmapuri",
+    "sname": "TAMIL NADU",
+    "did": 630,
+    "sid": 33
   },
   {
-    "district": 631,
-    "name": "Krishnagiri",
-    "SID": 33,
-    "State": "TAMIL NADU"
+    "dname": "Krishnagiri",
+    "sname": "TAMIL NADU",
+    "did": 631,
+    "sid": 33
   },
   {
-    "district": 632,
-    "name": "Coimbatore",
-    "SID": 33,
-    "State": "TAMIL NADU"
+    "dname": "Coimbatore",
+    "sname": "TAMIL NADU",
+    "did": 632,
+    "sid": 33
   },
   {
-    "district": 633,
-    "name": "Tiruppur",
-    "SID": 33,
-    "State": "TAMIL NADU"
+    "dname": "Tiruppur",
+    "sname": "TAMIL NADU",
+    "did": 633,
+    "sid": 33
   },
   {
-    "district": 634,
-    "name": "Yanam",
-    "SID": 34,
-    "State": "PUDUCHERRY"
+    "dname": "Yanam",
+    "sname": "PUDUCHERRY",
+    "did": 634,
+    "sid": 34
   },
   {
-    "district": 635,
-    "name": "Puducherry",
-    "SID": 34,
-    "State": "PUDUCHERRY"
+    "dname": "Puducherry",
+    "sname": "PUDUCHERRY",
+    "did": 635,
+    "sid": 34
   },
   {
-    "district": 636,
-    "name": "Mahe",
-    "SID": 34,
-    "State": "PUDUCHERRY"
+    "dname": "Mahe",
+    "sname": "PUDUCHERRY",
+    "did": 636,
+    "sid": 34
   },
   {
-    "district": 637,
-    "name": "Karaikal",
-    "SID": 34,
-    "State": "PUDUCHERRY"
+    "dname": "Karaikal",
+    "sname": "PUDUCHERRY",
+    "did": 637,
+    "sid": 34
   },
   {
-    "district": 638,
-    "name": "Nicobars",
-    "SID": 35,
-    "State": "ANDAMAN & NICOBAR ISLANDS"
+    "dname": "Nicobars",
+    "sname": "ANDAMAN & NICOBAR ISLANDS",
+    "did": 638,
+    "sid": 35
   },
   {
-    "district": 639,
-    "name": "North  & Middle Andaman",
-    "SID": 35,
-    "State": "ANDAMAN & NICOBAR ISLANDS"
+    "dname": "North  & Middle Andaman",
+    "sname": "ANDAMAN & NICOBAR ISLANDS",
+    "did": 639,
+    "sid": 35
   },
   {
-    "district": 640,
-    "name": "South Andaman",
-    "SID": 35,
-    "State": "ANDAMAN & NICOBAR ISLANDS"
+    "dname": "South Andaman",
+    "sname": "ANDAMAN & NICOBAR ISLANDS",
+    "did": 640,
+    "sid": 35
   }
 ]

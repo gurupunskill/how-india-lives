@@ -22,7 +22,7 @@ app.get('/', (req,res) => res.render('pages/search'))
 app.get('/ref', (req,res) => res.render('pages/deprecated/dep_search'))
 
 app.get('/dump', function(req,res){
-    pool.query('select d.district, d.name, s.SID, s.name State from pca_total d, State s where d.State = s.SID', function(err, results, fields){
+    pool.query('select d.name dname, s.name sname, d.district did, State sid from pca_total d, State s where d.State = s.SID', function(err, results, fields){
         if(err) throw err;
         data = JSON.stringify(results, null, 2);
         res.send(results);
@@ -30,9 +30,14 @@ app.get('/dump', function(req,res){
             if (err) throw err;
             console.log('Data written to file');
         });
-    })
-})
-
+    });
+});
+/*
+app.get('/data', function(req, res){
+    data = require('./public/data/district-list.json')
+    res.send(data)
+});
+*/
 /*
 app.get('/state', function(req, res){
     pool.query('SELECT * FROM State', function(err, results, fields){
