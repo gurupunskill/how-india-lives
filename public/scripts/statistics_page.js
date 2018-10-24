@@ -10,7 +10,18 @@ function show_results(text){
 
     if(text == "Total Population"){
 
-        
+       $.ajax({
+
+        type: "GET",
+        url: "/population",
+
+        success: function(results){
+
+            console.log(results);
+        },
+        async: false
+
+       }); 
     }
 }
 
