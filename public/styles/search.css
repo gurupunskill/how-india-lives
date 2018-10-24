@@ -101,6 +101,7 @@
 
 .typeahead:focus {
     padding: 8px 20px;
+    /*border: 2px solid rgb(18, 0, 182);*/
 }
 
 .tt-query {
