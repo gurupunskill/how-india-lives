@@ -38,7 +38,6 @@ app.get('/dump', function(req,res){
 
 app.post('/queryServer', function(req,res){
 
-    console.log(req.body.input);
     if(req.body.input == "Total Population"){
     
     var query = "SELECT District , TOT_P FROM pca_total LIMIT 10";
@@ -48,6 +47,46 @@ app.post('/queryServer', function(req,res){
         res.send(results);
         console.log('Population data sent');
     });
+    }
+    else if(req.body.input == "Literacy Rate"){
+    
+        var query = "SELECT District , P_LIT FROM pca_total LIMIT 10";
+        pool.query(query,function(err,results,fields){
+    
+            if(err) throw err;
+            res.send(results);
+            console.log('Literacy rate data sent');
+        });
+    }
+    else if(req.body.input == "Unemployement Rate"){
+    
+        var query = "SELECT District , NON_WORK_P FROM pca_total LIMIT 10";
+        pool.query(query,function(err,results,fields){
+    
+            if(err) throw err;
+            res.send(results);
+            console.log('Unemployment data sent');
+        });
+    }
+    else if(req.body.input == "Percent of Agricultural Labourers"){
+    
+        var query = "SELECT District , MAIN_AL_P FROM pca_total LIMIT 10";
+        pool.query(query,function(err,results,fields){
+    
+            if(err) throw err;
+            res.send(results);
+            console.log('Agricultural data sent');
+        });
+    }
+    else if(req.body.input == "Total Households"){
+    
+        var query = "SELECT District_Code , Total_Number_of_households FROM hlpca_total LIMIT 10";
+        pool.query(query,function(err,results,fields){
+    
+            if(err) throw err;
+            res.send(results);
+            console.log('Population data sent');
+        });
     }
 });
 
