@@ -1,6 +1,5 @@
 
 $(document).on('ready', function() {
-  
     $('.field').on('focus', function() {
       $('body').addClass('is-focus');
     });
@@ -22,7 +21,7 @@ function S(id){
     //to get element by id
     return document.getElementById(id)
 }
-
+/** 
 //sql access, modules to be initiated
 var mysql = require('mysql')
 var pool = mysql.createPool({
@@ -65,3 +64,4 @@ function search_click(){
     });
 
 }
+*/

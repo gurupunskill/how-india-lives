@@ -8,7 +8,7 @@ function S(id){
 
 function show_results(text){
 
-    if(text == "Area"){
+    if(text == "Total Population"){
 
         
     }
