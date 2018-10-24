@@ -19,7 +19,7 @@ app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'ejs')
 
 app.get('/', (req,res) => res.render('pages/search'))
-//app.get('/statistics', (req, res) => res.render('pages/statistics'))
+app.get('/statistics', (req, res) => res.render('pages/statistics'))
 //app.get('/search', (req, res) => res.render('pages/search'))
 //app.get('/state', (req, res) => res.render('pages/state'))
 
