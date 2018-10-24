@@ -14,11 +14,13 @@ var pool = mysql.createPool({
 
 var app = express()
 
+
 app.use(express.static(path.join(__dirname, 'public')))
 app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'ejs')
 
 app.get('/', (req,res) => res.render('pages/search'))
+app.get('/statistics', (req, res) => res.render('pages/statistics'))
 app.get('/ref', (req,res) => res.render('pages/deprecated/dep_search'))
 
 app.get('/dump', function(req,res){
@@ -32,6 +34,19 @@ app.get('/dump', function(req,res){
         });
     });
 });
+
+app.get('/population', function(req,res){
+
+    var query = "SELECT District , TOT_P FROM pca_total LIMIT 10";
+    pool.query(query,function(err,results,fields){
+
+        if(err) throw err;
+        res.send(results);
+        console.log('Population data sent');
+    });
+});
+
+
 /*
 app.get('/data', function(req, res){
     data = require('./public/data/district-list.json')

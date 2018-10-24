@@ -1,0 +1,144 @@
+* {
+    font-family: "Helvetica Neue", Arial;
+    color: #636363;
+  }
+  
+  @-moz-keyframes colorFade {
+    from {
+      color: #404040;
+    }
+    to {
+      color: #cbcbcb;
+    }
+  }
+  @-webkit-keyframes colorFade {
+    from {
+      color: #404040;
+    }
+    to {
+      color: #cbcbcb;
+    }
+  }
+  @keyframes colorFade {
+    from {
+      color: #404040;
+    }
+    to {
+      color: #cbcbcb;
+    }
+  }
+  .container {
+    margin: 50px auto 0;
+    width: 900px;
+    border: 3px solid #cbcbcb;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    padding: 5px;
+    overflow: hidden;
+    -moz-transition: border 0.3s ease;
+    -o-transition: border 0.3s ease;
+    -webkit-transition: border 0.3s ease;
+    transition: border 0.3s ease;
+    backface-visibility: hidden;
+  }
+  .container > span {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: bold;
+    color: #cbcbcb;
+    padding: 0 5px;
+    -moz-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    -webkit-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+  }
+  .container > span.fade {
+    -webkit-animation: colorFade 0.6s 0s ease both;
+    -moz-animation: colorFade 0.6s 0s ease both;
+    -ms-animation: colorFade 0.6s 0s ease both;
+    -o-animation: colorFade 0.6s 0s ease both;
+    animation: colorFade 0.6s 0s ease both;
+  }
+  .container.hover {
+    border-color: #b2b2b2;
+    -moz-box-shadow: 0 0 14px 0 #efefef;
+    -webkit-box-shadow: 0 0 14px 0 #efefef;
+    box-shadow: 0 0 14px 0 #efefef;
+  }
+  .container.hover > span {
+    color: #b2b2b2;
+  }
+  .container.open ul {
+    height: 100px;
+    opacity: 1;
+  }
+  .container .close {
+    float: right;
+  }
+  .container ul {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-weight: 200;
+    width: 100%;
+    margin-top: 10px;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    padding: 10px 5px 0;
+    margin-top: 15px;
+  }
+  .container ul a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #cbcbcb;
+    font-weight: bold;
+    -moz-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    -webkit-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+  }
+  .container ul a:hover {
+    color: #636363;
+  }
+  .container ul a.active {
+    color: #636363;
+  }
+  .container ul li {
+    padding: 8px 0;
+  }
+  
+  .close {
+    fill: #cbcbcb;
+    position: relative;
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  .close path {
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .close:hover path {
+    fill: #404040;
+  }
+  .close.active {
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+  }
+  .close.active path {
+    fill: #404040;
+  }

@@ -23,9 +23,7 @@ function S(id){
 }
 /** 
 //sql access, modules to be initiated
-const express = require('express')
-const path = require('path')
-const mysql = require('mysql')
+var mysql = require('mysql')
 var pool = mysql.createPool({
     host     : 'us-cdbr-iron-east-01.cleardb.net',
     user     : 'b0f693560edb2c',
