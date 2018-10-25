@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+    var chosen_list = [];
+
     var districts = new Bloodhound({
         datumTokenizer: Bloodhound.tokenizers.obj.whitespace('dname'),
         queryTokenizer: Bloodhound.tokenizers.whitespace,
@@ -23,6 +25,12 @@ $(document).ready(function(){
             suggestion: Handlebars.compile('<div><strong>{{dname}}</strong>, {{sname}}</div>')
         }
     });
+
+    $('#search-box .typeahead').bind('typeahead:select', function(event, suggestion) {
+        chosen_list.push(suggestion);
+        $("#results").append("<button type=\"button\" class=\"btn btn-light result-btn\">" + suggestion.dname + "</button>");
+        console.log(chosen_list);
+    })
 });
 /*
 

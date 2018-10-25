@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lora|Open+Sans');
 
+@font-face {
+    font-family: 'Samarkan';
+    src: url('/fonts/samarkan.TTF');
+}
+
 /* Rules for sizing the icon. */
 .material-icons.md-18 { font-size: 18px; }
 .material-icons.md-24 { 
@@ -40,79 +45,150 @@
     overflow: hidden;
 }
 
+.html {
+    height: 100%;
+}
+.body {
+    min-height: 100%;
+}
+.div {
+    display: block;
+}
+
+.title {
+    position: relative;
+    height: 50vh;
+    width: 100vw;
+    text-align: center;
+}
+
+#indian {
+    font-family: 'Samarkan', serif;
+    font-size: 120px;
+    white-space:pre;
+}
+
+#normal {
+    font-family: 'Lora', serif;
+    font-size: 100px;
+
+}
+
+.title-text {
+    padding: 35vh 0 0 0;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 4px 8px rgba(49, 49, 49, 0.492);
+    /*text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
+    */
+}
+
+.bg{
+    background-image: url("../images/colors.jpg");
+
+    /*height: 100%;
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-layer{
+    background-color: rgba(36, 36, 36, 0.274);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .search-box {
     position: relative;
-    padding: 50px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-top: 60vh;*
+    margin-bottom: auto;*/
     border: 0;
     width: 1024px;
-    height: 50px;
+    max-width: 100%;
+    height: 20vh;
+
+    padding: 0 10px 0 10px;
 
     display: block;
 }
 
-.search-field {
-    width: 1000px;
-    height: 50px;
+.results-box {
+    position: relative;
+    width: 100%;
+    max-width: 1024px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-top: 100px;*/
+    border: 0;
+}
+
+.result-btn {
+    margin: 5px 5px;
+    height: 42px;
     font-family: 'Open Sans', sans-serif;
-    box-shadow: rgba(75, 72, 72, 0.1) 0px 8px 15px;
-    border-width: 0px;
-    border-style: initial;
-    border-color: initial;
-    border-image: initial;
-    padding: 10px 75px 10px 20px;
-    background: white;
     border-radius: 3px;
-    transition: all 0.4s ease 0s;
-
-  border-style: initial;
-  border-color: initial;
-  border-image: initial;
-
-  
-
+    font-size: 16px;
 }
 
 .typeahead,
 .tt-query,
 .tt-hint {
-    width: 1000px;
+    width: 1004px;
+    max-width: 100%;
     height: 50px;
-    /*padding: 8px 12px;*/
-    /*font-size: 24px;*/
+    padding: 8px 20px;
+
+    font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     line-height: 30px;
-    background: white;
 
     border-style: none;
-    /*border: 2px solid #ccc;*/
+    border: 1px solid rgb(224, 224, 224);
     -webkit-border-radius: 3px;
         -moz-border-radius: 3px;
             border-radius: 3px;
     outline: none;
 
-    box-shadow: rgba(75, 72, 72, 0.1) 0px 8px 15px;
-    padding: 8px 20px;
+    background: rgba(255, 255, 255, 1.0);
+    box-shadow: rgba(49, 49, 49, 0.492) 0px 4px 8px;
+
+    color: rgb(0, 0, 0)
 }
 
 .typeahead {
-  background-color: #fff;
+    margin: 3vh 0 0 0;
 }
 
 .typeahead:focus {
     padding: 8px 20px;
+    border: 1px solid rgb(224, 224, 224);
+    box-shadow: rgba(49, 49, 49, 0.692) 0px 8px 15px;
+}
+
+.typeahead:hover {
+    border: 1px solid rgb(224, 224, 224);
+    box-shadow: rgba(49, 49, 49, 0.692) 0px 8px 15px;
 }
 
 .tt-query {
-    box-shadow: rgba(75, 72, 72, 0.1) 0px 8px 15px;
+    box-shadow: rgba(49, 49, 49, 0.692) 0px 8px 15px;
 }
 
 .tt-hint {
-  color: #999
+  color: rgb(121, 121, 121)
 }
 
 .tt-menu {
-  width: 1000px;
+  width: 100%; 
   margin: 4px 0;
   padding: 8px 0;
   background-color: #fff;
@@ -144,3 +220,32 @@
   margin: 0;
 }
 
+.btn-group span {
+	display: inline-block;
+	padding: 10px;
+	margin: 5px;
+	border: 1px solid white;
+	border-radius: 3px;
+	font-weight: 400;
+}
+
+/*
+.search-field {
+    width: 1000px;
+    height: 50px;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: rgba(75, 72, 72, 0.1) 0px 8px 15px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    padding: 10px 75px 10px 20px;
+    background: white;
+    border-radius: 3px;
+    transition: all 0.4s ease 0s;
+
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+}
+*/
