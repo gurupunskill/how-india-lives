@@ -8,7 +8,19 @@ function S(id){
 
 function show_results(text){
 
-    if(text == "Total Population"){
+    $.ajax({
+
+        type: "POST",
+        url: "/queryServer",
+        data: {input : text},
+        success: function(results){
+
+            console.log(results);
+        },
+        async: false 
+    });
+
+    /*if(text == "Total Population"){
 
        $.ajax({
 
@@ -22,7 +34,7 @@ function show_results(text){
         async: false
 
        }); 
-    }
+    }*/
 }
 
 var closeIcon =   document.querySelectorAll('svg.close'),
