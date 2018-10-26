@@ -36,11 +36,12 @@ app.get('/dump', function(req,res){
     });
 });
 
+//to query results for statistics
 app.post('/queryServer', function(req,res){
 
-    if(req.body.input == "Total Population"){
+    if(req.body.input == "Population"){
     
-    var query = "SELECT District , TOT_P FROM pca_total LIMIT 10";
+    var query = "SELECT name Name, TOT_P, TOT_M, TOT_F FROM pca_total LIMIT 10";
     pool.query(query,function(err,results,fields){
 
         if(err) throw err;
@@ -50,7 +51,7 @@ app.post('/queryServer', function(req,res){
     }
     else if(req.body.input == "Literacy Rate"){
     
-        var query = "SELECT District , P_LIT FROM pca_total LIMIT 10";
+        var query = "SELECT name Name, (P_LIT / TOT_P)*100 Literacy_Rate, (M_LIT / TOT_P)*100 Literacy_Rate_M, (F_LIT / TOT_P)*100 Literacy_Rate_F FROM pca_total LIMIT 10";
         pool.query(query,function(err,results,fields){
     
             if(err) throw err;
@@ -60,7 +61,7 @@ app.post('/queryServer', function(req,res){
     }
     else if(req.body.input == "Unemployement Rate"){
     
-        var query = "SELECT District , NON_WORK_P FROM pca_total LIMIT 10";
+        var query = "SELECT name Name, (NON_WORK_P / TOT_P)*100 Unemployement_Rate, (NON_WORK_M / TOT_P)*100 Unemployement_Rate_M, (NON_WORK_F / TOT_P)*100 Unemployement_Rate_F FROM pca_total LIMIT 10";
         pool.query(query,function(err,results,fields){
     
             if(err) throw err;
@@ -70,7 +71,7 @@ app.post('/queryServer', function(req,res){
     }
     else if(req.body.input == "Percent of Agricultural Labourers"){
     
-        var query = "SELECT District , MAIN_AL_P FROM pca_total LIMIT 10";
+        var query = "SELECT name Name, (MAIN_AL_P / TOT_P)*100 Agricultural_Labourers FROM pca_total LIMIT 10";
         pool.query(query,function(err,results,fields){
     
             if(err) throw err;
@@ -80,7 +81,7 @@ app.post('/queryServer', function(req,res){
     }
     else if(req.body.input == "Total Households"){
     
-        var query = "SELECT District_Code , Total_Number_of_households FROM hlpca_total LIMIT 10";
+        var query = "SELECT p.name Name, h.Total_Number_of_Dilapidated, h.DW_TFUS Unsafe_Water, h.Waste_water_ND No_drainage, h.MSL_NL No_lighting, h.MSL_SE Use_solar FROM hlpca_total as h, pca_total as p WHERE p.District = h.District_Code LIMIT 5";
         pool.query(query,function(err,results,fields){
     
             if(err) throw err;
