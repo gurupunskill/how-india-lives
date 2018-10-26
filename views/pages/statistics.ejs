@@ -18,13 +18,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <link rel="stylesheet" href="styles/statistics_page.css">
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     
 </head>
 
 <body>
     <center>
         <div class="container">
-
             <svg version="1.1" class="close" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px"
                  viewBox="0 0 42 42" enable-background="new 0 0 42 42" xml:space="preserve">
             
@@ -34,17 +35,18 @@
 
             <span id="option1">Select a Statistic</span>
             <ul class="list">
-              <li><a href="#">Total Population</a></li>
+              <li><a href="#">Population</a></li>
               <li><a href="#">Literacy Rate</a></li>
               <li><a href="#">Unemployement Rate</a></li>
               <li><a href="#">Percent of Agricultural Labourers</a></li>
               <li><a href="#">Total Households</a></li>
-            </ul> 
-
-            
-            
+            </ul>             
         </div>
+        <br><br><br>
+
+        <div id="barchart_material" style="width: 900px; height: 300px;"></div>
     </center>
+
 </body>
 
 <!-- Link the js file-->
