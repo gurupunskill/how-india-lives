@@ -21,8 +21,17 @@
 </head>
 <body>
 
+
+
+
     <div class="bg">
     <div class="bg-layer">
+        <nav>
+            <div class="nav nav-pills justify-content-end" id="nav-pills" role="tablist">
+                <a class="nav-item nav-link active" id="nav-search-pill" data-toggle="tab" href="#nav-search" role="pill" aria-controls="nav-search" aria-selected="true">Search</a>
+                <a class="nav-item nav-link" id="nav-advanced-pill" data-toggle="tab" href="#nav-advanced" role="pill" aria-controls="nav-advanced" aria-selected="false">Advanced</a>
+            </div>
+        </nav>
         <div class="title">
             <div class="title-text"> 
                 <span id="normal">How</span>
@@ -30,15 +39,41 @@
                 <span id="normal">lives</span>
             </div>
         </div>
+        
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-search" role="tabpanel" aria-labelledby="nav-search-pill">
+                <div id="search-box" class="search-box">
+                    <input class="typeahead" type="text" placeholder="Search Districts">
+                </div>
+                <div id="results-box" class="results-box">
+                    <div class="row" id="results"> 
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-header">
+                                Mumbai
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Cras justo odio</li>
+                                <li class="list-group-item">Dapibus ac facilisis in</li>
+                                <li class="list-group-item">Vestibulum at eros</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="nav-advanced" role="tabpanel" aria-labelledby="nav-advanced-pill">...</div>
+        </div>
 
+    <!--
+        Trash Option JIC
         <div id="search-box" class="search-box">
             <input class="typeahead" type="text" placeholder="Search Districts">
-        </div>   
-
-        <div id="results-box" class="results-box">
-            <div class="row" id="results">
-            </div>
         </div>
+        <div id="results-box" class="results-box">
+            <div class="row" id="results"> </div>
+        </div>
+
+    -->
+
     </div>    
     </div>
     <!--
