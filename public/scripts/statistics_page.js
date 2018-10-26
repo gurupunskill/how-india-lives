@@ -9,7 +9,7 @@ function S(id){
 function show_results(text){
 
     $.ajax({
-
+        
         type: "POST",
         url: "/queryServer",
         data: {input : text},
