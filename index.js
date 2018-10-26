@@ -19,7 +19,6 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'public')))
 app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'ejs')
-
 app.get('/', (req,res) => res.render('pages/search'))
 app.get('/statistics', (req, res) => res.render('pages/statistics'))
 app.get('/ref', (req,res) => res.render('pages/deprecated/dep_search'))
@@ -39,18 +38,21 @@ app.get('/dump', function(req,res){
 //to query results for statistics
 app.post('/queryServer', function(req,res){
 
-    if(req.body.input == "Population"){
-    
-    var query = "SELECT name Name, TOT_P, TOT_M, TOT_F FROM pca_total LIMIT 10";
-    pool.query(query,function(err,results,fields){
-
-        if(err) throw err;
-        res.send(results);
-        console.log('Population data sent');
-    });
+    if(String(Number(req.body.input)) == req.body.input) {
+        pool.query('SELECT * FROM pca_total WHERE district='+req.body.input, function(err, results, fields) {
+            if(err) throw err;
+            res.send(results);
+        });
     }
-    else if(req.body.input == "Literacy Rate"){
-    
+    else if(req.body.input == "Population"){
+        var query = "SELECT name Name, TOT_P, TOT_M, TOT_F FROM pca_total LIMIT 10";
+        pool.query(query,function(err,results,fields){
+            if(err) throw err;
+            res.send(results);
+            console.log('Population data sent');
+        });
+    }
+    else if(req.body.input == "Literacy Rate"){ 
         var query = "SELECT name Name, (P_LIT / TOT_P)*100 Literacy_Rate, (M_LIT / TOT_P)*100 Literacy_Rate_M, (F_LIT / TOT_P)*100 Literacy_Rate_F FROM pca_total LIMIT 10";
         pool.query(query,function(err,results,fields){
     
@@ -60,30 +62,24 @@ app.post('/queryServer', function(req,res){
         });
     }
     else if(req.body.input == "Unemployement Rate"){
-    
         var query = "SELECT name Name, (NON_WORK_P / TOT_P)*100 Unemployement_Rate, (NON_WORK_M / TOT_P)*100 Unemployement_Rate_M, (NON_WORK_F / TOT_P)*100 Unemployement_Rate_F FROM pca_total LIMIT 10";
         pool.query(query,function(err,results,fields){
-    
             if(err) throw err;
             res.send(results);
             console.log('Unemployment data sent');
         });
     }
     else if(req.body.input == "Percent of Agricultural Labourers"){
-    
         var query = "SELECT name Name, (MAIN_AL_P / TOT_P)*100 Agricultural_Labourers FROM pca_total LIMIT 10";
         pool.query(query,function(err,results,fields){
-    
             if(err) throw err;
             res.send(results);
             console.log('Agricultural data sent');
         });
     }
     else if(req.body.input == "Total Households"){
-    
         var query = "SELECT p.name Name, h.Total_Number_of_Dilapidated, h.DW_TFUS Unsafe_Water, h.Waste_water_ND No_drainage, h.MSL_NL No_lighting, h.MSL_SE Use_solar FROM hlpca_total as h, pca_total as p WHERE p.District = h.District_Code LIMIT 5";
         pool.query(query,function(err,results,fields){
-    
             if(err) throw err;
             res.send(results);
             console.log('Population data sent');
@@ -91,6 +87,7 @@ app.post('/queryServer', function(req,res){
     }
 });
 
+app.listen(PORT, () => console.log(`Listening on ${ PORT }`))
 
 /*
 app.get('/data', function(req, res){
@@ -106,6 +103,3 @@ app.get('/state', function(req, res){
     });
 });
 */
-
-
-app.listen(PORT, () => console.log(`Listening on ${ PORT }`))

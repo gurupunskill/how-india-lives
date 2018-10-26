@@ -1,38 +1,47 @@
-$(document).ready(function() {});
-
 google.charts.load('current', {'packages':['bar']});
 
 function S(id){
-
     //to get element by id
     return document.getElementById(id)
 }
 
-//function to query and obtain results basedon selection
-function show_results(text){
-
+function postQueryRet(URL_query_text, verbose=false) {
     $.ajax({
-
         type: "POST",
         url: "/queryServer",
-        data: {input : text},
+        data: {input : URL_query_text},
         success: function(results){
-
-            console.log(results);
-            drawChart(results);
+            if(verbose) console.log(results);
+            return results;
         },
         async: false 
     });
 }
 
+function postQueryExec(URL_query_text, exec_function, verbose=false) {
+    $.ajax({
+        type: "POST",
+        url: "/queryServer",
+        data: {input : URL_query_text},
+        success: function(results){
+            if(verbose) console.log(results);
+            exec_function(results);
+        },
+        async: false 
+    });
+}
+
+//function to query and obtain results basedon selection
+function show_results(text){
+    postQueryExec(text, drawChart);
+}
+
 //function to obtain keys in from JSON object
 function getKeys(results){
-
     var arr = [];
     var x;
     for(x in results[0])
         arr.push(x);
-
     return arr;
 }
 
@@ -48,7 +57,6 @@ function jsonToGraphData(results){
     graphData.push(getKeys(results));
     
     for(i=0;i<results.length;++i){
-
         for(j in results[i]){
             arr.push(results[i][j]);
         }
@@ -75,42 +83,3 @@ function drawChart(results) {
     var chart = new google.charts.Bar(document.getElementById('barchart_material'));
     chart.draw(data, google.charts.Bar.convertOptions(options));
 }
-
-/* set of functions for the selection menu */
-
-var closeIcon =   document.querySelectorAll('svg.close'),
-    $container = $('.container'),
-    $list = $container.find('ul'),
-    $links = $container.find('a'),
-    $text = $container.find('span');
-
-// When the '+' icon is clicked...
-$(closeIcon).on('click', function() {
-    // Add class to rotate icon to an 'x'
-    $(this).toggleClass('active');
-    // Toggle the list
-    $list.toggle();
-});
-
-$(closeIcon).hover(function() {
-    $container.addClass('hover');
-  }, function() {
-    $container.removeClass('hover');
-  });
-  
-$links.on('click', function() {
-    
-    $links.removeClass('active');
-    
-    $(this).addClass('active');
-    $text.text($(this).text()).addClass('fade');
-    setTimeout(function(){
-      $text.removeClass('fade');
-    }, 800);
-    $list.toggle();
-    $(closeIcon).toggleClass('active');
-
-    show_results(S("option1").innerHTML);
-  });
-
-  /* end of functions for selection menu */
