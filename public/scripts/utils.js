@@ -77,16 +77,22 @@ function drawChartBar(results) {
 function drawChartDonut() {
 
     var data = google.visualization.arrayToDataTable([
-      ['Illetracy', 'Percentage'],
-      ['Work',     77],
-      ['Literate', 20]
+        ['Illetracy', 'Percentage'],
+        ['Work',     77],
+        ['Literate', 20]
     ]);
 
     var options = {
-      pieHole: 0.85,
-      colors: ['red','grey'],
-      enableInteractivity: false,
-      legend: {position: 'none'},
+        pieHole: 0.5,
+        colors: ['red','grey'],
+        //enableInteractivity: false,
+        legend: {
+            position: "none"	
+        },
+        pieSliceText: "none",
+        tooltip: {
+            trigger: "none"
+        }
       //pieSliceBorderColor: 'light-grey',
     };
 
