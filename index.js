@@ -36,7 +36,7 @@ app.get('/dump', function(req,res){
 });
 
 //to query results for statistics
-app.post('/queryServer', function(req,res){
+app.post('/database', function(req,res){
 
     if(String(Number(req.body.input)) == req.body.input) {
         pool.query('SELECT * FROM pca_total WHERE district='+req.body.input, function(err, results, fields) {

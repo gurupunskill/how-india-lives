@@ -1,28 +1,15 @@
 google.charts.load('current', {'packages':['bar']});
+google.charts.load("current", {packages:["corechart"]});
 
 function S(id){
     //to get element by id
     return document.getElementById(id)
 }
 
-//function to query and return results based on selection
-function postQueryRet(URL_query_text, verbose=false) {
-    $.ajax({
-        type: "POST",
-        url: "/queryServer",
-        data: {input : URL_query_text},
-        success: function(results){
-            if(verbose) console.log(results);
-            return results;
-        },
-        async: false 
-    });
-}
-
 function postQueryExec(URL_query_text, exec_function, verbose=false) {
     $.ajax({
         type: "POST",
-        url: "/queryServer",
+        url: "/database",
         data: {input : URL_query_text},
         success: function(results){
             if(verbose) console.log(results);
@@ -34,7 +21,8 @@ function postQueryExec(URL_query_text, exec_function, verbose=false) {
 
 //function to query and obtain results based on selection
 function show_results(text){
-    postQueryExec(text, drawChart);
+    postQueryExec(text, drawChartBar);
+    drawChartDonut();
 }
 
 //function to obtain keys in from JSON object
@@ -68,8 +56,8 @@ function jsonToGraphData(results){
     return graphData;
 }
 
-//function to draw the graph
-function drawChart(results) {
+//function to draw the graph -> bar
+function drawChartBar(results) {
 
     var data = google.visualization.arrayToDataTable(jsonToGraphData(results));
 
@@ -84,3 +72,25 @@ function drawChart(results) {
     var chart = new google.charts.Bar(document.getElementById('barchart_material'));
     chart.draw(data, google.charts.Bar.convertOptions(options));
 }
+
+//function to draw the graph -> donut
+function drawChartDonut() {
+
+    var data = google.visualization.arrayToDataTable([
+      ['Illetracy', 'Percentage'],
+      ['Work',     77],
+      ['Literate', 20]
+    ]);
+
+    var options = {
+      pieHole: 0.85,
+      colors: ['red','grey'],
+      enableInteractivity: false,
+      legend: {position: 'none'},
+      //pieSliceBorderColor: 'light-grey',
+    };
+
+    var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+    chart.draw(data, options);
+  }
+
