@@ -21,7 +21,7 @@ app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'ejs')
 app.get('/', (req,res) => res.render('pages/search'))
 app.get('/statistics', (req, res) => res.render('pages/statistics'))
-app.get('/circle', (req, res) => res.render('partial/circle'))
+app.get('/circle', (req, res) => res.render('partial/lol'))
 
 app.get('/dump', function(req,res){
     pool.query('select d.name dname, s.name sname, d.district did, State sid from pca_total d, State s where d.State = s.SID', function(err, results, fields){
