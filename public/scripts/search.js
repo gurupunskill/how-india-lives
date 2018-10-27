@@ -39,8 +39,9 @@ $(document).ready(function(){
         for (i = 0; i < attributes_to_display.length; i++)
             district_card += ("<li class=\"list-group-item\">" + attributes_to_display[i] + " " + district_data[0][attributes_to_display[i]] + "</li>");
         
-        district_data += "</ul>"
-        district_data += "</div>"
+        district_card += "</ul>"
+        district_card += "</div>"
+        console.log(district_card);
         $("#results").append(district_card);
     } 
 
@@ -51,6 +52,9 @@ $(document).ready(function(){
         
         console.log(chosen_list);
     })
+
+    // google.charts.setOnLoadCallback(drawMap);
+    // drawMap();
 });
 /*
 

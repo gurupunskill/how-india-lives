@@ -100,3 +100,27 @@ function drawChartDonut() {
     chart.draw(data, options);
   }
 
+
+google.charts.load("current", {
+    "packages":["map"],
+    // Note: you will need to get a mapsApiKey for your project.
+    // See: https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings
+    "mapsApiKey": "AIzaSyBKh3pMeObhgM8VwHKtfF9rYTl9qi12gvA"
+});
+
+//google.charts.setOnLoadCallback(drawMap);
+function drawMap() {
+    var data = google.visualization.arrayToDataTable([
+        ['Location'], ['Mumbai, India']
+    ]);
+
+    var map = new google.visualization.Map(document.getElementById('map_div'));
+    map.draw(data, {
+        mapType: 'normal',
+        streetViewControl: false,
+        disableDefaultUI: true,
+        showTooltip: false,
+        showInfoWindow: true,
+        zoomLevel: 6
+    });
+}

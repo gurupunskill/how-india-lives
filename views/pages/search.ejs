@@ -2,76 +2,118 @@
 <html>
 <head>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.js"></script>
-    <script src="scripts/typeahead.bundle.js"></script>
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script src="scripts/search.js"></script>
-    <script type="text/javascript" src="scripts/utils.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.js"></script>
+  <script src="scripts/typeahead.bundle.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">    
-    <link rel="stylesheet" type="text/css" media="screen" href="styles/search.css" />
-    
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>How India Lives</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  
+  <link rel="stylesheet" type="text/css" media="screen" href="styles/search.css" />
+  <link rel="stylesheet" href="styles/circle.css">
+  
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>How India Lives</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 <body>
 
-    <div class="bg">
-    <div class="bg-layer">
-        <nav>
-            <div class="nav nav-pills justify-content-end" id="nav-pills" role="tablist">
-                <a class="nav-item nav-link active" id="nav-search-pill" data-toggle="tab" href="#nav-search" role="pill" aria-controls="nav-search" aria-selected="true">Search</a>
-                <a class="nav-item nav-link" id="nav-advanced-pill" data-toggle="tab" href="#nav-advanced" role="pill" aria-controls="nav-advanced" aria-selected="false">Advanced</a>
-            </div>
-        </nav>
-        <div class="title">
-            <div class="title-text"> 
-                <span id="normal">How</span>
-                <span id="indian"> India </span>  
-                <span id="normal">lives</span>
-            </div>
-        </div>
-        
-        <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="nav-search" role="tabpanel" aria-labelledby="nav-search-pill">
-                <div id="search-box" class="search-box">
-                    <input class="typeahead" type="text" placeholder="Search Districts">
-                </div>
-                <div id="results-box" class="results-box">
-                    <div class="row" id="results"> 
-                    </div>
-                </div>
-            </div>
-            <div class="tab-pane fade" id="nav-advanced" role="tabpanel" aria-labelledby="nav-advanced-pill">...</div>
-        </div>
-
-    <!--
-        Trash Option JIC
+  <div class="bg">
+  <div class="bg-layer">
+    <nav>
+      <div class="nav nav-pills justify-content-end" id="nav-pills" role="tablist">
+        <a class="nav-item nav-link active" id="nav-search-pill" data-toggle="tab" href="#nav-search" role="pill" aria-controls="nav-search" aria-selected="true">Search</a>
+        <a class="nav-item nav-link" id="nav-advanced-pill" data-toggle="tab" href="#nav-advanced" role="pill" aria-controls="nav-advanced" aria-selected="false">Advanced</a>
+      </div>
+    </nav>
+    <div class="title">
+      <div class="title-text"> 
+        <span id="normal">How</span>
+        <span id="indian"> India </span>  
+        <span id="normal">lives</span>
+      </div>
+    </div>
+    
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-search" role="tabpanel" aria-labelledby="nav-search-pill">
         <div id="search-box" class="search-box">
-            <input class="typeahead" type="text" placeholder="Search Districts">
+          <input class="typeahead" type="text" placeholder="Search Districts">
         </div>
         <div id="results-box" class="results-box">
-            <div class="row" id="results"> </div>
+          <div class="row" id="results"> 
+            <div class="card result-card">
+              <div class="card-header">Leh(Ladakh)</div>
+              <div class="card-body">
+                <div class="container">
+                  <!-- <div id="map_div" class="result-map"></div> -->
+                  <img class="result-map" src="https://maps.googleapis.com/maps/api/staticmap?center=Mumbai,India&zoom=10&size=320x200&key=AIzaSyBKh3pMeObhgM8VwHKtfF9rYTl9qi12gvA" />
+                  <div class="row">
+                    <div class="col-sm">
+                      <div class="c100 center p47 small">
+                        <span>47%</span>
+                        <div class="slice">
+                          <div class="bar"></div>
+                          <div class="fill"></div>
+                        </div>
+                      </div>
+                      <p class="result-text">Sex Ratio</p> 
+                    </div>
+                    <div class="col-sm">
+                      <div class="c100 center p47 small">
+                        <span>47%</span>
+                        <div class="slice">
+                          <div class="bar"></div>
+                          <div class="fill"></div>
+                        </div>
+                      </div>
+                      <p class="result-text">Literacy Rate</p>
+                    </div>
+                    <div class="col-sm">
+                      <div class="c100 center p47 small">
+                        <span>47%</span>
+                        <div class="slice">
+                          <div class="bar"></div>
+                          <div class="fill"></div>
+                        </div>
+                      </div>
+                      <p class="result-text">Sex Ratio</p>
+                    </div>
+                  </div>
+                </div>
+              </div>            
+            </div>
+
+            <div class="card result-card">
+              <div class="card-header">Leh(Ladakh)</div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">State 1</li>
+                <li class="list-group-item">TOT_P 133487</li>
+                <li class="list-group-item">TOT_M 78971</li>
+                <li class="list-group-item">TOT_F 54516</li>
+              </ul>
+            </div>
+          </div>
         </div>
-
-    -->
-
-    </div>    
+      </div>
+      <div class="tab-pane fade" id="nav-advanced" role="tabpanel" aria-labelledby="nav-advanced-pill">...</div>
     </div>
-    <!--
-        <div class="custom-search" >
-            <i class="material-icons md-24" id="s_icosn">search</i>
-        </div>
-        <div class="custom-close" >
-            <i class="material-icons md-24" id="c_icon">close</i>
-        </div>
-    -->
+  </div>  
+  </div>
+  <!--
+    <div class="custom-search" >
+      <i class="material-icons md-24" id="s_icosn">search</i>
+    </div>
+    <div class="custom-close" >
+      <i class="material-icons md-24" id="c_icon">close</i>
+    </div>
+  -->
 </body>
+
+<script src="scripts/search.js"></script>
+<script type="text/javascript" src="scripts/utils.js"></script>
+
 </html>
