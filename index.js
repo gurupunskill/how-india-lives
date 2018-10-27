@@ -21,7 +21,7 @@ app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'ejs')
 app.get('/', (req,res) => res.render('pages/search'))
 app.get('/statistics', (req, res) => res.render('pages/statistics'))
-app.get('/ref', (req,res) => res.render('pages/deprecated/dep_search'))
+app.get('/circle', (req, res) => res.render('partial/circle'))
 
 app.get('/dump', function(req,res){
     pool.query('select d.name dname, s.name sname, d.district did, State sid from pca_total d, State s where d.State = s.SID', function(err, results, fields){
@@ -35,8 +35,9 @@ app.get('/dump', function(req,res){
     });
 });
 
+
 //to query results for statistics
-app.post('/queryServer', function(req,res){
+app.post('/database', function(req,res){
 
     if(String(Number(req.body.input)) == req.body.input) {
         pool.query('SELECT * FROM pca_total WHERE district='+req.body.input, function(err, results, fields) {

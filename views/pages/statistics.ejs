@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    
+
     <title>Statistics</title>
 
     <!--
@@ -16,7 +16,10 @@
     -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
     <link rel="stylesheet" href="styles/statistics.css">
+    <link rel="stylesheet" href="styles/circle.css">
+    
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     
 </head>
@@ -43,13 +46,25 @@
         <br><br><br>
 
         <div id="barchart_material" style="width: 900px; height: 300px;"></div>
+
+        <br><br>
+
+        <!--<div id="donutchart" style="width: 200px; height: 200px;"></div>-->
+        
+        <div class="c100 p47 small">
+            <span>47%</span>
+            <div class="slice">
+                <div class="bar"></div>
+                <div class="fill"></div>
+            </div>
+        </div>
+
     </center>
 
 </body>
 
-<!-- Link the js file-->
+<!-- Link the js files-->
 <script type="text/javascript" src="scripts/utils.js"></script>
-    <script type="text/javascript" src="scripts/statistics.js"></script>
-    
+<script type="text/javascript" src="scripts/statistics.js"></script>    
 
 </html> 
