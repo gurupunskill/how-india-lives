@@ -42,7 +42,6 @@ $(document).ready(function(){
         district_data += "</ul>"
         district_data += "</div>"
         $("#results").append(district_card);
-        
     } 
 
     $('#search-box .typeahead').bind('typeahead:select', function(event, suggestion) {
