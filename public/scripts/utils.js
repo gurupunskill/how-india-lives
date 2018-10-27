@@ -5,6 +5,7 @@ function S(id){
     return document.getElementById(id)
 }
 
+//function to query and return results based on selection
 function postQueryRet(URL_query_text, verbose=false) {
     $.ajax({
         type: "POST",
@@ -31,7 +32,7 @@ function postQueryExec(URL_query_text, exec_function, verbose=false) {
     });
 }
 
-//function to query and obtain results basedon selection
+//function to query and obtain results based on selection
 function show_results(text){
     postQueryExec(text, drawChart);
 }

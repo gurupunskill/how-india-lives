@@ -2,8 +2,6 @@ $(document).ready(function(){
 
     var chosen_list = [];
 
-
-
     var districts = new Bloodhound({
         datumTokenizer: Bloodhound.tokenizers.obj.whitespace('dname'),
         queryTokenizer: Bloodhound.tokenizers.whitespace,
