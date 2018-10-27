@@ -1,5 +1,10 @@
 google.charts.load('current', {'packages':['bar']});
-google.charts.load("current", {packages:["corechart"]});
+google.charts.load('current', {
+    'packages':['geochart'],
+    'mapsApiKey': "AIzaSyBKh3pMeObhgM8VwHKtfF9rYTl9qi12gvA"
+  });
+
+//google.charts.load("current", {packages:["corechart"]});
 
 function S(id){
     //to get element by id
@@ -22,7 +27,7 @@ function postQueryExec(URL_query_text, exec_function, verbose=false) {
 //function to query and obtain results based on selection
 function show_results(text){
     postQueryExec(text, drawChartBar);
-    drawChartDonut();
+    drawRegionsMap();
 }
 
 //function to obtain keys in from JSON object
@@ -73,6 +78,26 @@ function drawChartBar(results) {
     chart.draw(data, google.charts.Bar.convertOptions(options));
 }
 
+function drawRegionsMap() {
+    var data = google.visualization.arrayToDataTable([
+      ['Country', 'Popularity'],
+      ['Germany', 200],
+      ['United States', 300],
+      ['Brazil', 400],
+      ['Canada', 500],
+      ['France', 600],
+      ['RU', 700]
+    ]);
+
+    var options = {};
+
+    var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+
+    chart.draw(data, options);
+  }
+
+
+/*
 //function to draw the graph -> donut
 function drawChartDonut() {
 
@@ -99,7 +124,7 @@ function drawChartDonut() {
     var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
     chart.draw(data, options);
   }
-
+*/
 
 google.charts.load("current", {
     "packages":["map"],
