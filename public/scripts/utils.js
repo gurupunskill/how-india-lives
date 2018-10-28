@@ -11,11 +11,11 @@ function S(id){
     return document.getElementById(id)
 }
 
-function postQueryExec(URL_query_text, exec_function, verbose=false) {
+function postQueryExec(URL_query_text, exec_function, URL_secondary_string = "", verbose=false) {
     $.ajax({
         type: "POST",
         url: "/database",
-        data: {input : URL_query_text},
+        data: {input : URL_query_text, table : URL_secondary_string},
         success: function(results){
             if(verbose) console.log(results);
             exec_function(results);
@@ -25,9 +25,13 @@ function postQueryExec(URL_query_text, exec_function, verbose=false) {
 }
 
 //function to query and obtain results based on selection
-function show_results(text){
+function show_results_1(text){
     postQueryExec(text, drawChartBar);
-    drawRegionsMap();
+}
+
+//function to get data for geochart from button on click
+function mapShowPop(clicked_id){
+    postQueryExec(clicked_id,drawRegionsMap,"pca");
 }
 
 //function to obtain keys in from JSON object
@@ -78,21 +82,25 @@ function drawChartBar(results) {
     chart.draw(data, google.charts.Bar.convertOptions(options));
 }
 
-function drawRegionsMap() {
-    var data = google.visualization.arrayToDataTable([
-      ['Country', 'Popularity'],
-      ['Germany', 200],
-      ['United States', 300],
-      ['Brazil', 400],
-      ['Canada', 500],
-      ['France', 600],
-      ['RU', 700]
-    ]);
+//function to draw the geochart of India
+function drawRegionsMap(results) {
 
-    var options = {};
+    var data = google.visualization.arrayToDataTable(jsonToGraphData(results));
+
+    var options = {
+        region: 'IN',
+        domain:'IN',
+        displayMode: 'regions',
+        colorAxis: {colors: ['#e5ef88', '#d4b114', '#e85a03']},
+        resolution: 'provinces',
+        /*backgroundColor: '#81d4fa',*/
+        /*datalessRegionColor: '#81d4fa',*/
+        defaultColor: '#f5f5f5',
+        width: 640, 
+        height: 480
+      };
 
     var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
-
     chart.draw(data, options);
   }
 

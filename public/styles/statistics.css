@@ -62,9 +62,9 @@
   }
   .container.hover {
     border-color: #b2b2b2;
-    -moz-box-shadow: 0 0 14px 0 #efefef;
-    -webkit-box-shadow: 0 0 14px 0 #efefef;
-    box-shadow: 0 0 14px 0 #efefef;
+    -moz-box-shadow: 0 0 2px 0 #efefef;
+    -webkit-box-shadow: 0 0 2px 0 #efefef;
+    box-shadow: 0 0 2px 0 #efefef;
   }
   .container.hover > span {
     color: #b2b2b2;
@@ -102,10 +102,10 @@
     transition: color 0.3s ease;
   }
   .container ul a:hover {
-    color: #636363;
+    color: #949191;
   }
   .container ul a.active {
-    color: #636363;
+    color: #949191;
   }
   .container ul li {
     padding: 8px 0;
@@ -131,7 +131,7 @@
     transition: all 0.3s ease;
   }
   .close:hover path {
-    fill: #404040;
+    fill: #bab9bd;
   }
   .close.active {
     -moz-transform: rotate(-135deg);
@@ -140,11 +140,81 @@
     transform: rotate(-135deg);
   }
   .close.active path {
-    fill: #404040;
+    fill: #bab9bd;
   }
 
-  /* Pie Chart */
+  /* button group */
 
-  
+  @import url(https://fonts.googleapis.com/css?family=Raleway:700);
+*, *:before, *:after {
+  box-sizing: border-box;
+}
 
-  /* End of the pie chart*/
+body {
+  background: #2c3e50;
+  padding: 30px 0;
+  font-family: raleway, sans-serif;
+  color: #bdc3c7;
+  text-align: center;
+}
+
+.btngroup {
+  font-size: 0;
+  line-height: 1;
+  white-space: nowrap;
+  display: inline;
+}
+.btngroup--btn {
+  font-size: 1rem;
+  letter-spacing: .1em;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: transparent;
+  border: 2px solid #7f8c8d;
+  border-left-width: 0;
+  display: inline-block;
+  padding: .5em 1.25em;
+  outline: 0;
+  width: 7.5cm;
+}
+.btngroup--btn.small{
+  width: 2cm;
+}
+.btngroup--btn:first-child {
+  border-left-width: 2px;
+  /*border-radius: 2em 0 0 2em;*/
+}
+.btngroup--btn:last-child {
+  /*border-radius: 0 2em 2em 0;*/
+}
+.btngroup--btn:link {
+  color: #bdc3c7;
+}
+.btngroup--btn:visted {
+  color: #bdc3c7;
+}
+.btngroup--btn:hover {
+  background: #34495e;
+  color: #fff;
+}
+.btngroup--btn:active {
+  background: #fff;
+  color: #34495e;
+}
+.btngroup--btn.m:hover {
+  background: #5e3534;
+  color: #fff;
+}
+.btngroup--btn.m:active {
+  background: #fff;
+  color: #5e3534;
+}
+.btngroup--btn.f:hover {
+  background: #4a345e;
+  color: #fff;
+}
+.btngroup--btn.f:active {
+  background: #fff;
+  color: #4a345e;
+}
+  /* End of the button group*/

@@ -83,7 +83,17 @@ app.post('/database', function(req,res){
         pool.query(query,function(err,results,fields){
             if(err) throw err;
             res.send(results);
-            console.log('Population data sent');
+            console.log('Household data sent');
+        });
+    }
+    else if(req.body.table == "pca"){
+
+        //the req.body.input has the attribute name for the table
+        var query = "select distinct state.ISO_Code as State_Code, state.Name as State, t.value as " + req.body.input + " from (select state, sum(" + req.body.input +") value from pca_total group by state) as t,state where t.state = state.sid;"
+        pool.query(query,function(err,results,fields){
+            if(err) throw err;
+            res.send(results);
+            console.log('Data sent');
         });
     }
 });
