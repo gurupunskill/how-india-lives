@@ -45,6 +45,15 @@ app.post('/database', function(req,res){
             res.send(results);
         });
     }
+    else if(req.body.input == "Mumbaipop"){
+        var query = "SELECT Name '', TOT_P Total, TOT_M Males, TOT_F Females FROM pca_total where Name='Mumbai'";
+        pool.query(query,function(err,results,fields){
+            if(err) throw err;
+            console.log(results);
+            console.log('Mumbai Population data sent');
+            res.send(results);
+        });
+    }
     else if(req.body.input == "Population"){
         var query = "SELECT name Name, TOT_P, TOT_M, TOT_F FROM pca_total ORDER BY TOT_P " + req.body.table + " LIMIT 5;"
         pool.query(query,function(err,results,fields){

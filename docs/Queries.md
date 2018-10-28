@@ -10,98 +10,98 @@ The data is present in CSV files [here.](census-data)
 We have 91 columns for the [Primary Census Abstract](census-data/pca_total.csv) to be added to the table. They all hold integers with a maximum of 9 digits.
 
 ```sql
-CREATE TABLE pca_total (
+CREATE TABLE pca_full (
     State INT NOT NULL,
     District INT NOT NULL,
     Level VARCHAR(100) NOT NULL,
     Name VARCHAR(100) NOT NULL,
     TRU VARCHAR(100) NOT NULL,
-    TRU1 INT NOT NULL,
-    No_HH INT NOT NULL,
-    TOT_P INT NOT NULL,
-    TOT_M INT NOT NULL,
-    TOT_F INT NOT NULL,
-    P_06 INT NOT NULL,
-    M_06 INT NOT NULL,
-    F_06 INT NOT NULL,
-    P_SC INT NOT NULL,
-    M_SC INT NOT NULL,
-    F_SC INT NOT NULL,
-    P_ST INT NOT NULL,
-    M_ST INT NOT NULL,
-    F_ST INT NOT NULL,
-    P_LIT INT NOT NULL,
-    M_LIT INT NOT NULL,
-    F_LIT INT NOT NULL,
-    P_ILL INT NOT NULL,
-    M_ILL INT NOT NULL,
-    F_ILL INT NOT NULL,
-    TOT_WORK_P INT NOT NULL,
-    TOT_WORK_M INT NOT NULL,
-    TOT_WORK_F INT NOT NULL,
-    MAINWORK_P INT NOT NULL,
-    MAINWORK_M INT NOT NULL,
-    MAINWORK_F INT NOT NULL,
-    MAIN_CL_P INT NOT NULL,
-    MAIN_CL_M INT NOT NULL,
-    MAIN_CL_F INT NOT NULL,
-    MAIN_AL_P INT NOT NULL,
-    MAIN_AL_M INT NOT NULL,
-    MAIN_AL_F INT NOT NULL,
-    MAIN_HH_P INT NOT NULL,
-    MAIN_HH_M INT NOT NULL,
-    MAIN_HH_F INT NOT NULL,
-    MAIN_OT_P INT NOT NULL,
-    MAIN_OT_M INT NOT NULL,
-    MAIN_OT_F INT NOT NULL,
-    MARGWORK_P INT NOT NULL,
-    MARGWORK_M INT NOT NULL,
-    MARGWORK_F INT NOT NULL,
-    MARG_CL_P INT NOT NULL,
-    MARG_CL_M INT NOT NULL,
-    MARG_CL_F INT NOT NULL,
-    MARG_AL_P INT NOT NULL,
-    MARG_AL_M INT NOT NULL,
-    MARG_AL_F INT NOT NULL,
-    MARG_HH_P INT NOT NULL,
-    MARG_HH_M INT NOT NULL,
-    MARG_HH_F INT NOT NULL,
-    MARG_OT_P INT NOT NULL,
-    MARG_OT_M INT NOT NULL,
-    MARG_OT_F INT NOT NULL,
-    MARGWORK_3_6_P INT NOT NULL,
-    MARGWORK_3_6_M INT NOT NULL,
-    MARGWORK_3_6_F INT NOT NULL,
-    MARG_CL_3_6_P INT NOT NULL,
-    MARG_CL_3_6_M INT NOT NULL,
-    MARG_CL_3_6_F INT NOT NULL,
-    MARG_AL_3_6_P INT NOT NULL,
-    MARG_AL_3_6_M INT NOT NULL,
-    MARG_AL_3_6_F INT NOT NULL,
-    MARG_HH_3_6_P INT NOT NULL,
-    MARG_HH_3_6_M INT NOT NULL,
-    MARG_HH_3_6_F INT NOT NULL,
-    MARG_OT_3_6_P INT NOT NULL,
-    MARG_OT_3_6_M INT NOT NULL,
-    MARG_OT_3_6_F INT NOT NULL,
-    MARGWORK_0_3_P INT NOT NULL,
-    MARGWORK_0_3_M INT NOT NULL,
-    MARGWORK_0_3_F INT NOT NULL,
-    MARG_CL_0_3_P INT NOT NULL,
-    MARG_CL_0_3_M INT NOT NULL,
-    MARG_CL_0_3_F INT NOT NULL,
-    MARG_AL_0_3_P INT NOT NULL,
-    MARG_AL_0_3_M INT NOT NULL,
-    MARG_AL_0_3_F INT NOT NULL,
-    MARG_HH_0_3_P INT NOT NULL,
-    MARG_HH_0_3_M INT NOT NULL,
-    MARG_HH_0_3_F INT NOT NULL,
-    MARG_OT_0_3_P INT NOT NULL,
-    MARG_OT_0_3_M INT NOT NULL,
-    MARG_OT_0_3_F INT NOT NULL,
-    NON_WORK_P INT NOT NULL,
-    NON_WORK_M INT NOT NULL,
-    NON_WORK_F INT NOT NULL,
+    TRU1 INT,
+    No_HH INT,
+    TOT_P INT,
+    TOT_M INT,
+    TOT_F INT,
+    P_06 INT,
+    M_06 INT,
+    F_06 INT,
+    P_SC INT,
+    M_SC INT,
+    F_SC INT,
+    P_ST INT,
+    M_ST INT,
+    F_ST INT,
+    P_LIT INT,
+    M_LIT INT,
+    F_LIT INT,
+    P_ILL INT,
+    M_ILL INT,
+    F_ILL INT,
+    TOT_WORK_P INT,
+    TOT_WORK_M INT,
+    TOT_WORK_F INT,
+    MAINWORK_P INT,
+    MAINWORK_M INT,
+    MAINWORK_F INT,
+    MAIN_CL_P INT,
+    MAIN_CL_M INT,
+    MAIN_CL_F INT,
+    MAIN_AL_P INT,
+    MAIN_AL_M INT,
+    MAIN_AL_F INT,
+    MAIN_HH_P INT,
+    MAIN_HH_M INT,
+    MAIN_HH_F INT,
+    MAIN_OT_P INT,
+    MAIN_OT_M INT,
+    MAIN_OT_F INT,
+    MARGWORK_P INT,
+    MARGWORK_M INT,
+    MARGWORK_F INT,
+    MARG_CL_P INT,
+    MARG_CL_M INT,
+    MARG_CL_F INT,
+    MARG_AL_P INT,
+    MARG_AL_M INT,
+    MARG_AL_F INT,
+    MARG_HH_P INT,
+    MARG_HH_M INT,
+    MARG_HH_F INT,
+    MARG_OT_P INT,
+    MARG_OT_M INT,
+    MARG_OT_F INT,
+    MARGWORK_3_6_P INT,
+    MARGWORK_3_6_M INT,
+    MARGWORK_3_6_F INT,
+    MARG_CL_3_6_P INT,
+    MARG_CL_3_6_M INT,
+    MARG_CL_3_6_F INT,
+    MARG_AL_3_6_P INT,
+    MARG_AL_3_6_M INT,
+    MARG_AL_3_6_F INT,
+    MARG_HH_3_6_P INT,
+    MARG_HH_3_6_M INT,
+    MARG_HH_3_6_F INT,
+    MARG_OT_3_6_P INT,
+    MARG_OT_3_6_M INT,
+    MARG_OT_3_6_F INT,
+    MARGWORK_0_3_P INT,
+    MARGWORK_0_3_M INT,
+    MARGWORK_0_3_F INT,
+    MARG_CL_0_3_P INT,
+    MARG_CL_0_3_M INT,
+    MARG_CL_0_3_F INT,
+    MARG_AL_0_3_P INT,
+    MARG_AL_0_3_M INT,
+    MARG_AL_0_3_F INT,
+    MARG_HH_0_3_P INT,
+    MARG_HH_0_3_M INT,
+    MARG_HH_0_3_F INT,
+    MARG_OT_0_3_P INT,
+    MARG_OT_0_3_M INT,
+    MARG_OT_0_3_F INT,
+    NON_WORK_P INT,
+    NON_WORK_M INT,
+    NON_WORK_F INT,
     PRIMARY KEY (State, District)
 );
 ```
@@ -109,7 +109,7 @@ CREATE TABLE pca_total (
 To load the csv file into the database, we used [mysqlimport](https://dev.mysql.com/doc/refman/8.0/en/mysqlimport.html). mysqlimport is a data import program provided by the mysql client. 
 
 ```bash
-> mysqlimport --ignore-lines=1 --fields-terminated-by=, --local -u gurupunskill -p HIL pca_total.csv
+> mysqlimport --ignore-lines=1 --fields-terminated-by=, --local -u gurupunskill -p HIL pca_full.csv
 
 Enter password: 
 HIL.pca_total: Records: 640  Deleted: 0  Skipped: 0  Warnings: 0
@@ -119,7 +119,7 @@ Once the data is successfully imported, standard mySQL queries can be executed.
 
 ```sql
 
-mysql> select STATE, DISTRICT, Name, TOT_P, TOT_M, TOT_F from pca_total LIMIT 10;
+mysql> select STATE, DISTRICT, Name, TOT_P, TOT_M, TOT_F from pca_full where TRU='Total' LIMIT 10 ;
 +-------+----------+-------------+---------+--------+--------+
 | STATE | DISTRICT | Name        | TOT_P   | TOT_M  | TOT_F  |
 +-------+----------+-------------+---------+--------+--------+
@@ -136,7 +136,7 @@ mysql> select STATE, DISTRICT, Name, TOT_P, TOT_M, TOT_F from pca_total LIMIT 10
 +-------+----------+-------------+---------+--------+--------+
 10 rows in set (0.00 sec)
 
-mysql> select STATE, DISTRICT, Name, TOT_P, TOT_M, TOT_F from pca_total where NAME='Chennai';
+mysql> select STATE, DISTRICT, Name, TOT_P, TOT_M, TOT_F from pca_total where NAME='Chennai' AND TRU='Total';
 +-------+----------+---------+---------+---------+---------+
 | STATE | DISTRICT | Name    | TOT_P   | TOT_M   | TOT_F   |
 +-------+----------+---------+---------+---------+---------+
@@ -149,17 +149,17 @@ The [Houselisting Primary Census Abstract](census-data/hlpca-total) has 156 Attr
 We created the table using the following query.  
 
 ```sql
-CREATE TABLE hlpca_total (
+CREATE TABLE hlpca_full (
     State_Code INT NOT NULL,
     State_Name VARCHAR(100) NOT NULL,
     District_Code INT NOT NULL,
     District_Name VARCHAR(100) NOT NULL,
-    Tehsil_Code INT NOT NULL,
-    Tehsil_Name VARCHAR(100) NOT NULL,
-    Town_Code_or_Village_code VARCHAR(100) NOT NULL,
-    Ward_No INT NOT NULL,
-    Area_Name VARCHAR(100) NOT NULL,
-    Rural_or_Urban VARCHAR(100) NOT NULL,
+    Tehsil_Code INT,
+    Tehsil_Name VARCHAR(100),
+    Town_Code_or_Village_code VARCHAR(100),
+    Ward_No INT,
+    Area_Name VARCHAR(100),
+    Rural_or_Urban VARCHAR(100),
     Total_Number_of_households FLOAT,
     Total_Number_of_Good FLOAT,
     Total_Number_of_Livable FLOAT,
@@ -312,20 +312,20 @@ CREATE TABLE hlpca_total (
 
 We then imported the csv using the same commands as before.  
 ```bash
-> mysqlimport --ignore-lines=1 --fields-terminated-by=, --local -u gurupunskill -p HIL hlpca_total.csv
+> mysqlimport --ignore-lines=1 --fields-terminated-by=, --local -u gurupunskill -p HIL hlpca_full.csv
 ```
 
 As per our, ER Diagram, we have a State table as well. Which maps all the `SID` to the `State Names`. We made the State table using the following queries.
 
 ```sql
 mysql> CREATE TABLE State (
-    -> SID INT NOT NULL,
-    -> NAME VARCHAR(100) NOT NULL,
+    -> SID INT,
+    -> NAME VARCHAR(100),
     -> PRIMARY KEY (SID)
     -> );
 Query OK, 0 rows affected (0.33 sec)
 
-mysql> INSERT INTO State (SID, Name) SELECT DISTINCT State_Code, State_Name FROM hlpca_total;
+mysql> INSERT INTO State (SID, Name) SELECT DISTINCT State_Code, State_Name FROM hlpca_full;
 Query OK, 35 rows affected (0.10 sec)
 Records: 35  Duplicates: 0  Warnings: 0
 
@@ -375,23 +375,23 @@ mysql> select * from State;
 We then removed redundant columns from the other tables and added foreign key constraints.  
 
 ```sql
-mysql> ALTER TABLE hlpca_total DROP State_Name;
+mysql> ALTER TABLE hlpca_full DROP State_Name;
 Query OK, 0 rows affected (3.64 sec)
 Records: 0  Duplicates: 0  Warnings: 0
 
-mysql> ALTER TABLE hlpca_total DROP District_Name;
+mysql> ALTER TABLE hlpca_full DROP District_Name;
 Query OK, 0 rows affected (3.87 sec)
 Records: 0  Duplicates: 0  Warnings: 0
 
-mysql> ALTER TABLE pca_total DROP Level;
+mysql> ALTER TABLE pca_full DROP Level;
 Query OK, 0 rows affected (2.34 sec)
 Records: 0  Duplicates: 0  Warnings: 0
 
-mysql> ALTER TABLE hlpca_total DROP COLUMN State_Code;
+mysql> ALTER TABLE hlpca_full DROP COLUMN State_Code;
 Query OK, 0 rows affected (3.91 sec)
 Records: 0  Duplicates: 0  Warnings: 0
 
-mysql> ALTER TABLE pca_total ADD FOREIGN KEY (State) REFERENCES State(SID);
+mysql> ALTER TABLE pca_full ADD FOREIGN KEY (State) REFERENCES State(SID);
 Query OK, 640 rows affected (1.78 sec)
 
 ```

@@ -17,6 +17,7 @@ function postQueryExec(URL_query_text, exec_function, URL_secondary_string = "",
         url: "/database",
         data: {input : URL_query_text, table : URL_secondary_string},
         success: function(results){
+            //google.charts.setOnLoadCallback(exec_function)
             if(verbose) console.log(results);
             exec_function(results);
         },
@@ -65,6 +66,24 @@ function jsonToGraphData(results){
     }
     
     return graphData;
+}
+
+var default_options = {
+    chart: {
+      title: 'Statistics Visualization',
+      subtitle: 'Visulalising data',
+    },
+    bars: 'vertical' // Required for Material Bar Charts.
+}
+
+//function to draw the graph -> bar
+function drawChartBar(results, elementID='barchart_material', options=default_options) 
+{
+    var data = google.visualization.arrayToDataTable(jsonToGraphData(results));
+    var chart = new google.charts.Bar(document.getElementById(elementID));
+    chart.draw(data, google.charts.Bar.convertOptions(options));
+    // var chart = new google.visualization.BarChart(document.getElementById(elementID));
+    // chart.draw(data, options);
 }
 
 //function to draw the graph -> bar best
