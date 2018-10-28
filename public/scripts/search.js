@@ -41,10 +41,6 @@ $(document).ready(function(){
         
         district_card += "</ul>"
         district_card += "</div>"
-<<<<<<< HEAD
-        console.log(district_card);
-        $("#results").append(district_card);
-=======
         console.log(district_card);*/
         
         var parsed_district_name = district_data[0]['Name'].replace(/ /g, "%20")
@@ -124,7 +120,6 @@ $(document).ready(function(){
         $("#results").append(district_card);
         //postQueryExec(, function(){make_pop_graph(district_pop_data, )}, verbose=true);
         make_pop_graph(district_pop_data, graph_id);
->>>>>>> 05186f5a448f752c2d99f1810d35340c9401d4bb
     } 
 
     function make_pop_graph(district_pop_data, elementId) {
