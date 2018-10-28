@@ -26,7 +26,9 @@ function postQueryExec(URL_query_text, exec_function, URL_secondary_string = "",
 
 //function to query and obtain results based on selection
 function show_results_1(text){
-    postQueryExec(text, drawChartBar);
+    postQueryExec(text, drawChartBarBest,"DESC");
+    postQueryExec(text, drawChartBarWorst,"ASC");
+    postQueryExec("TOT_P",drawRegionsMap,"pca");
 }
 
 //function to get data for geochart from button on click
@@ -65,20 +67,37 @@ function jsonToGraphData(results){
     return graphData;
 }
 
-//function to draw the graph -> bar
-function drawChartBar(results) {
+//function to draw the graph -> bar best
+function drawChartBarBest(results) {
 
     var data = google.visualization.arrayToDataTable(jsonToGraphData(results));
 
     var options = {
       chart: {
         title: 'Statistics Visualization',
-        subtitle: 'Visulalising data',
+        subtitle: 'Visulalising data of the highest 5 states',
       },
       bars: 'vertical' // Required for Material Bar Charts.
     };
 
-    var chart = new google.charts.Bar(document.getElementById('barchart_material'));
+    var chart = new google.charts.Bar(document.getElementById('barchart_material_best'));
+    chart.draw(data, google.charts.Bar.convertOptions(options));
+}
+
+//function to draw the graph -> bar worst
+function drawChartBarWorst(results) {
+
+    var data = google.visualization.arrayToDataTable(jsonToGraphData(results));
+
+    var options = {
+      chart: {
+        title: 'Statistics Visualization',
+        subtitle: 'Visulalising data of the lowest 5 states',
+      },
+      bars: 'vertical' // Required for Material Bar Charts.
+    };
+
+    var chart = new google.charts.Bar(document.getElementById('barchart_material_worst'));
     chart.draw(data, google.charts.Bar.convertOptions(options));
 }
 
@@ -91,7 +110,7 @@ function drawRegionsMap(results) {
         region: 'IN',
         domain:'IN',
         displayMode: 'regions',
-        colorAxis: {colors: ['#e5ef88', '#d4b114', '#e85a03']},
+        colorAxis: {colors: ['#daedf4', '#52aacc', '#2b7590']},
         resolution: 'provinces',
         /*backgroundColor: '#81d4fa',*/
         /*datalessRegionColor: '#81d4fa',*/
