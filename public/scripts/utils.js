@@ -16,7 +16,7 @@ function postQueryExec(URL_query_text, exec_function, verbose=false) {
             if(verbose) console.log(results);
             exec_function(results);
         },
-        async: false 
+        async: true 
     });
 }
 
