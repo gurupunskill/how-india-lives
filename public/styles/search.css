@@ -5,6 +5,8 @@
     src: url('/fonts/samarkan.TTF');
 }
 
+svg > g > g:last-child { pointer-events: none }
+
 .html {
     height: 100%;
 }
@@ -18,12 +20,12 @@
 /* Background */
 .bg{
     background-image: url("../images/colors.jpg");
-    height: 100%; 
-
+    height: 100%;
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 .bg-layer{
@@ -57,7 +59,7 @@
 .title {
     position: relative;
     height: 47.5vh;
-    width: 100vw;
+    width: 100%;
     text-align: center;
 }
 
@@ -91,7 +93,7 @@
     border: 0;
     width: 53.33vw;
     max-width: 100%;
-    height: 20vh;
+    height: 10vh;
 
     padding: 0 0.52vw 0 0.52vw;
 
@@ -120,7 +122,13 @@
     background: rgba(255, 255, 255, 1.0);
     box-shadow: rgba(49, 49, 49, 0.492) 0px 4px 8px;
 
-    color: rgb(0, 0, 0)
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+}
+
+.typeahead.sticky {
+    position: sticky;
+    top: 0;
 }
 
 .typeahead {
@@ -186,18 +194,47 @@
 .results-box {
     position: relative;
     width: 100%;
-    max-width: 80vw;
-    height: 10.23vh;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 500%;
+    height: 95vw;
+    padding-left: 20px;
+    padding-right: 20px; 
     /*margin-top: 100px;*/
     border: 0;
+    margin-bottom: 20px;
 }
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.results-box > .row {
+    display: block;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin: 0 0 0 0;
+  }
+.results-box > .row > .result-card {
+    display: inline-block;
+    float: none;
+  }
 
 .result-card {
     width: 20vw;
+    margin-top: 55px;
     margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 50px;
     font-family: 'Open Sans', sans-serif;
+    float: none;
+    box-shadow: rgba(49, 49, 49, 0.492) 0px 4px 4px;
+    transition: 0.3s;
+}
+
+.result-card:hover {
+    box-shadow: rgba(49, 49, 49, 0.692) 0px 8px 8px;
+    /* margin-top: 0px; */
+    transform: scale(1.05)
 }
 
 .result-btn {
@@ -216,11 +253,34 @@
 }
 
 .result-map {
-    margin: 0px auto 10px;
+    margin: 0px auto 15px;
     width: 100%;
     height: 200px;
+    border-radius: 3px;
 }
 
+.result-title {
+    font-weight: medium;
+    font-variant: small-caps;
+    font-size: 25px;
+    /* text-align: center; */
+    font-family: 'Open Sans', sans-serif;
+}
+hr { 
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dark-hr { 
+    border-color: rgb(255, 255, 255)
+}
+
+.result-pop-graph {
+    margin: 15px auto 15px;
+    width: 100%;
+    height: 250px;
+}
 /*
 .search-field {
     width: 1000px;
