@@ -5,7 +5,7 @@
 
     <title>Statistics</title>
 
-    <!--
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
@@ -13,7 +13,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-    -->
+    
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -22,10 +22,20 @@
     
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     
+    
 </head>
 
 <body>
     <center>
+
+        <div class="title">
+            <div class="title-text"> 
+                <span id="normal">How</span>
+                <span id="indian"> India </span>  
+                <span id="normal">lives</span>
+            </div>
+        </div>
+
         <div class="container">
             <svg version="1.1" class="close" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px"
                  viewBox="0 0 42 42" enable-background="new 0 0 42 42" xml:space="preserve">
@@ -43,21 +53,58 @@
               <li><a href="#">Total Households</a></li>
             </ul>             
         </div>
-        <br><br><br>
-
-        <div id="barchart_material" style="width: 900px; height: 300px;"></div>
-
         <br><br>
+        <div class="row">
+            <div class="col-lg-8"><div id="barchart_material_best" style="width: 750px; height: 300px;"></div></div>
+            <div class="col-lg-4"></div>
+        </div>
+        <br>
+        <div class="row">
+                <div class="col-lg-8"><div id="barchart_material_worst" style="width: 750px; height: 300px;"></div></div>
+                <div class="col-lg-4"></div>
+            </div>
+        <br><br>
+        <div id="buttonFamily" style="display:none;">
+            <span class="btngroup">
+                <button onclick="javascript:mapShowPop(this.id)" id="TOT_M" class="btngroup--btn small m">M</button>
+                <button onclick="javascript:mapShowPop(this.id)" id="TOT_P" class="btngroup--btn">Total Population</button>
+                <button onclick="javascript:mapShowPop(this.id)" id="TOT_F" class="btngroup--btn small f">F</button>
+                <button onclick="javascript:mapShowPop(this.id)" id="M_SC" class="btngroup--btn small m">M</button>
+                <button onclick="javascript:mapShowPop(this.id)" id="P_SC" class="btngroup--btn">SC Population</button>
+                <button onclick="javascript:mapShowPop(this.id)" id="F_SC" class="btngroup--btn small f">F</button>
+            </span>
+            <br><br>
+            <span class="btngroup">
+                <button onclick="javascript:mapShowPop(this.id)" id="M_ST" class="btngroup--btn small m">M</button>
+                <button onclick="javascript:mapShowPop(this.id)" id="P_ST" class="btngroup--btn">ST Population</button>
+                <button onclick="javascript:mapShowPop(this.id)" id="F_ST" class="btngroup--btn small f">F</button>
+                <button onclick="javascript:mapShowPop(this.id)" id="MAIN_AL_M" class="btngroup--btn small m">M</button>
+                <button onclick="javascript:mapShowPop(this.id)" id="MAIN_AL_P" class="btngroup--btn">Farmers' Population</button>
+                <button onclick="javascript:mapShowPop(this.id)" id="MAIN_AL_F" class="btngroup--btn small f">F</button>
+            </span>
+            <br><br>
+            <span class="btngroup">
+                <button onclick="javascript:mapShowPop(this.id)" id="TOT_WORK_M" class="btngroup--btn small m">M</button>
+                <button onclick="javascript:mapShowPop(this.id)" id="TOT_WORK_P" class="btngroup--btn">Employed Population</button>
+                <button onclick="javascript:mapShowPop(this.id)" id="TOT_WORK_F" class="btngroup--btn small f">F</button>
+                <button onclick="javascript:mapShowPop(this.id)" id="NON_WORK_M" class="btngroup--btn small m">M</button>
+                <button onclick="javascript:mapShowPop(this.id)" id="NON_WORK_P" class="btngroup--btn">Unemployed Population</button>
+                <button onclick="javascript:mapShowPop(this.id)" id="NON_WORK_F" class="btngroup--btn small f">F</button>
+            </span>
+            <br><br>
+            <span class="btngroup">
+                <button onclick="javascript:mapShowPop(this.id)" id="M_LIT" class="btngroup--btn small m">M</button>
+                <button onclick="javascript:mapShowPop(this.id)" id="P_LIT" class="btngroup--btn">Literate Population</button>
+                <button onclick="javascript:mapShowPop(this.id)" id="F_LIT" class="btngroup--btn small f">F</button>
+                <button onclick="javascript:mapShowPop(this.id)" id="M_ILL" class="btngroup--btn small m">M</button>
+                <button onclick="javascript:mapShowPop(this.id)" id="P_ILL" class="btngroup--btn">Illiterate Population</button>
+                <button onclick="javascript:mapShowPop(this.id)" id="F_ILL" class="btngroup--btn small f">F</button>
+            </span>
+        </div>
+        <br><br>
+        <div id="regions_div" style="width: 900px; height: 500px;"></div> 
 
         <!--<div id="donutchart" style="width: 200px; height: 200px;"></div>-->
-        
-        <div class="c100 p47 small">
-            <span>47%</span>
-            <div class="slice">
-                <div class="bar"></div>
-                <div class="fill"></div>
-            </div>
-        </div>
 
     </center>
 

@@ -55,7 +55,7 @@ app.post('/database', function(req,res){
         });
     }
     else if(req.body.input == "Population"){
-        var query = "SELECT name Name, TOT_P, TOT_M, TOT_F FROM pca_total LIMIT 10";
+        var query = "SELECT name Name, TOT_P, TOT_M, TOT_F FROM pca_total ORDER BY TOT_P " + req.body.table + " LIMIT 5;"
         pool.query(query,function(err,results,fields){
             if(err) throw err;
             res.send(results);
@@ -63,7 +63,7 @@ app.post('/database', function(req,res){
         });
     }
     else if(req.body.input == "Literacy Rate"){ 
-        var query = "SELECT name Name, (P_LIT / TOT_P)*100 Literacy_Rate, (M_LIT / TOT_P)*100 Literacy_Rate_M, (F_LIT / TOT_P)*100 Literacy_Rate_F FROM pca_total LIMIT 10";
+        var query = "SELECT name Name, (P_LIT / TOT_P)*100 Literacy_Rate, (M_LIT / TOT_P)*100 Literacy_Rate_M, (F_LIT / TOT_P)*100 Literacy_Rate_F FROM pca_total ORDER BY Literacy_Rate " + req.body.table + " LIMIT 5;"
         pool.query(query,function(err,results,fields){
     
             if(err) throw err;
@@ -72,7 +72,7 @@ app.post('/database', function(req,res){
         });
     }
     else if(req.body.input == "Unemployement Rate"){
-        var query = "SELECT name Name, (NON_WORK_P / TOT_P)*100 Unemployement_Rate, (NON_WORK_M / TOT_P)*100 Unemployement_Rate_M, (NON_WORK_F / TOT_P)*100 Unemployement_Rate_F FROM pca_total LIMIT 10";
+        var query = "SELECT name Name, (NON_WORK_P / TOT_P)*100 Unemployement_Rate, (NON_WORK_M / TOT_P)*100 Unemployement_Rate_M, (NON_WORK_F / TOT_P)*100 Unemployement_Rate_F FROM pca_total ORDER BY Unemployement_Rate " + req.body.table + " LIMIT 5;"
         pool.query(query,function(err,results,fields){
             if(err) throw err;
             res.send(results);
@@ -80,7 +80,7 @@ app.post('/database', function(req,res){
         });
     }
     else if(req.body.input == "Percent of Agricultural Labourers"){
-        var query = "SELECT name Name, (MAIN_AL_P / TOT_P)*100 Agricultural_Labourers FROM pca_total LIMIT 10";
+        var query = "SELECT name Name, (MAIN_AL_P / TOT_P)*100 Agricultural_Labourers FROM pca_total ORDER BY Agricultural_Labourers " + req.body.table + " LIMIT 5;"
         pool.query(query,function(err,results,fields){
             if(err) throw err;
             res.send(results);
@@ -88,11 +88,21 @@ app.post('/database', function(req,res){
         });
     }
     else if(req.body.input == "Total Households"){
-        var query = "SELECT p.name Name, h.Total_Number_of_Dilapidated, h.DW_TFUS Unsafe_Water, h.Waste_water_ND No_drainage, h.MSL_NL No_lighting, h.MSL_SE Use_solar FROM hlpca_total as h, pca_total as p WHERE p.District = h.District_Code LIMIT 5";
+        var query = "SELECT p.name Name, h.Total_Number_of_Dilapidated, h.DW_TFUS Unsafe_Water, h.Waste_water_ND No_drainage, h.MSL_NL No_lighting, h.MSL_SE Use_solar FROM hlpca_total as h, pca_total as p WHERE p.District = h.District_Code ORDER BY  h.Total_Number_of_Dilapidated " + req.body.table + " LIMIT 5;"
         pool.query(query,function(err,results,fields){
             if(err) throw err;
             res.send(results);
-            console.log('Population data sent');
+            console.log('Household data sent');
+        });
+    }
+    else if(req.body.table == "pca"){
+
+        //the req.body.input has the attribute name for the table
+        var query = "select distinct state.ISO_Code as State_Code, state.Name as State, t.value as " + req.body.input + " from (select state, sum(" + req.body.input +") value from pca_total group by state) as t,state where t.state = state.sid;"
+        pool.query(query,function(err,results,fields){
+            if(err) throw err;
+            res.send(results);
+            console.log('Data sent');
         });
     }
 });

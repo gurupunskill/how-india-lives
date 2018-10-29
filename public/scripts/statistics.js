@@ -1,5 +1,10 @@
 $(document).ready(function() {});
 
+function S(id){
+  //to get element by id
+  return document.getElementById(id)
+}
+
 /* set of functions for the selection menu */
 var closeIcon = document.querySelectorAll('svg.close'),
     $container = $('.container'),
@@ -33,7 +38,9 @@ $links.on('click', function() {
     $list.toggle();
     $(closeIcon).toggleClass('active');
 
-    show_results(S("option1").innerHTML);
+    S("buttonFamily").style.display = "block";
+    show_results_1(S("option1").innerHTML);
   });
+
 
   /* end of functions for selection menu */
