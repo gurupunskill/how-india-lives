@@ -160,10 +160,11 @@ $(document).ready(function(){
     
     $('.dropdown-item').on('click', function() {
         var query = $(this).text();
+        var id = $(this).attr('id');
         console.log(query);
         document.getElementById('chart-title').innerHTML = query;
         document.getElementById('map-title').innerHTML = query + " Heatmap";
-        show_results_1(query);
+        show_results_1(query,id);
     })
 
 });

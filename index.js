@@ -84,11 +84,35 @@ app.post('/database', function(req,res){
         pool.query(query,function(err,results,fields){
             if(err) throw err;
             res.send(results);
-            console.log('Agricultural data sent');
+            console.log('Data sent');
+        });
+    }
+    else if(req.body.input == "Percent of Scheduled Caste People"){
+        var query = "SELECT name Name, (P_SC / TOT_P)*100 Scheduled_Caste_People FROM pca_total ORDER BY Scheduled_Caste_People " + req.body.table + " LIMIT 5;"
+        pool.query(query,function(err,results,fields){
+            if(err) throw err;
+            res.send(results);
+            console.log('Data sent');
+        });
+    }
+    else if(req.body.input == "Percent of Scheduled Tribe People"){
+        var query = "SELECT name Name, (P_ST / TOT_P)*100 Scheduled_Tribe_People FROM pca_total ORDER BY Scheduled_Tribe_People " + req.body.table + " LIMIT 5;"
+        pool.query(query,function(err,results,fields){
+            if(err) throw err;
+            res.send(results);
+            console.log('Data sent');
+        });
+    }
+    else if(req.body.input == "Percent of Children (0-6 Age Group)"){
+        var query = "SELECT name Name, (P_06 / TOT_P)*100 Children FROM pca_total ORDER BY Children " + req.body.table + " LIMIT 5;"
+        pool.query(query,function(err,results,fields){
+            if(err) throw err;
+            res.send(results);
+            console.log('Data sent');
         });
     }
     else if(req.body.input == "Total Households"){
-        var query = "SELECT p.name Name, h.Total_Number_of_Dilapidated, h.DW_TFUS Unsafe_Water, h.Waste_water_ND No_drainage, h.MSL_NL No_lighting, h.MSL_SE Use_solar FROM hlpca_total as h, pca_total as p WHERE p.District = h.District_Code ORDER BY  h.Total_Number_of_Dilapidated " + req.body.table + " LIMIT 5;"
+        var query = "SELECT p.name Name, h.Total_Number_of_Dilapidated, h.DW_TFUS Unsafe_Water, h.Waste_water_ND No_drainage FROM hlpca_total as h, pca_total as p WHERE p.District = h.District_Code ORDER BY  h.Total_Number_of_Dilapidated " + req.body.table + " LIMIT 5;"
         pool.query(query,function(err,results,fields){
             if(err) throw err;
             res.send(results);
@@ -97,13 +121,37 @@ app.post('/database', function(req,res){
     }
     else if(req.body.table == "pca"){
 
-        //the req.body.input has the attribute name for the table
-        var query = "select distinct state.ISO_Code as State_Code, state.Name as State, t.value as " + req.body.input + " from (select state, sum(" + req.body.input +") value from pca_total group by state) as t,state where t.state = state.sid;"
-        pool.query(query,function(err,results,fields){
-            if(err) throw err;
-            res.send(results);
-            console.log('Data sent');
-        });
+        if(req.body.input == "TOT_P" || req.body.input == "Households"){
+
+            //the req.body.input has the attribute name for the table
+            req.body.input = "TOT_P";
+            var query = "select distinct state.ISO_Code as State_Code, state.Name as State, t.value as " + req.body.input + " from (select state, sum(" + req.body.input +") value from pca_total group by state) as t,state where t.state = state.sid;"
+            pool.query(query,function(err,results,fields){
+                if(err) throw err;
+                res.send(results);
+                console.log('Data sent');
+            });
+        }
+        /*else if(req.body.input == "Households"){
+
+            //the req.body.input has the attribute name for the table
+            var query = "select distinct state.ISO_Code as State_Code, state.Name as State, (t.value/t.total)*100 as " + req.body.input + " from (select state, sum(" + req.body.input +") value,sum(TOT_P) total from pca_total group by state) as t,state where t.state = state.sid;"
+            pool.query(query,function(err,results,fields){
+                if(err) throw err;
+                res.send(results);
+                console.log('Data sent');
+            });
+        }*/
+        else{
+
+            //the req.body.input has the attribute name for the table
+            var query = "select distinct state.ISO_Code as State_Code, state.Name as State, (t.value/t.total)*100 as " + req.body.input + " from (select state, sum(" + req.body.input +") value,sum(TOT_P) total from pca_total group by state) as t,state where t.state = state.sid;"
+            pool.query(query,function(err,results,fields){
+                if(err) throw err;
+                res.send(results);
+                console.log('Data sent');
+            });
+        }
     }
 });
 

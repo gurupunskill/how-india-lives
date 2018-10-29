@@ -26,10 +26,10 @@ function postQueryExec(URL_query_text, exec_function, URL_secondary_string = "",
 }
 
 //function to query and obtain results based on selection
-function show_results_1(text){
+function show_results_1(text,id){
     postQueryExec(text, drawChartBarBest,"DESC");
     postQueryExec(text, drawChartBarWorst,"ASC");
-    postQueryExec("TOT_P",drawRegionsMap,"pca");
+    postQueryExec(id,drawRegionsMap,"pca");
 }
 
 //function to get data for geochart from button on click
