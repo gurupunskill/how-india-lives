@@ -251,7 +251,7 @@ svg > g > g:last-child { pointer-events: none }
 }
 
 .map-card {
-    height: 1500px;
+    height: 138vh;
     width: 52.29vw;
     margin: auto;
     background: rgba(255, 255, 255, 1.0);
@@ -269,7 +269,7 @@ svg > g > g:last-child { pointer-events: none }
 }
 
 .result-chart {
-    height: 300px;
+    height: 27.7vh;
     margin-top: 10px;
     margin-left: 5px;
     margin-right: 5px;
@@ -279,7 +279,7 @@ svg > g > g:last-child { pointer-events: none }
 .chart-title {
     font-weight: medium;
     font-variant: small-caps;
-    font-size: 35px;
+    font-size: 3.24vh;
     margin-left: 5px;
     /* text-align: center; */
     font-family: 'Open Sans', sans-serif;
@@ -337,10 +337,10 @@ svg > g > g:last-child { pointer-events: none }
 
 .result-card {
     width: 20vw;
-    margin-top: 55px;
+    margin-top: 5.09vh;
     margin-right: 10px;
     margin-left: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 5.09vh;
     font-family: 'Open Sans', sans-serif;
     float: none;
     box-shadow: rgba(49, 49, 49, 0.492) 0px 4px 4px;
@@ -355,7 +355,7 @@ svg > g > g:last-child { pointer-events: none }
 }
 
 .result-btn {
-    margin: 0.511px 0.26vw;
+    margin: 0.511vh 0.26vw;
     height: 4.29vh;
     font-family: 'Open Sans', sans-serif;
     border-radius: 3px;
@@ -372,14 +372,14 @@ svg > g > g:last-child { pointer-events: none }
 .result-map {
     margin: 0px auto 15px;
     width: 100%;
-    height: 200px;
+    height: 18.51vh;
     border-radius: 3px;
 }
 
 .result-title {
     font-weight: medium;
     font-variant: small-caps;
-    font-size: 25px;
+    font-size: 2.31vh;
     margin-left: 5px;
     /* text-align: center; */
     font-family: 'Open Sans', sans-serif;
@@ -395,9 +395,9 @@ hr {
 }
 
 .result-pop-graph {
-    margin: 15px auto 15px;
+    margin: 0.78vw auto 0.78vw;
     width: 100%;
-    height: 250px;
+    height: 23.14vh;
 }
 
 .close {
@@ -423,43 +423,3 @@ hr {
     border-image: initial;
 }
 */
-
-/* Rules for sizing the icon. */
-.material-icons.md-18 { font-size: 18px; }
-.material-icons.md-24 { 
-    font-size: 24px; 
-    padding: 3px 3px 3px 3px;
-}
-.material-icons.md-30 { font-size: 30px; }
-.material-icons.md-36 { font-size: 36px; }
-.material-icons.md-48 { font-size: 48px; }
-
-/* Rules for using icons as black on a light background. */
-.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
-.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
-
-/* Rules for using icons as white on a dark background. */
-.material-icons.md-light { color: rgba(255, 255, 255, 1); }
-.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
-
-.custom-search {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-
-    top: 60px;
-    left: 1000px;
-
-    overflow: hidden;
-}
-
-.custom-close {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-
-    top: 90px;
-    left: 1000px;
-
-    overflow: hidden;
-}
