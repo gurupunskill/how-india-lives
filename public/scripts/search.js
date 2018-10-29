@@ -46,7 +46,12 @@ $(document).ready(function(){
         var parsed_district_name = district_data[0]['Name'].replace(/ /g, "%20")
         parsed_district_name = parsed_district_name.replace(/&/g, "and")
 
-        var static_map_query = "https://maps.googleapis.com/maps/api/staticmap?center='" + parsed_district_name + "',India&zoom=10&size=342x200&key=AIzaSyBKh3pMeObhgM8VwHKtfF9rYTl9qi12gvA"
+        var w  = $(window).width() * 0.178;
+        w = Math.round(w);
+        var h = $(window).height() * 0.231;
+        h = Math.round(h);
+
+        var static_map_query = "https://maps.googleapis.com/maps/api/staticmap?center='" + parsed_district_name + "',India&zoom=10&size=" + w + "x" + h + "&key=AIzaSyBKh3pMeObhgM8VwHKtfF9rYTl9qi12gvA"
         var pop_graph_id = district_data[0]['District'] + "-pop-graph";
         var lit_graph_id = district_data[0]['District'] + "-lit-graph";
 
@@ -192,16 +197,12 @@ $(document).ready(function(){
 });
 
 /*window.onscroll = function() {    // Get the navbar
-    var b = document.getElementById("b");
-    var c = document.getElementById("c");
-
+    var b = document.getElementById("search-box");
     var sticky = b.offsetTop;
     if (window.pageYOffset >= sticky) {
         b.classList.add("sticky")
-        c.classList.add("sticky")
     } 
     else {
-    b.classList.remove("sticky");
-    c.classList.remove("sticky");
+        b.classList.remove("sticky");
     }
 }*/
