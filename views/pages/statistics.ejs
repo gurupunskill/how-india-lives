@@ -27,15 +27,16 @@
 
 <body>
     <center>
-
+        <!-- Title -->
         <div class="title">
             <div class="title-text"> 
-                <span id="normal">How</span>
+                <span id="normal1">How</span>
                 <span id="indian"> India </span>  
-                <span id="normal">lives</span>
+                <span id="normal2">lives</span>
             </div>
         </div>
 
+        <!-- Selection Box -->
         <div class="container">
             <svg version="1.1" class="close" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px"
                  viewBox="0 0 42 42" enable-background="new 0 0 42 42" xml:space="preserve">
@@ -54,16 +55,28 @@
             </ul>             
         </div>
         <br><br>
-        <div class="row">
-            <div class="col-lg-8"><div id="barchart_material_best" style="width: 750px; height: 300px;"></div></div>
-            <div class="col-lg-4"></div>
-        </div>
-        <br>
-        <div class="row">
-                <div class="col-lg-8"><div id="barchart_material_worst" style="width: 750px; height: 300px;"></div></div>
-                <div class="col-lg-4"></div>
+
+    <!-- Bar Graphs -->
+    <div class="row">
+        <div class="col-md-12"  style="margin-left: 0.5cm;">
+            <div id="barCard1" class="card bg-basic" style="width:25cm; display:none;">
+                <div id="barchart_material_best" style="width: 750px; height: 300px;"></div>
+                <br>
+                <div id="barchart_material_worst" style="width: 750px; height: 300px;"></div>
             </div>
-        <br><br>
+        </div>
+        <!--<div class="col-md-3">
+            <div id="barCard2" class="card bg-light" style="width:10cm; display:none;">
+                <img id="bestPic">
+                <br>
+                <img id="worstPic">
+            </div>
+        </div>-->
+    </div>
+    <br><br>
+
+    
+        <!-- Buttons -->
         <div id="buttonFamily" style="display:none;">
             <span class="btngroup">
                 <button onclick="javascript:mapShowPop(this.id)" id="TOT_M" class="btngroup--btn small m">M</button>
@@ -102,6 +115,8 @@
             </span>
         </div>
         <br><br>
+
+        <!-- Geo Chart -->
         <div id="regions_div" style="width: 900px; height: 500px;"></div> 
 
         <!--<div id="donutchart" style="width: 200px; height: 200px;"></div>-->

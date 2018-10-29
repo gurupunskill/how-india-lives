@@ -26,10 +26,10 @@ function postQueryExec(URL_query_text, exec_function, URL_secondary_string = "",
 }
 
 //function to query and obtain results based on selection
-function show_results_1(text){
+function show_results_1(text,id){
     postQueryExec(text, drawChartBarBest,"DESC");
     postQueryExec(text, drawChartBarWorst,"ASC");
-    postQueryExec("TOT_P",drawRegionsMap,"pca");
+    postQueryExec(id,drawRegionsMap,"pca");
 }
 
 //function to get data for geochart from button on click
@@ -101,6 +101,12 @@ function drawChartBarBest(results) {
 
     var chart = new google.charts.Bar(document.getElementById('barchart_material_best'));
     chart.draw(data, google.charts.Bar.convertOptions(options));
+    /*
+    var parsed_district_name = results[0]['Name'].replace(/ /g, "%20");
+    parsed_district_name = parsed_district_name.replace(/&/g, "and");
+    var static_map_query = "https://maps.googleapis.com/maps/api/staticmap?center='" + parsed_district_name + "',India&zoom=10&size=342x200&key=AIzaSyBKh3pMeObhgM8VwHKtfF9rYTl9qi12gvA";
+  
+    S("bestPic").src = static_map_query;*/
 }
 
 //function to draw the graph -> bar worst
@@ -110,7 +116,6 @@ function drawChartBarWorst(results) {
 
     var options = {
       chart: {
-        title: 'Statistics Visualization',
         subtitle: 'Visulalising data of the lowest 5 states',
       },
       bars: 'vertical' // Required for Material Bar Charts.
@@ -118,6 +123,12 @@ function drawChartBarWorst(results) {
 
     var chart = new google.charts.Bar(document.getElementById('barchart_material_worst'));
     chart.draw(data, google.charts.Bar.convertOptions(options));
+    /*
+    var parsed_district_name = results[0]['Name'].replace(/ /g, "%20");
+    parsed_district_name = parsed_district_name.replace(/&/g, "and");
+    var static_map_query = "https://maps.googleapis.com/maps/api/staticmap?center='" + parsed_district_name + "',India&zoom=10&size=342x200&key=AIzaSyBKh3pMeObhgM8VwHKtfF9rYTl9qi12gvA";
+  
+    S("worstPic").src = static_map_query;*/
 }
 
 //function to draw the geochart of India
