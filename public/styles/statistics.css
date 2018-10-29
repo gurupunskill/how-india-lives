@@ -1,14 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Lora|Open+Sans');
-
-@font-face {
-    font-family: 'Samarkan';
-    src: url('/fonts/samarkan.TTF');
-}
-
-* {
-    font-family: "Helvetica Neue", Arial;
-    color: #636363;
-  }
   
   @-moz-keyframes colorFade {
     from {
@@ -34,7 +23,7 @@
       color: #cbcbcb;
     }
   }
-  .container {
+  .menubox {
     margin: 50px auto 0;
     width: 900px;
     border: 3px solid #cbcbcb;
@@ -49,7 +38,7 @@
     transition: border 0.3s ease;
     backface-visibility: hidden;
   }
-  .container > span {
+  .menubox > span {
     font-size: 20px;
     line-height: 32px;
     font-weight: bold;
@@ -60,30 +49,30 @@
     -webkit-transition: color 0.3s ease;
     transition: color 0.3s ease;
   }
-  .container > span.fade {
+  .menubox > span.fade {
     -webkit-animation: colorFade 0.6s 0s ease both;
     -moz-animation: colorFade 0.6s 0s ease both;
     -ms-animation: colorFade 0.6s 0s ease both;
     -o-animation: colorFade 0.6s 0s ease both;
     animation: colorFade 0.6s 0s ease both;
   }
-  .container.hover {
+  .menubox.hover {
     border-color: #b2b2b2;
     -moz-box-shadow: 0 0 2px 0 #efefef;
     -webkit-box-shadow: 0 0 2px 0 #efefef;
     box-shadow: 0 0 2px 0 #efefef;
   }
-  .container.hover > span {
+  .menubox.hover > span {
     color: #b2b2b2;
   }
-  .container.open ul {
+  .menubox.open ul {
     height: 100px;
     opacity: 1;
   }
-  .container .close {
+  .menubox .close-btn {
     float: right;
   }
-  .container ul {
+  .menubox ul {
     display: none;
     list-style-type: none;
     padding: 0;
@@ -98,7 +87,7 @@
     padding: 10px 5px 0;
     margin-top: 15px;
   }
-  .container ul a {
+  .menubox ul a {
     text-decoration: none;
     font-size: 20px;
     color: #cbcbcb;
@@ -108,17 +97,17 @@
     -webkit-transition: color 0.3s ease;
     transition: color 0.3s ease;
   }
-  .container ul a:hover {
+  .menubox ul a:hover {
     color: #949191;
   }
-  .container ul a.active {
+  .menubox ul a.active {
     color: #949191;
   }
-  .container ul li {
+  .menubox ul li {
     padding: 8px 0;
   }
   
-  .close {
+  .close-btn {
     fill: #cbcbcb;
     position: relative;
     -moz-transform: rotate(0deg);
@@ -131,22 +120,22 @@
     transition: all 0.3s ease;
     cursor: pointer;
   }
-  .close path {
+  .close-btn path {
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
   }
-  .close:hover path {
+  .close-btn:hover path {
     fill: #bab9bd;
   }
-  .close.active {
+  .close-btn.active {
     -moz-transform: rotate(-135deg);
     -ms-transform: rotate(-135deg);
     -webkit-transform: rotate(-135deg);
     transform: rotate(-135deg);
   }
-  .close.active path {
+  .close-btn.active path {
     fill: #bab9bd;
   }
 
@@ -157,21 +146,14 @@
   box-sizing: border-box;
 }
 
-body {
-  background: #050505;
-  padding: 30px 0;
-  font-family: raleway, sans-serif;
-  color: #bdc3c7;
-  text-align: center;
-}
 
-.btngroup {
+.customgrp {
   font-size: 0;
   line-height: 1;
   white-space: nowrap;
   display: inline;
 }
-.btngroup--btn {
+.customgrp--btn {
   font-size: 1rem;
   letter-spacing: .1em;
   text-decoration: none;
@@ -184,48 +166,49 @@ body {
   outline: 0;
   width: 7.5cm;
 }
-.btngroup--btn.small{
+.customgrp--btn.small{
   width: 2cm;
 }
-.btngroup--btn:first-child {
+.customgrp--btn:first-child {
   border-left-width: 2px;
   /*border-radius: 2em 0 0 2em;*/
 }
-/*.btngroup--btn:last-child {
-  /*border-radius: 0 2em 2em 0;
-}*/
-.btngroup--btn:link {
+.customgrp--btn:last-child {
+  /*border-radius: 0 2em 2em 0;*/
+}
+.customgrp--btn:link {
   color: #bdc3c7;
 }
-.btngroup--btn:visted {
+.customgrp--btn:visted {
   color: #bdc3c7;
 }
-.btngroup--btn:hover {
+.customgrp--btn:hover {
   background: #34495e;
   color: #fff;
 }
-.btngroup--btn:active {
+.customgrp--btn:active {
   background: #fff;
   color: #34495e;
 }
-.btngroup--btn.m:hover {
+.customgrp--btn.m:hover {
   background: #5e3534;
   color: #fff;
 }
-.btngroup--btn.m:active {
+.customgrp--btn.m:active {
   background: #fff;
   color: #5e3534;
 }
-.btngroup--btn.f:hover {
+.customgrp--btn.f:hover {
   background: #4a345e;
   color: #fff;
 }
-.btngroup--btn.f:active {
+.customgrp--btn.f:active {
   background: #fff;
   color: #4a345e;
 }
   /* End of the button group*/
 
+<<<<<<< HEAD
   /* Title */
 .title {
   position: relative;
@@ -260,3 +243,5 @@ body {
   /*text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
   */
 }
+=======
+>>>>>>> 0437352c2af81d5e2461813e43ff7281172eab24

@@ -145,11 +145,11 @@ function drawRegionsMap(results) {
         /*backgroundColor: '#81d4fa',*/
         /*datalessRegionColor: '#81d4fa',*/
         defaultColor: '#f5f5f5',
-        width: 640, 
-        height: 480
+        width: '50vw', 
+        height: '55vh'
       };
 
-    var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+    var chart = new google.visualization.GeoChart(document.getElementById('map_div'));
     chart.draw(data, options);
   }
 
