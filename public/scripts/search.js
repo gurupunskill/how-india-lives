@@ -59,9 +59,11 @@ $(document).ready(function(){
         var district_card = 
         `
             <!-- <div class="col-md-auto"> -->
-            <div class="card result-card">
+            <div class="card result-card open-result-card">
             <!-- <div class="card-header">${district_data[0]['Name']}</div> -->
             <div class="card-body">
+                <span class="pull-right clickable close-icon" data-effect="fadeOut"><i class="fa fa-times"></i></span>
+                
                 <p class="card-title result-title">${district_data[0]['Name']}</p>
                 <hr class="dark-hr">
                 <!-- <div id="map_div" class="result-map"></div> -->
@@ -145,11 +147,44 @@ $(document).ready(function(){
         console.log(chosen_list);
     })
 
-    
-    
+    $('#results').on('click', '.close-icon', function() {
+        console.log("click");
+        /*$(this).closest('.card').animate({
+            'opacity': '0',
+            'margin-left':'-250'
+        }, 300, function() {
+            $(this).closest('.card').remove();
+        })*/
+        $(this).closest('.card').removeClass('open-result-card');
+        $(this).closest('.card').removeClass('result-card:hover');
+        $(this).closest('.card').addClass('close-result-card');
+
+        $(this).closest('.close-result-card').on('transitionend',
+        function() {
+            $(this).closest('.card').remove();
+        })
+    });
     
     // drawMap();
 });
+
+window.onscroll = function() {    // Get the navbar
+    var navbar = document.getElementById("nav-pills");
+    var searchbar = document.getElementById("search-box");
+    // Get the offset position of the navbar
+    var sticky = navbar.offsetTop;
+    if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+        searchbar.classList.add("sticky")
+    } 
+    else {
+    navbar.classList.remove("sticky");
+    searchbar.classList.remove("sticky")
+    }
+};
+
+
+
 /*
 
 var states = ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California',

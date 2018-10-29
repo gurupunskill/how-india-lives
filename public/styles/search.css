@@ -20,7 +20,7 @@ svg > g > g:last-child { pointer-events: none }
 /* Background */
 .bg{
     background-image: url("../images/colors.jpg");
-    height: 100%;
+    min-height: 100vh;
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
@@ -33,16 +33,16 @@ svg > g > g:last-child { pointer-events: none }
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    min-width: 100vw;
+    min-height: 100vh;
 }
 
 /* Nav Bar */
 
-
 .nav-item {
     margin: 5px 5px 0px 5px;
     font-family: 'Open Sans', 'sans-serif';
+    /* float: right; */
 }
 
 .nav-pills .nav-link {
@@ -195,7 +195,7 @@ svg > g > g:last-child { pointer-events: none }
     position: relative;
     width: 100%;
     max-width: 500%;
-    height: 95vw;
+    /* height: 95vw; */
     padding-left: 20px;
     padding-right: 20px; 
     /*margin-top: 100px;*/
@@ -205,6 +205,36 @@ svg > g > g:last-child { pointer-events: none }
 
 ::-webkit-scrollbar { 
     display: none; 
+}
+
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slide-down {
+    0% {
+        opacity: 1;
+        width: 20vw;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    100% {
+        opacity: 0;
+        width: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+.close-icon {
+    cursor: pointer;
 }
 
 .results-box > .row {
@@ -219,6 +249,13 @@ svg > g > g:last-child { pointer-events: none }
     float: none;
   }
 
+.close-result-card {
+    animation: slide-down 0.5s ease;
+}
+.open-result-card {
+    animation: slide-up 0.5s ease;
+}
+
 .result-card {
     width: 20vw;
     margin-top: 55px;
@@ -229,6 +266,7 @@ svg > g > g:last-child { pointer-events: none }
     float: none;
     box-shadow: rgba(49, 49, 49, 0.492) 0px 4px 4px;
     transition: 0.3s;
+    
 }
 
 .result-card:hover {
@@ -263,6 +301,7 @@ svg > g > g:last-child { pointer-events: none }
     font-weight: medium;
     font-variant: small-caps;
     font-size: 25px;
+    margin-left: 5px;
     /* text-align: center; */
     font-family: 'Open Sans', sans-serif;
 }
@@ -280,6 +319,10 @@ hr {
     margin: 15px auto 15px;
     width: 100%;
     height: 250px;
+}
+
+.close {
+    float: right;
 }
 /*
 .search-field {
