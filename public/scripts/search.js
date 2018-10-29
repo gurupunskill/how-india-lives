@@ -27,21 +27,6 @@ $(document).ready(function(){
     });
 
     function make_card(district_data) {
-        /*var attributes_to_display = [
-            'State', 'TOT_P', 'TOT_M', 'TOT_F'
-        ];
-        var district_card = "<div class=\"card\" style=\"width: 18rem;\">";
-        district_card += "<div class=\"card-header\">";
-        district_card += district_data[0].Name;
-        district_card += "</div>"
-        district_card += "<ul class=\"list-group list-group-flush\">"
-
-        for (i = 0; i < attributes_to_display.length; i++)
-            district_card += ("<li class=\"list-group-item\">" + attributes_to_display[i] + " " + district_data[0][attributes_to_display[i]] + "</li>");
-        
-        district_card += "</ul>"
-        district_card += "</div>"
-        console.log(district_card);*/
         
         var parsed_district_name = district_data[0]['Name'].replace(/ /g, "%20")
         parsed_district_name = parsed_district_name.replace(/&/g, "and")
@@ -168,9 +153,16 @@ $(document).ready(function(){
     }
 
     $('#search-box .typeahead').bind('typeahead:select', function(event, suggestion) {
-        chosen_list.push(suggestion);
-        postQueryExec(suggestion.did, make_card, true);
-        console.log(chosen_list);
+        if(!chosen_list.includes(suggestion.dname)) {
+            chosen_list.push(suggestion.dname);
+            postQueryExec(suggestion.did, make_card, true);
+            console.log(chosen_list);
+        }
+        else {
+            var x = document.getElementById("snackbar");
+            x.className = "show";
+            setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+        }
     })
 
     $('#results').on('click', '.close-icon', function() {
@@ -181,6 +173,7 @@ $(document).ready(function(){
 
         $(this).closest('.close-result-card').on('transitionend',
         function() {
+            chosen_list.splice( chosen_list.indexOf($(this).closest('.card-title').text()) , 1)
             $(this).closest('.card').remove();
         })
     });
