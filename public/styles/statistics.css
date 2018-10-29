@@ -191,9 +191,9 @@ body {
   border-left-width: 2px;
   /*border-radius: 2em 0 0 2em;*/
 }
-.btngroup--btn:last-child {
-  /*border-radius: 0 2em 2em 0;*/
-}
+/*.btngroup--btn:last-child {
+  /*border-radius: 0 2em 2em 0;
+}*/
 .btngroup--btn:link {
   color: #bdc3c7;
 }
@@ -238,18 +238,25 @@ body {
   font-family: 'Samarkan', serif;
   font-size: 6.25vw;
   white-space:pre;
+  text-shadow: 0 3px 4px rgba(236, 235, 253, 0.492);
 }
 
-#normal {
+#normal1 {
   font-family: 'Lora', serif;
   font-size: 5.20vw;
+  text-shadow: 0 4px 8px rgba(231, 144, 94, 0.492);
+}
 
+#normal2 {
+  font-family: 'Lora', serif;
+  font-size: 5.20vw;
+  text-shadow: 0 4px 8px rgba(68, 168, 68, 0.492);
 }
 
 .title-text {
   padding: 32.5vh 0 0 0;
   color: rgb(255, 255, 255);
-  text-shadow: 0 4px 8px rgba(103, 94, 231, 0.492);
+  /*text-shadow: 0 4px 8px rgba(103, 94, 231, 0.492);*/
   /*text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
   */
 }

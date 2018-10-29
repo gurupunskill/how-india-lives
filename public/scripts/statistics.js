@@ -39,6 +39,8 @@ $links.on('click', function() {
     $(closeIcon).toggleClass('active');
 
     S("buttonFamily").style.display = "block";
+    S("barCard1").style.display = "block";
+    //S("barCard2").style.display = "block";
     show_results_1(S("option1").innerHTML);
   });
 
