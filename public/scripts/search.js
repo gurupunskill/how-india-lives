@@ -47,14 +47,26 @@ $(document).ready(function(){
         parsed_district_name = parsed_district_name.replace(/&/g, "and")
 
         var static_map_query = "https://maps.googleapis.com/maps/api/staticmap?center='" + parsed_district_name + "',India&zoom=10&size=342x200&key=AIzaSyBKh3pMeObhgM8VwHKtfF9rYTl9qi12gvA"
-        var graph_id = district_data[0]['District'] + "-pop-graph";
-        
-        console.log(graph_id);
-        var sexratio = (district_data[0]['TOT_M']/district_data[0]['TOT_F'])*100;
-        var disp_sexrat = sexratio;
-        if(sexratio > 100) {
-            disp_sexrat = 100;
-        }
+        var pop_graph_id = district_data[0]['District'] + "-pop-graph";
+        var lit_graph_id = district_data[0]['District'] + "-lit-graph";
+
+        console.log(pop_graph_id);
+        var sexratio = (district_data[0]['TOT_M']/district_data[0]['TOT_F']);
+        var dispsexratio = 1/sexratio;
+
+        sexratio*=100;
+        dispsexratio*=100;
+        sexratio = Math.round(sexratio);
+        dispsexratio = Math.round(dispsexratio);
+
+        if(dispsexratio > 100) dispsexratio = 100;
+
+        var literacy_rate = (district_data[0]['P_LIT']/district_data[0]['TOT_P'])*100;
+        literacy_rate = Math.round(literacy_rate);
+
+        var work_pop = (district_data[0]['TOT_WORK_P']/district_data[0]['TOT_P'])*100;
+        work_pop = Math.round(work_pop);
+
 
         var district_card = 
         `
@@ -70,42 +82,42 @@ $(document).ready(function(){
                 <img class="result-map" src=${static_map_query} />
           
                 <!-- <hr> -->
-                <div id=${graph_id} class="result-pop-graph"></div>
-          
+                <div id=${pop_graph_id} class="result-pop-graph"></div>
                 <div class="container">
                     <div class="row">
                     <div class="col-sm">
-                        <div class="c100 bluw center p${disp_sexrat} small">
+                        <div class="c100 center p${dispsexratio} small">
                         <span>${sexratio}</span>
                         <div class="slice">
                             <div class="bar"></div>
                             <div class="fill"></div>
                         </div>
                         </div>
-                        <p class="result-text">Sex Ratio</p> 
+                    <p class="result-text-title">Sex Ratio</p> 
                     </div>
                     <div class="col-sm">
-                        <div class="c100 red center p47 small">
-                        <span>47%</span>
+                        <div class="c100 red center p${literacy_rate} small">
+                        <span>${literacy_rate}%</span>
                         <div class="slice">
                             <div class="bar"></div>
                             <div class="fill"></div>
                         </div>
                         </div>
-                        <p class="result-text">Literacy Rate</p>
+                        <p class="result-text-title">Literacy Rate</p>
                     </div>
                     <div class="col-sm">
-                        <div class="c100 yellow center p47 small">
-                        <span>47%</span>
+                        <div class="c100 yellow center p${work_pop} small">
+                        <span>${work_pop}%</span>
                         <div class="slice">
                             <div class="bar"></div>
                             <div class="fill"></div>
                         </div>
                         </div>
-                        <p class="result-text">Sex Ratio</p>
+                        <p class="result-text-title">Working Pop</p>
                     </div>
                     </div>
                 </div>
+                <div id=${lit_graph_id} class="result-pop-graph"></div>
                 </div>
             </div>
             <!-- </div> -->
@@ -119,15 +131,26 @@ $(document).ready(function(){
                 'Female': district_data[0]['TOT_F']
             }
         ]
+
+        var district_lit_data = [
+            {
+                '': district_data[0]['Name'],
+                'Total': district_data[0]['P_LIT'],
+                'Male': district_data[0]['M_LIT'],
+                'Female': district_data[0]['F_LIT']
+            }
+        ]
         $("#results").append(district_card);
         //postQueryExec(, function(){make_pop_graph(district_pop_data, )}, verbose=true);
-        make_pop_graph(district_pop_data, graph_id);
+        make_graph(district_pop_data, 'Population', pop_graph_id);
+        make_graph(district_lit_data, 'Literate Persons', lit_graph_id);
+
     } 
 
-    function make_pop_graph(district_pop_data, elementId) {
+    function make_graph(data, title, elementId) {
         var options = {
             chart: {
-                title: 'Population'
+                title: title
             },
             bars: 'vertical'
             /*legend: {position: 'bottom'},
@@ -136,7 +159,7 @@ $(document).ready(function(){
                 textPosition: 'none'
             }*/
         };
-        google.charts.setOnLoadCallback(function(){drawChartBar(district_pop_data, elementId, options)});
+        google.charts.setOnLoadCallback(function(){drawChartBar(data, elementId, options)});
     }
 
     $('#search-box .typeahead').bind('typeahead:select', function(event, suggestion) {

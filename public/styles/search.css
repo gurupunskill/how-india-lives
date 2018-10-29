@@ -362,15 +362,22 @@ svg > g > g:last-child { pointer-events: none }
     font-size: 1.63vh;
 }
 
-.result-text {
+.result-text-title {
     font-family: 'Open Sans', sans-serif;
     margin: 2px auto;
     text-align: center;
     font-size: 14px;
 }
 
+.result-text {
+    font-family: 'Open Sans', sans-serif;
+    margin: 2px auto;
+    text-align: center;
+    font-size: 20px;
+}
+
 .result-map {
-    margin: 0px auto 15px;
+    margin: 0px auto 5px;
     width: 100%;
     height: 18.51vh;
     border-radius: 3px;
@@ -395,7 +402,7 @@ hr {
 }
 
 .result-pop-graph {
-    margin: 0.78vw auto 0.78vw;
+    margin: 20px auto 20px;
     width: 100%;
     height: 23.14vh;
 }
