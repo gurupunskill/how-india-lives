@@ -16,9 +16,31 @@ svg > g > g:last-child { pointer-events: none }
 .div {
     display: block;
 }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 
+.custom-container {
+    min-height: vh;
+    min-width: vw;
+}
+
+.container-fluid {
+    position: absolute;
+    top:0;
+    left:0;
+}
 /* Background */
 .bg{
+    /* position: absolute; */
+    /* top:0; */
+    /* left:0; */
+    /* position: fixed; */
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-image: url("../images/colors.jpg");
     min-height: 100vh;
     /* Center and scale the image nicely */
@@ -126,11 +148,6 @@ svg > g > g:last-child { pointer-events: none }
     transition: 0.3s;
 }
 
-.typeahead.sticky {
-    position: sticky;
-    top: 0;
-}
-
 .typeahead {
     margin: 3vh 0 0 0;
 }
@@ -233,6 +250,66 @@ svg > g > g:last-child { pointer-events: none }
     }
 }
 
+.map-card {
+    height: 1500px;
+    width: 52.29vw;
+    margin: auto;
+    background: rgba(255, 255, 255, 1.0);
+    box-shadow: rgba(49, 49, 49, 0.492) 0px 4px 8px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.result-india {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.result-chart {
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.chart-title {
+    font-weight: medium;
+    font-variant: small-caps;
+    font-size: 35px;
+    margin-left: 5px;
+    /* text-align: center; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.long-btn {
+    width: 52.29vw;
+    max-width: 100%;
+    height: 5.11vh;
+    padding: 0.81vh 1.04vw;
+    min-height: 0.75cm;
+    font-size: 1.84vh;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 3.07vh;
+
+    border-style: none;
+    border: 1px solid rgb(224, 224, 224);
+    -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+            border-radius: 3px;
+    outline: none;
+
+    background: rgba(255, 255, 255, 1.0);
+    box-shadow: rgba(49, 49, 49, 0.492) 0px 4px 8px;
+
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+    margin: 3vh 0 0 0;
+}
+
 .close-icon {
     cursor: pointer;
 }
@@ -251,9 +328,11 @@ svg > g > g:last-child { pointer-events: none }
 
 .close-result-card {
     animation: slide-down 0.5s ease;
+    opacity: 0;
 }
 .open-result-card {
     animation: slide-up 0.5s ease;
+    opacity: 1;
 }
 
 .result-card {

@@ -141,20 +141,12 @@ $(document).ready(function(){
 
     $('#search-box .typeahead').bind('typeahead:select', function(event, suggestion) {
         chosen_list.push(suggestion);
-        //$("#results").append("<button type=\"button\" class=\"btn btn-light result-btn\">" + suggestion.dname + "</button>");
         postQueryExec(suggestion.did, make_card, true);
-        
         console.log(chosen_list);
     })
 
     $('#results').on('click', '.close-icon', function() {
         console.log("click");
-        /*$(this).closest('.card').animate({
-            'opacity': '0',
-            'margin-left':'-250'
-        }, 300, function() {
-            $(this).closest('.card').remove();
-        })*/
         $(this).closest('.card').removeClass('open-result-card');
         $(this).closest('.card').removeClass('result-card:hover');
         $(this).closest('.card').addClass('close-result-card');
@@ -165,37 +157,28 @@ $(document).ready(function(){
         })
     });
     
-    // drawMap();
+    
+    $('.dropdown-item').on('click', function() {
+        var query = $(this).text();
+        console.log(query);
+        document.getElementById('chart-title').innerHTML = query;
+        document.getElementById('map-title').innerHTML = query + " Heatmap";
+        show_results_1(query);
+    })
+
 });
 
-window.onscroll = function() {    // Get the navbar
-    var navbar = document.getElementById("nav-pills");
-    var searchbar = document.getElementById("search-box");
-    // Get the offset position of the navbar
-    var sticky = navbar.offsetTop;
+/*window.onscroll = function() {    // Get the navbar
+    var b = document.getElementById("b");
+    var c = document.getElementById("c");
+
+    var sticky = b.offsetTop;
     if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
-        searchbar.classList.add("sticky")
+        b.classList.add("sticky")
+        c.classList.add("sticky")
     } 
     else {
-    navbar.classList.remove("sticky");
-    searchbar.classList.remove("sticky")
+    b.classList.remove("sticky");
+    c.classList.remove("sticky");
     }
-};
-
-
-
-/*
-
-var states = ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California',
-  'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii',
-  'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana',
-  'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota',
-  'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire',
-  'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota',
-  'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island',
-  'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont',
-  'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming'
-];
-
-*/
+}*/

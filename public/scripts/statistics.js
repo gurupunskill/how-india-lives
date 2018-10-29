@@ -7,10 +7,10 @@ function S(id){
 
 /* set of functions for the selection menu */
 var closeIcon = document.querySelectorAll('svg.close'),
-    $container = $('.container'),
+    $container = $('.menubox'),
     $list = $container.find('ul'),
-    $links = $container.find('a'),
-    $text = $container.find('span');
+    $links = $container.find('.a-menu'),
+    $text = $container.find('#option1');
 
 // When the '+' icon is clicked...
 $(closeIcon).on('click', function() {
